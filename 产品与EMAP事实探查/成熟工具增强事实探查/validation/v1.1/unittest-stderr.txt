@@ -1,0 +1,50 @@
+test_empty_definition_inventory_is_rejected (test_codeql_adapter.CodeQLAdapterTests.test_empty_definition_inventory_is_rejected) ... ok
+test_extraction_errors_are_not_ignored (test_codeql_adapter.CodeQLAdapterTests.test_extraction_errors_are_not_ignored) ... ok
+test_fake_cli_records_do_not_claim_truth (test_codeql_adapter.CodeQLAdapterTests.test_fake_cli_records_do_not_claim_truth) ... ok
+test_missing_executable_is_explicit (test_codeql_adapter.CodeQLAdapterTests.test_missing_executable_is_explicit) ... ok
+test_missing_lock_is_rejected (test_codeql_adapter.CodeQLAdapterTests.test_missing_lock_is_rejected) ... ok
+test_placeholder_scope_is_rejected (test_codeql_adapter.CodeQLAdapterTests.test_placeholder_scope_is_rejected) ... ok
+test_command_with_spaces (test_probe.ProbeTests.test_command_with_spaces) ... ok
+test_compdb_both_repositories (test_probe.ProbeTests.test_compdb_both_repositories) ... ok
+test_compdb_does_not_execute_commands (test_probe.ProbeTests.test_compdb_does_not_execute_commands) ... ok
+test_corrupt_evidence_detected (test_probe.ProbeTests.test_corrupt_evidence_detected) ... ok
+test_definition_prefix_mapping_is_recorded (test_probe.ProbeTests.test_definition_prefix_mapping_is_recorded) ... ok
+test_definition_presence_missing_backend (test_probe.ProbeTests.test_definition_presence_missing_backend) ... ok
+test_empty_database_is_error (test_probe.ProbeTests.test_empty_database_is_error) ... ok
+test_evidence_path_escape_detected (test_probe.ProbeTests.test_evidence_path_escape_detected) ... ok
+test_missing_emap_key_is_error (test_probe.ProbeTests.test_missing_emap_key_is_error) ... ok
+test_multi_variant_is_not_silently_deduplicated (test_probe.ProbeTests.test_multi_variant_is_not_silently_deduplicated) ... ok
+test_overlapping_roots_are_error (test_probe.ProbeTests.test_overlapping_roots_are_error) ... ok
+test_real_host_macros_and_linked_backend (test_probe.ProbeTests.test_real_host_macros_and_linked_backend) ... ok
+test_record_changed_input_is_failure (test_probe.ProbeTests.test_record_changed_input_is_failure) ... ok
+test_record_never_overwrites_run (test_probe.ProbeTests.test_record_never_overwrites_run) ... ok
+test_record_nonzero_is_failure (test_probe.ProbeTests.test_record_nonzero_is_failure) ... ok
+test_record_preserves_literal_arguments (test_probe.ProbeTests.test_record_preserves_literal_arguments) ... ok
+test_record_timeout (test_probe.ProbeTests.test_record_timeout) ... ok
+test_report_never_overwrites (test_probe.ProbeTests.test_report_never_overwrites) ... ok
+test_response_file_missing (test_probe.ProbeTests.test_response_file_missing) ... ok
+test_source_cannot_be_promoted_to_running (test_probe.ProbeTests.test_source_cannot_be_promoted_to_running) ... ok
+test_symlink_escape_detected (test_probe.ProbeTests.test_symlink_escape_detected) ... ok
+test_unknown_evidence_detected (test_probe.ProbeTests.test_unknown_evidence_detected) ... ok
+test_unknown_is_retained_as_gap (test_probe.ProbeTests.test_unknown_is_retained_as_gap) ... ok
+test_valid_ledger_is_mechanical_only (test_probe.ProbeTests.test_valid_ledger_is_mechanical_only) ... ok
+test_wrong_baseline_detected (test_probe.ProbeTests.test_wrong_baseline_detected) ... ok
+test_wrong_target_detected (test_probe.ProbeTests.test_wrong_target_detected) ... ok
+test_complete_declarations_are_not_semantic_proof (test_workflow.WorkflowTests.test_complete_declarations_are_not_semantic_proof) ... ok
+test_duplicate_task_and_manifest_drift_are_detected (test_workflow.WorkflowTests.test_duplicate_task_and_manifest_drift_are_detected) ... ok
+test_existing_progress_file_is_not_overwritten (test_workflow.WorkflowTests.test_existing_progress_file_is_not_overwritten) ... ERROR: [Errno 17] File exists: '/tmp/tmpi_76x_ps/state.json'
+ok
+test_full_mode_cannot_silently_become_preparation (test_workflow.WorkflowTests.test_full_mode_cannot_silently_become_preparation) ... ok
+test_missing_and_empty_evidence_are_detected (test_workflow.WorkflowTests.test_missing_and_empty_evidence_are_detected) ... ok
+test_missing_configuration_step_is_detected (test_workflow.WorkflowTests.test_missing_configuration_step_is_detected) ... ok
+test_optional_choice_requires_reason_and_evidence (test_workflow.WorkflowTests.test_optional_choice_requires_reason_and_evidence) ... ok
+test_outside_evidence_symlink_is_rejected (test_workflow.WorkflowTests.test_outside_evidence_symlink_is_rejected) ... ok
+test_package_missing_payload_and_unreachable_document (test_workflow.WorkflowTests.test_package_missing_payload_and_unreachable_document) ... ok
+test_pending_partial_blocked_are_not_complete (test_workflow.WorkflowTests.test_pending_partial_blocked_are_not_complete) ... ok
+test_required_step_cannot_be_marked_inapplicable (test_workflow.WorkflowTests.test_required_step_cannot_be_marked_inapplicable) ... ok
+test_reuse_requires_applicability_reason (test_workflow.WorkflowTests.test_reuse_requires_applicability_reason) ... ok
+
+----------------------------------------------------------------------
+Ran 44 tests in 0.948s
+
+OK

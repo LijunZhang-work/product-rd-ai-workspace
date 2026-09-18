@@ -1,0 +1,4 @@
+name: local/product-emap-fact-probe
+version: 1.0.0
+dependencies:
+  codeql/cpp-all: "*"

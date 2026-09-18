@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "tests_run": 32,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "test_log": "validation/direct-capture/stderr.txt",
+  "test_log_sha256": "13af80029cdebb43998e63d7109fccbd50efa7f42c2ecfd67173c9d76dc01bfb",
+  "codeql_engine_tested": false,
+  "clang_engine_tested": false,
+  "real_product_tested": false,
+  "host_gcc_binutils_tested": true,
+  "codeql_adapter_uses_test_double": true,
+  "initial_recorded_selftest_log_complete": false,
+  "recorder_separate_output_check": {
+    "stdout_bytes": 12010,
+    "stderr_bytes": 12010,
+    "exact_match": true
+  },
+  "python_sources_sha256": {
+    "scripts/probe.py": "fd0070770279d399c566097348d33d3c2e32d053b5dfb517d255c9cbb74d616b",
+    "scripts/run_codeql.py": "972270d9dccd4b9be581029288c516923fddf69eba063b031bb756d44c44e3ae",
+    "tests/test_codeql_adapter.py": "bbacfba6d3d595905bdf85974aa4b461905e34669bf6966e86137d2e80a1cee4",
+    "tests/test_probe.py": "6b0925b53c644362dc831d2332949dece0df767c98768ddb7df35a47c0b61517"
+  }
+}

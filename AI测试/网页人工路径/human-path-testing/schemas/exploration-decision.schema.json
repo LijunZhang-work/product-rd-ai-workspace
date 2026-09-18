@@ -1,0 +1,179 @@
+{
+  "$defs": {
+    "Target": {
+      "additionalProperties": false,
+      "properties": {
+        "by": {
+          "enum": [
+            "role",
+            "label",
+            "text",
+            "row_with_cell"
+          ],
+          "title": "By",
+          "type": "string"
+        },
+        "role": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Role"
+        },
+        "name": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Name"
+        },
+        "name_param": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Name Param"
+        },
+        "scope": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Scope"
+        },
+        "exact": {
+          "const": true,
+          "default": true,
+          "title": "Exact",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "by"
+      ],
+      "title": "Target",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "observation_id": {
+      "title": "Observation Id",
+      "type": "integer"
+    },
+    "done": {
+      "default": false,
+      "title": "Done",
+      "type": "boolean"
+    },
+    "business_id": {
+      "title": "Business Id",
+      "type": "string"
+    },
+    "explanation": {
+      "maxLength": 2000,
+      "minLength": 1,
+      "title": "Explanation",
+      "type": "string"
+    },
+    "action": {
+      "anyOf": [
+        {
+          "enum": [
+            "click",
+            "hover",
+            "fill_text",
+            "type_text",
+            "press_key",
+            "select_native",
+            "check",
+            "uncheck",
+            "scroll",
+            "reload",
+            "go_back"
+          ],
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Action"
+    },
+    "target": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/Target"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    },
+    "param": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Param"
+    },
+    "key": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Key"
+    },
+    "scroll_y": {
+      "anyOf": [
+        {
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Scroll Y"
+    }
+  },
+  "required": [
+    "observation_id",
+    "business_id",
+    "explanation"
+  ],
+  "title": "ExplorationDecision",
+  "type": "object"
+}

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1840" viewBox="0 0 1800 1840" role="img"><title>多仓、多镜像、三个容器和独立产物</title><desc>原生Docker示例。repo1目标a与b分别使用镜像A、B，repo2目标c也使用镜像A。配置保存组合；每个容器out绑定各自宿主目录。</desc><defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#54848f"/></marker></defs><rect width="1800" height="1840" fill="#fff"/>
+<text x="52" y="68" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="43" fill="#182d46" font-weight="700" text-anchor="start">两个代码仓 × 两种镜像 → 三个构建组合</text>
+<text x="54" y="113" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="26" fill="#5d6878" font-weight="400" text-anchor="start">一个仓能编多个目标；一种镜像能服务多个仓。每次运行都有自己的容器和输出。</text>
+<rect x="38" y="156" width="1724" height="1590" rx="26" fill="#f1f6ff" stroke="#8ca9cd" stroke-width="2"/>
+<text x="68" y="202" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="32" fill="#182d46" font-weight="700" text-anchor="start">Windows 电脑</text>
+<text x="68" y="247" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="25" fill="#182d46" font-weight="400" text-anchor="start">公司版编辑器／Windows AI：经验证后访问 WSL 中的仓；无需必然保留 Windows 副本</text>
+<rect x="72" y="286" width="1656" height="1420" rx="24" fill="#e8f0fd" stroke="#799eca" stroke-width="2"/>
+<text x="104" y="334" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="30" fill="#182d46" font-weight="700" text-anchor="start">WSL 2</text>
+<rect x="104" y="370" width="1592" height="1296" rx="22" fill="#fff9ec" stroke="#d6b36d" stroke-width="2"/>
+<text x="135" y="416" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="30" fill="#182d46" font-weight="700" text-anchor="start">Ubuntu · 原生 Docker 示例</text>
+<text x="135" y="457" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="24" fill="#665434" font-weight="400" text-anchor="start">以下 W 均表示 /home/dev/workspace；图中的 run-001 只是一次运行编号示例</text>
+<rect x="135" y="490" width="715" height="166" rx="18" fill="#eaf5ff" stroke="#74a6c5" stroke-width="2"/>
+<text x="158" y="531" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="26" fill="#182d46" font-weight="700" text-anchor="start">源码在容器外，按仓保存</text>
+<text x="158" y="575" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="24" fill="#182d46" font-weight="400" text-anchor="start">W/repos/repo1  →  目标 a、目标 b</text>
+<text x="158" y="615" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="24" fill="#182d46" font-weight="400" text-anchor="start">W/repos/repo2  →  目标 c</text>
+<rect x="875" y="490" width="790" height="166" rx="18" fill="#fff" stroke="#d6b36d" stroke-width="2"/>
+<text x="898" y="531" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="26" fill="#182d46" font-weight="700" text-anchor="start">谁决定组合？配置 + 构建入口</text>
+<text x="898" y="572" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="24" fill="#182d46" font-weight="400" text-anchor="start">W/config/builds.yaml：保存下面三组对应关系</text>
+<text x="898" y="611" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="24" fill="#182d46" font-weight="400" text-anchor="start">入口适配已有 Compose／脚本后创建容器</text>
+<rect x="135" y="690" width="1530" height="547" rx="18" fill="#f0f3f7" stroke="#94a7bb" stroke-width="2"/>
+<text x="159" y="735" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="26" fill="#182d46" font-weight="700" text-anchor="start">Docker 引擎管理区 · 镜像是模板，三个容器是三个独立运行实例</text>
+<rect x="160" y="762" width="726" height="85" rx="18" fill="#e7edff" stroke="#929ed2" stroke-width="2"/>
+<text x="186" y="814" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="25" fill="#182d46" font-weight="400" text-anchor="start">镜像 A（固定同一 ID）→ 容器 1、容器 3</text>
+<rect x="911" y="762" width="728" height="85" rx="18" fill="#f4eaff" stroke="#b09ace" stroke-width="2"/>
+<text x="937" y="814" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="25" fill="#182d46" font-weight="400" text-anchor="start">镜像 B（另一固定 ID）→ 容器 2</text>
+<rect x="160" y="881" width="470" height="329" rx="18" fill="#fff" stroke="#7d92ce" stroke-width="2"/>
+<text x="184" y="925" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="26" fill="#182d46" font-weight="700" text-anchor="start">容器 1 · 镜像 A 创建</text>
+<text x="184" y="969" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="24" fill="#182d46" font-weight="400" text-anchor="start">repo1-product-a</text>
+<text x="184" y="1020" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="23" fill="#182d46" font-weight="400" text-anchor="start">/src 对应</text>
+<text x="184" y="1057" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="24" fill="#182d46" font-weight="400" text-anchor="start">W/repos/repo1</text>
+<text x="184" y="1114" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="23" fill="#182d46" font-weight="400" text-anchor="start">/out 对应下方独立目录</text>
+<text x="184" y="1162" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21" fill="#657183" font-weight="400" text-anchor="start">每次实际运行另建 run-id</text>
+<polyline points="395,1213 395,1297" fill="none" stroke="#54848f" stroke-width="3" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<text x="425" y="1271" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="22" fill="#426f80" font-weight="400" text-anchor="start">bind</text>
+<rect x="160" y="1303" width="470" height="230" rx="18" fill="#eaf7f1" stroke="#7bae91" stroke-width="2"/>
+<text x="184" y="1346" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="25" fill="#182d46" font-weight="700" text-anchor="start">组合 1 的产物 · 容器外</text>
+<text x="184" y="1390" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="24" fill="#182d46" font-weight="400" text-anchor="start">W/artifacts/repo1/</text>
+<text x="184" y="1428" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="24" fill="#182d46" font-weight="400" text-anchor="start">product-a/run-001/</text>
+<text x="184" y="1485" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21" fill="#182d46" font-weight="400" text-anchor="start">build / logs / packages / metadata</text>
+<rect x="665" y="881" width="470" height="329" rx="18" fill="#fff" stroke="#ac89bf" stroke-width="2"/>
+<text x="689" y="925" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="26" fill="#182d46" font-weight="700" text-anchor="start">容器 2 · 镜像 B 创建</text>
+<text x="689" y="969" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="24" fill="#182d46" font-weight="400" text-anchor="start">repo1-product-b</text>
+<text x="689" y="1020" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="23" fill="#182d46" font-weight="400" text-anchor="start">/src 对应</text>
+<text x="689" y="1057" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="24" fill="#182d46" font-weight="400" text-anchor="start">W/repos/repo1</text>
+<text x="689" y="1114" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="23" fill="#182d46" font-weight="400" text-anchor="start">/out 对应下方独立目录</text>
+<text x="689" y="1162" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21" fill="#657183" font-weight="400" text-anchor="start">每次实际运行另建 run-id</text>
+<polyline points="900,1213 900,1297" fill="none" stroke="#54848f" stroke-width="3" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<text x="930" y="1271" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="22" fill="#426f80" font-weight="400" text-anchor="start">bind</text>
+<rect x="665" y="1303" width="470" height="230" rx="18" fill="#eaf7f1" stroke="#7bae91" stroke-width="2"/>
+<text x="689" y="1346" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="25" fill="#182d46" font-weight="700" text-anchor="start">组合 2 的产物 · 容器外</text>
+<text x="689" y="1390" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="24" fill="#182d46" font-weight="400" text-anchor="start">W/artifacts/repo1/</text>
+<text x="689" y="1428" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="24" fill="#182d46" font-weight="400" text-anchor="start">product-b/run-001/</text>
+<text x="689" y="1485" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21" fill="#182d46" font-weight="400" text-anchor="start">build / logs / packages / metadata</text>
+<rect x="1170" y="881" width="470" height="329" rx="18" fill="#fff" stroke="#7d92ce" stroke-width="2"/>
+<text x="1194" y="925" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="26" fill="#182d46" font-weight="700" text-anchor="start">容器 3 · 镜像 A 创建</text>
+<text x="1194" y="969" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="24" fill="#182d46" font-weight="400" text-anchor="start">repo2-product-c</text>
+<text x="1194" y="1020" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="23" fill="#182d46" font-weight="400" text-anchor="start">/src 对应</text>
+<text x="1194" y="1057" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="24" fill="#182d46" font-weight="400" text-anchor="start">W/repos/repo2</text>
+<text x="1194" y="1114" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="23" fill="#182d46" font-weight="400" text-anchor="start">/out 对应下方独立目录</text>
+<text x="1194" y="1162" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21" fill="#657183" font-weight="400" text-anchor="start">每次实际运行另建 run-id</text>
+<polyline points="1405,1213 1405,1297" fill="none" stroke="#54848f" stroke-width="3" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<text x="1435" y="1271" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="22" fill="#426f80" font-weight="400" text-anchor="start">bind</text>
+<rect x="1170" y="1303" width="470" height="230" rx="18" fill="#eaf7f1" stroke="#7bae91" stroke-width="2"/>
+<text x="1194" y="1346" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="25" fill="#182d46" font-weight="700" text-anchor="start">组合 3 的产物 · 容器外</text>
+<text x="1194" y="1390" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="24" fill="#182d46" font-weight="400" text-anchor="start">W/artifacts/repo2/</text>
+<text x="1194" y="1428" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="24" fill="#182d46" font-weight="400" text-anchor="start">product-c/run-001/</text>
+<text x="1194" y="1485" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21" fill="#182d46" font-weight="400" text-anchor="start">build / logs / packages / metadata</text>
+<text x="135" y="1583" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="25" fill="#182d46" font-weight="700" text-anchor="start">三个 /out 名字相同，宿主目录各不相同；容器结束后仍可从 Ubuntu 查看产物。</text>
+<text x="135" y="1626" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="23" fill="#665434" font-weight="400" text-anchor="start">共享 repo1 仅限已验证的源码树外构建；若会改仓内文件，需独立工作树或串行隔离。</text>
+<text x="105" y="1735" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="24" fill="#182d46" font-weight="400" text-anchor="start">存储示例：这些 Ubuntu 普通目录在 D:\WSL\Ubuntu\ext4.vhdx 内；实际卷位置由盘点确认。</text>
+<text x="52" y="1800" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="24" fill="#6b7480" font-weight="400" text-anchor="start">上述配置仍是设计示意。落地时复用现有构建入口、确认真实路径和镜像，再验证每一组。</text>
+</svg>

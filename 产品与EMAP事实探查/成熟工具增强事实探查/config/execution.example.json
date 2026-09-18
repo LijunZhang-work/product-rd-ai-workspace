@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "record_only": true,
+  "environment_folder_name": "Windows与WSL开发环境",
+  "prior_results_index": "REPLACE/environment-reuse.md",
+  "configurations": [
+    {
+      "id": "REPLACE_existing_build_configuration_id",
+      "source_baseline": "REPLACE",
+      "build_environment": {
+        "kind": "docker",
+        "context": "REPLACE_verified_context",
+        "base_image_id_or_digest": "REPLACE",
+        "selected_image_id_or_digest": "REPLACE",
+        "original_entry_reference": "REPLACE_existing_script_or_compose",
+        "initialization_reference": "REPLACE_original_toolchain_initialization",
+        "container_user": "REPLACE",
+        "workdir": "REPLACE"
+      },
+      "mounts": [
+        {
+          "host_path": "REPLACE",
+          "container_path": "REPLACE",
+          "role": "source",
+          "access": "REPLACE_as_required_by_existing_build"
+        }
+      ],
+      "tool_paths": {
+        "codeql": {
+          "host": "REPLACE",
+          "container": "REPLACE",
+          "package_root": "REPLACE",
+          "status": "not_checked"
+        },
+        "clangd": {
+          "host": "REPLACE",
+          "container": "REPLACE",
+          "status": "not_checked"
+        },
+        "bear": {
+          "host": "REPLACE",
+          "container": "REPLACE",
+          "status": "not_checked"
+        }
+      },
+      "outputs": {
+        "host_root": "REPLACE",
+        "container_root": "REPLACE"
+      },
+      "build_command_argv": [
+        "REPLACE_real_build_entry"
+      ],
+      "evidence": []
+    }
+  ]
+}

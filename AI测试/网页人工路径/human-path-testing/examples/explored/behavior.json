@@ -1,0 +1,305 @@
+{
+  "case_id": "device.explored",
+  "revision": 1,
+  "original_intent": "From Home, open Devices, add a device named Visual-001 of type PCS using the visible form, save it, then reload the page and confirm the device row and PCS are still displayed. Use only visible UI controls. This is a local fixture demonstration, not a real product test.",
+  "oracle_status": "confirmed",
+  "required_steps": [
+    {
+      "id": "S01",
+      "business_id": "entry",
+      "action": "open_entry",
+      "target": null,
+      "param": null,
+      "key": null,
+      "scroll_y": null,
+      "checkpoint": null,
+      "timeout_ms": 2500
+    },
+    {
+      "id": "S02",
+      "business_id": "open_devices",
+      "action": "click",
+      "target": "T001",
+      "param": null,
+      "key": null,
+      "scroll_y": null,
+      "checkpoint": "CP_LIST",
+      "timeout_ms": 2500
+    },
+    {
+      "id": "S03",
+      "business_id": "open_form",
+      "action": "click",
+      "target": "T002",
+      "param": null,
+      "key": null,
+      "scroll_y": null,
+      "checkpoint": "CP_DIALOG",
+      "timeout_ms": 2500
+    },
+    {
+      "id": "S04",
+      "business_id": "focus_name",
+      "action": "click",
+      "target": "T003",
+      "param": null,
+      "key": null,
+      "scroll_y": null,
+      "checkpoint": null,
+      "timeout_ms": 2500
+    },
+    {
+      "id": "S05",
+      "business_id": "enter_name",
+      "action": "fill_text",
+      "target": "T004",
+      "param": "device_name",
+      "key": null,
+      "scroll_y": null,
+      "checkpoint": null,
+      "timeout_ms": 2500
+    },
+    {
+      "id": "S06",
+      "business_id": "open_type",
+      "action": "click",
+      "target": "T005",
+      "param": null,
+      "key": null,
+      "scroll_y": null,
+      "checkpoint": null,
+      "timeout_ms": 2500
+    },
+    {
+      "id": "S07",
+      "business_id": "select_type",
+      "action": "click",
+      "target": "T006",
+      "param": null,
+      "key": null,
+      "scroll_y": null,
+      "checkpoint": "CP_FORM",
+      "timeout_ms": 2500
+    },
+    {
+      "id": "S08",
+      "business_id": "save_device",
+      "action": "click",
+      "target": "T007",
+      "param": null,
+      "key": null,
+      "scroll_y": null,
+      "checkpoint": "CP_SAVED",
+      "timeout_ms": 2500
+    },
+    {
+      "id": "S09",
+      "business_id": "reload_persistence",
+      "action": "reload",
+      "target": null,
+      "param": null,
+      "key": null,
+      "scroll_y": null,
+      "checkpoint": "CP_PERSISTED",
+      "timeout_ms": 2500
+    }
+  ],
+  "required_targets": {
+    "T001": {
+      "by": "role",
+      "role": "link",
+      "name": "Devices",
+      "name_param": null,
+      "scope": null,
+      "exact": true
+    },
+    "T002": {
+      "by": "role",
+      "role": "button",
+      "name": "Add device",
+      "name_param": null,
+      "scope": null,
+      "exact": true
+    },
+    "T003": {
+      "by": "label",
+      "role": null,
+      "name": "Device name",
+      "name_param": null,
+      "scope": null,
+      "exact": true
+    },
+    "T004": {
+      "by": "label",
+      "role": null,
+      "name": "Device name",
+      "name_param": null,
+      "scope": null,
+      "exact": true
+    },
+    "T005": {
+      "by": "role",
+      "role": "combobox",
+      "name": "Device type",
+      "name_param": null,
+      "scope": null,
+      "exact": true
+    },
+    "T006": {
+      "by": "role",
+      "role": "option",
+      "name": null,
+      "name_param": "device_type",
+      "scope": null,
+      "exact": true
+    },
+    "T007": {
+      "by": "role",
+      "role": "button",
+      "name": "Save",
+      "name_param": null,
+      "scope": null,
+      "exact": true
+    },
+    "dialog": {
+      "by": "role",
+      "role": "dialog",
+      "name": "Add device",
+      "name_param": null,
+      "scope": null,
+      "exact": true
+    },
+    "heading": {
+      "by": "role",
+      "role": "heading",
+      "name": "Device management",
+      "name_param": null,
+      "scope": null,
+      "exact": true
+    },
+    "row": {
+      "by": "row_with_cell",
+      "role": null,
+      "name": null,
+      "name_param": "device_name",
+      "scope": null,
+      "exact": true
+    },
+    "type_cell": {
+      "by": "role",
+      "role": "cell",
+      "name": null,
+      "name_param": "device_type",
+      "scope": "row",
+      "exact": true
+    },
+    "saved": {
+      "by": "role",
+      "role": "status",
+      "name": "Device saved",
+      "name_param": null,
+      "scope": null,
+      "exact": true
+    }
+  },
+  "required_checkpoints": {
+    "CP_LIST": {
+      "assertions": [
+        {
+          "target": "heading",
+          "kind": "visible",
+          "value": null,
+          "param": null
+        },
+        {
+          "target": "row",
+          "kind": "count_equals",
+          "value": 0,
+          "param": null
+        }
+      ],
+      "visual": []
+    },
+    "CP_DIALOG": {
+      "assertions": [
+        {
+          "target": "dialog",
+          "kind": "visible",
+          "value": null,
+          "param": null
+        }
+      ],
+      "visual": [
+        "The Add device dialog is readable and its form fields are not obscured."
+      ]
+    },
+    "CP_FORM": {
+      "assertions": [
+        {
+          "target": "T004",
+          "kind": "value_equals",
+          "value": null,
+          "param": "device_name"
+        },
+        {
+          "target": "T005",
+          "kind": "text_equals",
+          "value": null,
+          "param": "device_type"
+        }
+      ],
+      "visual": [
+        "The entered device name and selected PCS type are visibly readable; Save is unobscured."
+      ]
+    },
+    "CP_SAVED": {
+      "assertions": [
+        {
+          "target": "saved",
+          "kind": "visible",
+          "value": null,
+          "param": null
+        },
+        {
+          "target": "dialog",
+          "kind": "hidden",
+          "value": null,
+          "param": null
+        }
+      ],
+      "visual": [
+        "The Device saved message is visible and readable."
+      ]
+    },
+    "CP_PERSISTED": {
+      "assertions": [
+        {
+          "target": "row",
+          "kind": "count_equals",
+          "value": 1,
+          "param": null
+        },
+        {
+          "target": "row",
+          "kind": "visible",
+          "value": null,
+          "param": null
+        },
+        {
+          "target": "type_cell",
+          "kind": "visible",
+          "value": null,
+          "param": null
+        }
+      ],
+      "visual": [
+        "After reload the created device row and its PCS equipment type are readable in the list."
+      ]
+    }
+  },
+  "excluded": [
+    "Production application",
+    "Native OS dialogs and IME",
+    "Independent nonvisual provider live validation"
+  ]
+}

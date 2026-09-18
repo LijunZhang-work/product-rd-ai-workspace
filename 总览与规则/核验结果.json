@@ -1,0 +1,59 @@
+{
+  "ok": true,
+  "files_checked": 296,
+  "archives_checked": 10,
+  "local_file_links_checked": 592,
+  "git_required": false,
+  "product_tests_executed": false,
+  "external_urls_checked": false,
+  "delivery_zip_files_excluded": true,
+  "errors": [],
+  "consensus_completion": {
+    "date": "2026-09-19",
+    "changed_markdown_checked": 20,
+    "local_fragments_checked": 42,
+    "shell_blocks_syntax_only": 22,
+    "enhanced_package_check": {
+      "kind": "package_navigation",
+      "ok": true,
+      "errors": [],
+      "documents": 9,
+      "reachable_documents": 9,
+      "shared_documents": 2,
+      "tool_readiness_checked": false,
+      "tool_execution_checked": false,
+      "semantic_truth_checked": false
+    },
+    "diagram_assets": {
+      "created_diagrams": [
+        {
+          "svg": "unified_workspace_rebuild/workspace/Windows与WSL开发环境/图解/01_WSL与Docker单组合关系_示意.svg",
+          "png": "unified_workspace_rebuild/workspace/Windows与WSL开发环境/图解/01_WSL与Docker单组合关系_示意.png",
+          "size": [
+            1600,
+            1400
+          ],
+          "font_missing_characters": [],
+          "svg_sha256": "59244b8e6256d685cff32ebd738b91281b1509553e09ffe060521f87a72cfe65"
+        },
+        {
+          "svg": "unified_workspace_rebuild/workspace/Windows与WSL开发环境/图解/02_多仓多镜像与独立产物_示意.svg",
+          "png": "unified_workspace_rebuild/workspace/Windows与WSL开发环境/图解/02_多仓多镜像与独立产物_示意.png",
+          "size": [
+            1800,
+            1840
+          ],
+          "font_missing_characters": [],
+          "svg_sha256": "c3a33885d74b6042adebabe073120eaf700b98523f02d351e4a7fb20e9577405"
+        }
+      ],
+      "markdown_local_links": "PASS",
+      "visual_review": "Two PNG renderings reviewed; no visible clipping or missing glyphs. Final wording changes fit same geometry.",
+      "historical_images": "Library search confirmed names and IDs; materialization twice HTTP502; image_file returned OCR only; original image pixels not inspected or reused."
+    },
+    "independent_review": "review_consensus；原子/运行库与ISR边界、迁移旧入口、TSan组合意见已采纳",
+    "actual_user_tools_or_product_runs": false,
+    "prior_helper_tests_rerun": false,
+    "git_push_performed": false
+  }
+}

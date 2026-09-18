@@ -1,0 +1,48 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "endpoint": {
+      "title": "Endpoint",
+      "type": "string"
+    },
+    "model": {
+      "title": "Model",
+      "type": "string"
+    },
+    "api_key_env": {
+      "default": "HPT_MODEL_API_KEY",
+      "title": "Api Key Env",
+      "type": "string"
+    },
+    "supports_images": {
+      "default": false,
+      "title": "Supports Images",
+      "type": "boolean"
+    },
+    "timeout_seconds": {
+      "default": 45,
+      "maximum": 90,
+      "minimum": 1,
+      "title": "Timeout Seconds",
+      "type": "integer"
+    },
+    "max_tokens": {
+      "default": 3000,
+      "maximum": 16000,
+      "minimum": 200,
+      "title": "Max Tokens",
+      "type": "integer"
+    },
+    "token_limit_field": {
+      "default": "max_tokens",
+      "title": "Token Limit Field",
+      "type": "string"
+    }
+  },
+  "required": [
+    "endpoint",
+    "model"
+  ],
+  "title": "ModelConfig",
+  "type": "object"
+}

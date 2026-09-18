@@ -1,0 +1,121 @@
+{
+  "case_id": "device.explored",
+  "original_intent": "From Home, open Devices, add a device named Visual-001 of type PCS using the visible form, save it, then reload the page and confirm the device row and PCS are still displayed. Use only visible UI controls. This is a local fixture demonstration, not a real product test.",
+  "oracle_status": "confirmed",
+  "targets": {
+    "dialog": {
+      "by": "role",
+      "role": "dialog",
+      "name": "Add device"
+    },
+    "heading": {
+      "by": "role",
+      "role": "heading",
+      "name": "Device management"
+    },
+    "row": {
+      "by": "row_with_cell",
+      "name_param": "device_name"
+    },
+    "type_cell": {
+      "by": "role",
+      "role": "cell",
+      "name_param": "device_type",
+      "scope": "row"
+    },
+    "saved": {
+      "by": "role",
+      "role": "status",
+      "name": "Device saved"
+    }
+  },
+  "checkpoints": {
+    "CP_LIST": {
+      "after_step": "S02",
+      "assertions": [
+        {
+          "target": "heading",
+          "kind": "visible"
+        },
+        {
+          "target": "row",
+          "kind": "count_equals",
+          "value": 0
+        }
+      ],
+      "visual": []
+    },
+    "CP_DIALOG": {
+      "after_step": "S03",
+      "assertions": [
+        {
+          "target": "dialog",
+          "kind": "visible"
+        }
+      ],
+      "visual": [
+        "The Add device dialog is readable and its form fields are not obscured."
+      ]
+    },
+    "CP_FORM": {
+      "after_step": "S07",
+      "assertions": [
+        {
+          "target": "T004",
+          "kind": "value_equals",
+          "param": "device_name"
+        },
+        {
+          "target": "T005",
+          "kind": "text_equals",
+          "param": "device_type"
+        }
+      ],
+      "visual": [
+        "The entered device name and selected PCS type are visibly readable; Save is unobscured."
+      ]
+    },
+    "CP_SAVED": {
+      "after_step": "S08",
+      "assertions": [
+        {
+          "target": "saved",
+          "kind": "visible"
+        },
+        {
+          "target": "dialog",
+          "kind": "hidden"
+        }
+      ],
+      "visual": [
+        "The Device saved message is visible and readable."
+      ]
+    },
+    "CP_PERSISTED": {
+      "after_step": "S09",
+      "assertions": [
+        {
+          "target": "row",
+          "kind": "count_equals",
+          "value": 1
+        },
+        {
+          "target": "row",
+          "kind": "visible"
+        },
+        {
+          "target": "type_cell",
+          "kind": "visible"
+        }
+      ],
+      "visual": [
+        "After reload the created device row and its PCS equipment type are readable in the list."
+      ]
+    }
+  },
+  "excluded": [
+    "Production application",
+    "Native OS dialogs and IME",
+    "Independent nonvisual provider live validation"
+  ]
+}

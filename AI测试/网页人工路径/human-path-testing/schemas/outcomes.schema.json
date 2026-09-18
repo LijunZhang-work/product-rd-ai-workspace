@@ -1,0 +1,215 @@
+{
+  "$defs": {
+    "Assertion": {
+      "additionalProperties": false,
+      "properties": {
+        "target": {
+          "title": "Target",
+          "type": "string"
+        },
+        "kind": {
+          "enum": [
+            "visible",
+            "hidden",
+            "value_equals",
+            "text_equals",
+            "count_equals",
+            "checked",
+            "unchecked",
+            "focused",
+            "disabled"
+          ],
+          "title": "Kind",
+          "type": "string"
+        },
+        "value": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Value"
+        },
+        "param": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Param"
+        }
+      },
+      "required": [
+        "target",
+        "kind"
+      ],
+      "title": "Assertion",
+      "type": "object"
+    },
+    "OutcomeCheckpoint": {
+      "additionalProperties": false,
+      "properties": {
+        "assertions": {
+          "items": {
+            "$ref": "#/$defs/Assertion"
+          },
+          "maxItems": 50,
+          "minItems": 1,
+          "title": "Assertions",
+          "type": "array"
+        },
+        "visual": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 20,
+          "title": "Visual",
+          "type": "array"
+        },
+        "after_step": {
+          "title": "After Step",
+          "type": "string"
+        }
+      },
+      "required": [
+        "assertions",
+        "after_step"
+      ],
+      "title": "OutcomeCheckpoint",
+      "type": "object"
+    },
+    "Target": {
+      "additionalProperties": false,
+      "properties": {
+        "by": {
+          "enum": [
+            "role",
+            "label",
+            "text",
+            "row_with_cell"
+          ],
+          "title": "By",
+          "type": "string"
+        },
+        "role": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Role"
+        },
+        "name": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Name"
+        },
+        "name_param": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Name Param"
+        },
+        "scope": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Scope"
+        },
+        "exact": {
+          "const": true,
+          "default": true,
+          "title": "Exact",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "by"
+      ],
+      "title": "Target",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "case_id": {
+      "title": "Case Id",
+      "type": "string"
+    },
+    "original_intent": {
+      "title": "Original Intent",
+      "type": "string"
+    },
+    "oracle_status": {
+      "enum": [
+        "confirmed",
+        "pending"
+      ],
+      "title": "Oracle Status",
+      "type": "string"
+    },
+    "targets": {
+      "additionalProperties": {
+        "$ref": "#/$defs/Target"
+      },
+      "title": "Targets",
+      "type": "object"
+    },
+    "checkpoints": {
+      "additionalProperties": {
+        "$ref": "#/$defs/OutcomeCheckpoint"
+      },
+      "title": "Checkpoints",
+      "type": "object"
+    },
+    "excluded": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Excluded",
+      "type": "array"
+    }
+  },
+  "required": [
+    "case_id",
+    "original_intent",
+    "oracle_status",
+    "checkpoints"
+  ],
+  "title": "OutcomeSpec",
+  "type": "object"
+}

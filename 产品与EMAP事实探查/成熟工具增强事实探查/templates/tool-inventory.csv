@@ -1,0 +1,1 @@
+report_id,report_sha256,tool_instance_id,derived_snapshot_at,tool,role,selected_version,execution_environment,host_executable,container_executable,package_root,source_or_package,preparation_status,execution_status,decision_reason,evidence

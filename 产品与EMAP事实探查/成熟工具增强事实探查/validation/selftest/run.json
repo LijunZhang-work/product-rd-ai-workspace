@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "helper_version": "1.0.0",
+  "kind": "command_record",
+  "target": "toolkit-host-selftest",
+  "started_at": "2026-09-18T02:02:19.267750+00:00",
+  "cwd": "/workspace/scratch/16a8853d682c/产品与EMAP_成熟工具增强事实探查任务包_v1.0_2026-09-18",
+  "argv": [
+    "python3",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tests",
+    "-v"
+  ],
+  "shell": false,
+  "executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+  "inputs_before": {
+    "/workspace/scratch/16a8853d682c/产品与EMAP_成熟工具增强事实探查任务包_v1.0_2026-09-18/scripts/probe.py": "fd0070770279d399c566097348d33d3c2e32d053b5dfb517d255c9cbb74d616b",
+    "/workspace/scratch/16a8853d682c/产品与EMAP_成熟工具增强事实探查任务包_v1.0_2026-09-18/scripts/run_codeql.py": "972270d9dccd4b9be581029288c516923fddf69eba063b031bb756d44c44e3ae",
+    "/workspace/scratch/16a8853d682c/产品与EMAP_成熟工具增强事实探查任务包_v1.0_2026-09-18/tests/test_probe.py": "6b0925b53c644362dc831d2332949dece0df767c98768ddb7df35a47c0b61517",
+    "/workspace/scratch/16a8853d682c/产品与EMAP_成熟工具增强事实探查任务包_v1.0_2026-09-18/tests/test_codeql_adapter.py": "bbacfba6d3d595905bdf85974aa4b461905e34669bf6966e86137d2e80a1cee4"
+  },
+  "timeout_seconds": 60.0,
+  "finished_at": "2026-09-18T02:02:20.234215+00:00",
+  "elapsed_seconds": 0.966,
+  "exit_code": 0,
+  "status": "succeeded",
+  "errors": [],
+  "inputs_after": {
+    "/workspace/scratch/16a8853d682c/产品与EMAP_成熟工具增强事实探查任务包_v1.0_2026-09-18/scripts/probe.py": "fd0070770279d399c566097348d33d3c2e32d053b5dfb517d255c9cbb74d616b",
+    "/workspace/scratch/16a8853d682c/产品与EMAP_成熟工具增强事实探查任务包_v1.0_2026-09-18/scripts/run_codeql.py": "972270d9dccd4b9be581029288c516923fddf69eba063b031bb756d44c44e3ae",
+    "/workspace/scratch/16a8853d682c/产品与EMAP_成熟工具增强事实探查任务包_v1.0_2026-09-18/tests/test_probe.py": "6b0925b53c644362dc831d2332949dece0df767c98768ddb7df35a47c0b61517",
+    "/workspace/scratch/16a8853d682c/产品与EMAP_成熟工具增强事实探查任务包_v1.0_2026-09-18/tests/test_codeql_adapter.py": "bbacfba6d3d595905bdf85974aa4b461905e34669bf6966e86137d2e80a1cee4"
+  },
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderr_sha256": "9be20ee7dddff6c8af347e29a8e34f56249a1300f686a9fdbd0f9d0b33a4f390",
+  "meaning": "Command execution record; exit zero does not establish analysis completeness"
+}

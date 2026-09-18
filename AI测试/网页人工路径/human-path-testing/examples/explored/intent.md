@@ -1,0 +1,1 @@
+From Home, open Devices, add a device named Visual-001 of type PCS using the visible form, save it, then reload the page and confirm the device row and PCS are still displayed. Use only visible UI controls. This is a local fixture demonstration, not a real product test.

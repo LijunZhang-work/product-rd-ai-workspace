@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "repositories": {
+    "product": "/REPLACE/product",
+    "emap": "/REPLACE/emap"
+  },
+  "tools": {
+    "git": "git",
+    "clangd": "/REPLACE/current-environment/clangd-version",
+    "clang_query": "/REPLACE/current-environment/clang-query-version",
+    "codeql": "/REPLACE/current-environment/codeql/codeql",
+    "readelf": "/REPLACE/compatible-toolchain/readelf",
+    "nm": "/REPLACE/compatible-toolchain/nm",
+    "objdump": "/REPLACE/compatible-toolchain/objdump",
+    "bear": "/REPLACE/current-environment/bear",
+    "clang": "/REPLACE/current-environment/clang-version"
+  },
+  "required_tools": [
+    "git",
+    "clangd",
+    "codeql",
+    "readelf"
+  ],
+  "targets": [
+    {
+      "id": "REPLACE_existing_build_configuration_id",
+      "state": "unresolved",
+      "execution_domain": "unknown: investigate using source/build evidence; not a prerequisite core ID",
+      "compiler": "/REPLACE/toolchain/bin/target-c++",
+      "build_cwd": "/REPLACE/isolated-build",
+      "compdb": "/REPLACE/isolated-build/compile_commands.json",
+      "build_description": "Record actual existing product build entry and configuration",
+      "key_translation_units": [
+        "/REPLACE/product/entry.cpp",
+        "/REPLACE/emap/selected_backend.cpp"
+      ],
+      "artifacts": [],
+      "identity_evidence": []
+    }
+  ],
+  "notes": {
+    "phase": "Analysis preflight AFTER compdb capture; not an installation gate.",
+    "target_meaning": "Existing build configuration ID, not an assumed physical core.",
+    "tool_paths": "Resolve per execution environment. This file does not rewrite command argv or launch containers."
+  }
+}

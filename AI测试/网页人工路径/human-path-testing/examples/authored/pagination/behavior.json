@@ -1,0 +1,304 @@
+{
+  "case_id": "device.pagination",
+  "revision": 1,
+  "original_intent": "Fixture UI scenario: pagination",
+  "oracle_status": "confirmed",
+  "required_steps": [
+    {
+      "id": "S01",
+      "business_id": "S01",
+      "action": "open_entry",
+      "target": null,
+      "param": null,
+      "key": null,
+      "scroll_y": null,
+      "checkpoint": null,
+      "timeout_ms": 2500
+    },
+    {
+      "id": "S02",
+      "business_id": "S02",
+      "action": "click",
+      "target": "nav",
+      "param": null,
+      "key": null,
+      "scroll_y": null,
+      "checkpoint": "CP_LIST",
+      "timeout_ms": 2500
+    },
+    {
+      "id": "S03",
+      "business_id": "S03",
+      "action": "click",
+      "target": "next",
+      "param": null,
+      "key": null,
+      "scroll_y": null,
+      "checkpoint": "CP_NEXT",
+      "timeout_ms": 2500
+    },
+    {
+      "id": "S04",
+      "business_id": "S04",
+      "action": "click",
+      "target": "prev",
+      "param": null,
+      "key": null,
+      "scroll_y": null,
+      "checkpoint": "CP_PREVIOUS",
+      "timeout_ms": 2500
+    }
+  ],
+  "required_targets": {
+    "nav": {
+      "by": "role",
+      "role": "link",
+      "name": "Devices",
+      "name_param": null,
+      "scope": null,
+      "exact": true
+    },
+    "heading": {
+      "by": "role",
+      "role": "heading",
+      "name": "Device management",
+      "name_param": null,
+      "scope": null,
+      "exact": true
+    },
+    "add": {
+      "by": "role",
+      "role": "button",
+      "name": "Add device",
+      "name_param": null,
+      "scope": null,
+      "exact": true
+    },
+    "dialog": {
+      "by": "role",
+      "role": "dialog",
+      "name": "Add device",
+      "name_param": null,
+      "scope": null,
+      "exact": true
+    },
+    "name": {
+      "by": "label",
+      "role": null,
+      "name": "Device name",
+      "name_param": null,
+      "scope": "dialog",
+      "exact": true
+    },
+    "type": {
+      "by": "role",
+      "role": "combobox",
+      "name": "Device type",
+      "name_param": null,
+      "scope": "dialog",
+      "exact": true
+    },
+    "option": {
+      "by": "role",
+      "role": "option",
+      "name": null,
+      "name_param": "device_type",
+      "scope": null,
+      "exact": true
+    },
+    "save": {
+      "by": "role",
+      "role": "button",
+      "name": "Save",
+      "name_param": null,
+      "scope": "dialog",
+      "exact": true
+    },
+    "cancel": {
+      "by": "role",
+      "role": "button",
+      "name": "Cancel",
+      "name_param": null,
+      "scope": "dialog",
+      "exact": true
+    },
+    "status": {
+      "by": "role",
+      "role": "status",
+      "name": "Device saved",
+      "name_param": null,
+      "scope": null,
+      "exact": true
+    },
+    "row": {
+      "by": "row_with_cell",
+      "role": null,
+      "name": null,
+      "name_param": "device_name",
+      "scope": null,
+      "exact": true
+    },
+    "type_cell": {
+      "by": "role",
+      "role": "cell",
+      "name": null,
+      "name_param": "device_type",
+      "scope": "row",
+      "exact": true
+    },
+    "alert": {
+      "by": "role",
+      "role": "alert",
+      "name": "",
+      "name_param": null,
+      "scope": "dialog",
+      "exact": true
+    },
+    "search": {
+      "by": "role",
+      "role": "textbox",
+      "name": "Search devices",
+      "name_param": null,
+      "scope": null,
+      "exact": true
+    },
+    "search_button": {
+      "by": "role",
+      "role": "button",
+      "name": "Search",
+      "name_param": null,
+      "scope": null,
+      "exact": true
+    },
+    "next": {
+      "by": "role",
+      "role": "button",
+      "name": "Next",
+      "name_param": null,
+      "scope": null,
+      "exact": true
+    },
+    "prev": {
+      "by": "role",
+      "role": "button",
+      "name": "Previous",
+      "name_param": null,
+      "scope": null,
+      "exact": true
+    },
+    "edit": {
+      "by": "role",
+      "role": "button",
+      "name": "Edit",
+      "name_param": null,
+      "scope": "original",
+      "exact": true
+    },
+    "original": {
+      "by": "row_with_cell",
+      "role": null,
+      "name": "Original",
+      "name_param": null,
+      "scope": null,
+      "exact": true
+    },
+    "delete": {
+      "by": "role",
+      "role": "button",
+      "name": "Delete",
+      "name_param": null,
+      "scope": "row",
+      "exact": true
+    },
+    "delete_dialog": {
+      "by": "role",
+      "role": "dialog",
+      "name": "Delete device",
+      "name_param": null,
+      "scope": null,
+      "exact": true
+    },
+    "confirm": {
+      "by": "role",
+      "role": "button",
+      "name": "Confirm delete",
+      "name_param": null,
+      "scope": "delete_dialog",
+      "exact": true
+    },
+    "deleted": {
+      "by": "role",
+      "role": "status",
+      "name": "Device deleted",
+      "name_param": null,
+      "scope": null,
+      "exact": true
+    },
+    "empty": {
+      "by": "text",
+      "role": null,
+      "name": "No devices found",
+      "name_param": null,
+      "scope": null,
+      "exact": true
+    },
+    "table_rows": {
+      "by": "role",
+      "role": "row",
+      "name": "",
+      "name_param": null,
+      "scope": null,
+      "exact": true
+    },
+    "first": {
+      "by": "row_with_cell",
+      "role": null,
+      "name": "Page-1",
+      "name_param": null,
+      "scope": null,
+      "exact": true
+    }
+  },
+  "required_checkpoints": {
+    "CP_LIST": {
+      "assertions": [
+        {
+          "target": "heading",
+          "kind": "visible",
+          "value": null,
+          "param": null
+        }
+      ],
+      "visual": []
+    },
+    "CP_NEXT": {
+      "assertions": [
+        {
+          "target": "row",
+          "kind": "visible",
+          "value": null,
+          "param": null
+        }
+      ],
+      "visual": [
+        "Page 2 and device Page-6 are visibly displayed."
+      ]
+    },
+    "CP_PREVIOUS": {
+      "assertions": [
+        {
+          "target": "first",
+          "kind": "visible",
+          "value": null,
+          "param": null
+        }
+      ],
+      "visual": []
+    }
+  },
+  "excluded": [
+    "Real product integration",
+    "Native dialogs and IME",
+    "Other browsers"
+  ]
+}

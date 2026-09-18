@@ -1,0 +1,9 @@
+{
+  "endpoint": "https://model-provider.invalid/v1/chat/completions",
+  "model": "SET_MODEL_NAME",
+  "api_key_env": "HPT_MODEL_API_KEY",
+  "supports_images": true,
+  "timeout_seconds": 45,
+  "max_tokens": 3000,
+  "token_limit_field": "max_tokens"
+}

@@ -1,0 +1,377 @@
+{
+  "$defs": {
+    "Assertion": {
+      "additionalProperties": false,
+      "properties": {
+        "target": {
+          "title": "Target",
+          "type": "string"
+        },
+        "kind": {
+          "enum": [
+            "visible",
+            "hidden",
+            "value_equals",
+            "text_equals",
+            "count_equals",
+            "checked",
+            "unchecked",
+            "focused",
+            "disabled"
+          ],
+          "title": "Kind",
+          "type": "string"
+        },
+        "value": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Value"
+        },
+        "param": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Param"
+        }
+      },
+      "required": [
+        "target",
+        "kind"
+      ],
+      "title": "Assertion",
+      "type": "object"
+    },
+    "Checkpoint": {
+      "additionalProperties": false,
+      "properties": {
+        "assertions": {
+          "items": {
+            "$ref": "#/$defs/Assertion"
+          },
+          "maxItems": 50,
+          "minItems": 1,
+          "title": "Assertions",
+          "type": "array"
+        },
+        "visual": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 20,
+          "title": "Visual",
+          "type": "array"
+        }
+      },
+      "required": [
+        "assertions"
+      ],
+      "title": "Checkpoint",
+      "type": "object"
+    },
+    "Parameter": {
+      "additionalProperties": false,
+      "properties": {
+        "min_length": {
+          "default": 1,
+          "maximum": 4096,
+          "minimum": 0,
+          "title": "Min Length",
+          "type": "integer"
+        },
+        "max_length": {
+          "default": 128,
+          "maximum": 4096,
+          "minimum": 1,
+          "title": "Max Length",
+          "type": "integer"
+        },
+        "choices": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 100,
+          "title": "Choices",
+          "type": "array"
+        }
+      },
+      "title": "Parameter",
+      "type": "object"
+    },
+    "Step": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "pattern": "^[A-Za-z0-9_-]{1,64}$",
+          "title": "Id",
+          "type": "string"
+        },
+        "business_id": {
+          "title": "Business Id",
+          "type": "string"
+        },
+        "action": {
+          "enum": [
+            "open_entry",
+            "click",
+            "hover",
+            "fill_text",
+            "type_text",
+            "press_key",
+            "select_native",
+            "check",
+            "uncheck",
+            "scroll",
+            "reload",
+            "go_back",
+            "checkpoint"
+          ],
+          "title": "Action",
+          "type": "string"
+        },
+        "target": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Target"
+        },
+        "param": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Param"
+        },
+        "key": {
+          "anyOf": [
+            {
+              "enum": [
+                "Tab",
+                "Shift+Tab",
+                "Enter",
+                "Escape",
+                "ArrowDown",
+                "ArrowUp",
+                "Space",
+                "Backspace",
+                "ControlOrMeta+A"
+              ],
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Key"
+        },
+        "scroll_y": {
+          "anyOf": [
+            {
+              "maximum": 2000,
+              "minimum": -2000,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Scroll Y"
+        },
+        "checkpoint": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Checkpoint"
+        },
+        "timeout_ms": {
+          "default": 2500,
+          "maximum": 15000,
+          "minimum": 100,
+          "title": "Timeout Ms",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "business_id",
+        "action"
+      ],
+      "title": "Step",
+      "type": "object"
+    },
+    "Target": {
+      "additionalProperties": false,
+      "properties": {
+        "by": {
+          "enum": [
+            "role",
+            "label",
+            "text",
+            "row_with_cell"
+          ],
+          "title": "By",
+          "type": "string"
+        },
+        "role": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Role"
+        },
+        "name": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Name"
+        },
+        "name_param": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Name Param"
+        },
+        "scope": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Scope"
+        },
+        "exact": {
+          "const": true,
+          "default": true,
+          "title": "Exact",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "by"
+      ],
+      "title": "Target",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": "1.1",
+      "default": "1.1",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "case_id": {
+      "pattern": "^[A-Za-z0-9_.-]{1,80}$",
+      "title": "Case Id",
+      "type": "string"
+    },
+    "revision": {
+      "minimum": 1,
+      "title": "Revision",
+      "type": "integer"
+    },
+    "summary": {
+      "maxLength": 3000,
+      "minLength": 1,
+      "title": "Summary",
+      "type": "string"
+    },
+    "parameters": {
+      "additionalProperties": {
+        "$ref": "#/$defs/Parameter"
+      },
+      "title": "Parameters",
+      "type": "object"
+    },
+    "targets": {
+      "additionalProperties": {
+        "$ref": "#/$defs/Target"
+      },
+      "title": "Targets",
+      "type": "object"
+    },
+    "checkpoints": {
+      "additionalProperties": {
+        "$ref": "#/$defs/Checkpoint"
+      },
+      "title": "Checkpoints",
+      "type": "object"
+    },
+    "steps": {
+      "items": {
+        "$ref": "#/$defs/Step"
+      },
+      "maxItems": 100,
+      "minItems": 1,
+      "title": "Steps",
+      "type": "array"
+    }
+  },
+  "required": [
+    "case_id",
+    "revision",
+    "summary",
+    "parameters",
+    "targets",
+    "checkpoints",
+    "steps"
+  ],
+  "title": "Route",
+  "type": "object"
+}

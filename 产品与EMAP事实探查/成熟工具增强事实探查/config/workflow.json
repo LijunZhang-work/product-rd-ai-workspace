@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "version": "1.2",
+  "entry": "00_总入口与执行约定.md",
+  "required_files": [
+    "00_总入口与执行约定.md",
+    "01_产品仓事实探查任务书.md",
+    "02_EMAP仓事实探查任务书.md",
+    "03_双仓关联核对与事实验收.md",
+    "04_证据与结果记录模板.md",
+    "05_成熟工具执行手册.md",
+    "06_本地AI执行与续接.md",
+    "07_验证记录与适用边界.md",
+    "08_工具盘点下载安装与存放指南.md",
+    "config/execution.example.json",
+    "config/project.example.json",
+    "config/workflow.json",
+    "queries/clang/definitions.matcher",
+    "queries/clang/named_calls.matcher",
+    "queries/codeql/Q00_Definitions.ql",
+    "queries/codeql/Q01_ExtractionErrors.ql",
+    "queries/codeql/Q10_NamedCallBindings.ql",
+    "queries/codeql/Q11_FunctionReferences.ql",
+    "queries/codeql/Q12_OtherCalls.ql",
+    "queries/codeql/Q20_DirectVariableWrites.ql",
+    "queries/codeql/Q30_Conditions.ql",
+    "queries/codeql/Scope.qll",
+    "queries/codeql/qlpack.yml",
+    "scripts/check_workflow.py",
+    "scripts/probe.py",
+    "scripts/run_codeql.py",
+    "templates/acceptance.csv",
+    "templates/gaps.csv",
+    "templates/ledger.example.json",
+    "templates/mechanisms.csv",
+    "templates/relations.csv",
+    "templates/targets.csv",
+    "templates/tool-inventory.csv"
+  ],
+  "steps": [
+    {
+      "id": "S00",
+      "title": "材料与边界",
+      "document": "00_总入口与执行约定.md",
+      "scope": "global",
+      "preparation": true,
+      "allow_not_applicable": false
+    },
+    {
+      "id": "S01",
+      "title": "已有环境成果与当前工具报告",
+      "document": "../../工具接入与共享能力/工具统一管理与使用指南.md",
+      "scope": "global",
+      "preparation": true,
+      "allow_not_applicable": false
+    },
+    {
+      "id": "S02",
+      "title": "工具盘点、复用与缺项准备",
+      "document": "../../工具接入与共享能力/工具统一管理与使用指南.md",
+      "scope": "global",
+      "preparation": true,
+      "allow_not_applicable": false
+    },
+    {
+      "id": "S03",
+      "title": "实际执行环境接入验证",
+      "document": "../../工具接入与共享能力/工具统一管理与使用指南.md",
+      "scope": "configuration",
+      "preparation": false,
+      "allow_not_applicable": false
+    },
+    {
+      "id": "S04",
+      "title": "输入基线",
+      "document": "../../工具接入与共享能力/工具统一管理与使用指南.md",
+      "scope": "configuration",
+      "preparation": false,
+      "allow_not_applicable": false
+    },
+    {
+      "id": "S05",
+      "title": "编译上下文",
+      "document": "../../工具接入与共享能力/工具统一管理与使用指南.md",
+      "scope": "configuration",
+      "preparation": false,
+      "allow_not_applicable": false
+    },
+    {
+      "id": "S06",
+      "title": "语义分析",
+      "document": "../../工具接入与共享能力/工具统一管理与使用指南.md",
+      "scope": "configuration",
+      "preparation": false,
+      "allow_not_applicable": false
+    },
+    {
+      "id": "S07",
+      "title": "CodeQL查询",
+      "document": "../../工具接入与共享能力/工具统一管理与使用指南.md",
+      "scope": "configuration",
+      "preparation": false,
+      "allow_not_applicable": false
+    },
+    {
+      "id": "S08",
+      "title": "产品仓探查",
+      "document": "01_产品仓事实探查任务书.md",
+      "scope": "global",
+      "preparation": false,
+      "allow_not_applicable": false
+    },
+    {
+      "id": "S09",
+      "title": "EMAP仓探查",
+      "document": "02_EMAP仓事实探查任务书.md",
+      "scope": "global",
+      "preparation": false,
+      "allow_not_applicable": false
+    },
+    {
+      "id": "S10",
+      "title": "产物核对",
+      "document": "../../工具接入与共享能力/工具统一管理与使用指南.md",
+      "scope": "configuration",
+      "preparation": false,
+      "allow_not_applicable": false
+    },
+    {
+      "id": "S11",
+      "title": "模型与协议",
+      "document": "../../工具接入与共享能力/工具统一管理与使用指南.md",
+      "scope": "global",
+      "preparation": false,
+      "allow_not_applicable": true
+    },
+    {
+      "id": "S12",
+      "title": "可选工具采用与执行证据",
+      "document": "../../工具接入与共享能力/工具统一管理与使用指南.md",
+      "scope": "global",
+      "preparation": false,
+      "allow_not_applicable": true
+    },
+    {
+      "id": "S13",
+      "title": "双仓验收",
+      "document": "03_双仓关联核对与事实验收.md",
+      "scope": "global",
+      "preparation": false,
+      "allow_not_applicable": false
+    },
+    {
+      "id": "S14",
+      "title": "交接",
+      "document": "06_本地AI执行与续接.md",
+      "scope": "global",
+      "preparation": false,
+      "allow_not_applicable": false
+    }
+  ],
+  "shared_dependencies": [
+    "../../工具接入与共享能力/工具统一管理与使用指南.md",
+    "../../工具接入与共享能力/工具状态与验收报告.md"
+  ]
+}

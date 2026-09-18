@@ -1,0 +1,417 @@
+{
+  "case_id": "device.edit",
+  "revision": 1,
+  "original_intent": "Fixture UI scenario: edit",
+  "oracle_status": "confirmed",
+  "required_steps": [
+    {
+      "id": "S01",
+      "business_id": "S01",
+      "action": "open_entry",
+      "target": null,
+      "param": null,
+      "key": null,
+      "scroll_y": null,
+      "checkpoint": null,
+      "timeout_ms": 2500
+    },
+    {
+      "id": "S02",
+      "business_id": "S02",
+      "action": "click",
+      "target": "nav",
+      "param": null,
+      "key": null,
+      "scroll_y": null,
+      "checkpoint": "CP_LIST",
+      "timeout_ms": 2500
+    },
+    {
+      "id": "S03",
+      "business_id": "S03",
+      "action": "click",
+      "target": "edit",
+      "param": null,
+      "key": null,
+      "scroll_y": null,
+      "checkpoint": "CP_DIALOG",
+      "timeout_ms": 2500
+    },
+    {
+      "id": "S04",
+      "business_id": "S04",
+      "action": "click",
+      "target": "name",
+      "param": null,
+      "key": null,
+      "scroll_y": null,
+      "checkpoint": null,
+      "timeout_ms": 2500
+    },
+    {
+      "id": "S05",
+      "business_id": "S05",
+      "action": "fill_text",
+      "target": "name",
+      "param": "device_name",
+      "key": null,
+      "scroll_y": null,
+      "checkpoint": null,
+      "timeout_ms": 2500
+    },
+    {
+      "id": "S06",
+      "business_id": "S06",
+      "action": "click",
+      "target": "type",
+      "param": null,
+      "key": null,
+      "scroll_y": null,
+      "checkpoint": null,
+      "timeout_ms": 2500
+    },
+    {
+      "id": "S07",
+      "business_id": "S07",
+      "action": "click",
+      "target": "option",
+      "param": null,
+      "key": null,
+      "scroll_y": null,
+      "checkpoint": "CP_FORM",
+      "timeout_ms": 2500
+    },
+    {
+      "id": "S08",
+      "business_id": "S08",
+      "action": "click",
+      "target": "save",
+      "param": null,
+      "key": null,
+      "scroll_y": null,
+      "checkpoint": "CP_SAVED",
+      "timeout_ms": 2500
+    },
+    {
+      "id": "S09",
+      "business_id": "S09",
+      "action": "reload",
+      "target": null,
+      "param": null,
+      "key": null,
+      "scroll_y": null,
+      "checkpoint": "CP_PERSISTED",
+      "timeout_ms": 2500
+    }
+  ],
+  "required_targets": {
+    "nav": {
+      "by": "role",
+      "role": "link",
+      "name": "Devices",
+      "name_param": null,
+      "scope": null,
+      "exact": true
+    },
+    "heading": {
+      "by": "role",
+      "role": "heading",
+      "name": "Device management",
+      "name_param": null,
+      "scope": null,
+      "exact": true
+    },
+    "add": {
+      "by": "role",
+      "role": "button",
+      "name": "Add device",
+      "name_param": null,
+      "scope": null,
+      "exact": true
+    },
+    "dialog": {
+      "by": "role",
+      "role": "dialog",
+      "name": "Edit device",
+      "name_param": null,
+      "scope": null,
+      "exact": true
+    },
+    "name": {
+      "by": "label",
+      "role": null,
+      "name": "Device name",
+      "name_param": null,
+      "scope": "dialog",
+      "exact": true
+    },
+    "type": {
+      "by": "role",
+      "role": "combobox",
+      "name": "Device type",
+      "name_param": null,
+      "scope": "dialog",
+      "exact": true
+    },
+    "option": {
+      "by": "role",
+      "role": "option",
+      "name": null,
+      "name_param": "device_type",
+      "scope": null,
+      "exact": true
+    },
+    "save": {
+      "by": "role",
+      "role": "button",
+      "name": "Save",
+      "name_param": null,
+      "scope": "dialog",
+      "exact": true
+    },
+    "cancel": {
+      "by": "role",
+      "role": "button",
+      "name": "Cancel",
+      "name_param": null,
+      "scope": "dialog",
+      "exact": true
+    },
+    "status": {
+      "by": "role",
+      "role": "status",
+      "name": "Device saved",
+      "name_param": null,
+      "scope": null,
+      "exact": true
+    },
+    "row": {
+      "by": "row_with_cell",
+      "role": null,
+      "name": null,
+      "name_param": "device_name",
+      "scope": null,
+      "exact": true
+    },
+    "type_cell": {
+      "by": "role",
+      "role": "cell",
+      "name": null,
+      "name_param": "device_type",
+      "scope": "row",
+      "exact": true
+    },
+    "alert": {
+      "by": "role",
+      "role": "alert",
+      "name": "",
+      "name_param": null,
+      "scope": "dialog",
+      "exact": true
+    },
+    "search": {
+      "by": "role",
+      "role": "textbox",
+      "name": "Search devices",
+      "name_param": null,
+      "scope": null,
+      "exact": true
+    },
+    "search_button": {
+      "by": "role",
+      "role": "button",
+      "name": "Search",
+      "name_param": null,
+      "scope": null,
+      "exact": true
+    },
+    "next": {
+      "by": "role",
+      "role": "button",
+      "name": "Next",
+      "name_param": null,
+      "scope": null,
+      "exact": true
+    },
+    "prev": {
+      "by": "role",
+      "role": "button",
+      "name": "Previous",
+      "name_param": null,
+      "scope": null,
+      "exact": true
+    },
+    "edit": {
+      "by": "role",
+      "role": "button",
+      "name": "Edit",
+      "name_param": null,
+      "scope": "original",
+      "exact": true
+    },
+    "original": {
+      "by": "row_with_cell",
+      "role": null,
+      "name": "Original",
+      "name_param": null,
+      "scope": null,
+      "exact": true
+    },
+    "delete": {
+      "by": "role",
+      "role": "button",
+      "name": "Delete",
+      "name_param": null,
+      "scope": "row",
+      "exact": true
+    },
+    "delete_dialog": {
+      "by": "role",
+      "role": "dialog",
+      "name": "Delete device",
+      "name_param": null,
+      "scope": null,
+      "exact": true
+    },
+    "confirm": {
+      "by": "role",
+      "role": "button",
+      "name": "Confirm delete",
+      "name_param": null,
+      "scope": "delete_dialog",
+      "exact": true
+    },
+    "deleted": {
+      "by": "role",
+      "role": "status",
+      "name": "Device deleted",
+      "name_param": null,
+      "scope": null,
+      "exact": true
+    },
+    "empty": {
+      "by": "text",
+      "role": null,
+      "name": "No devices found",
+      "name_param": null,
+      "scope": null,
+      "exact": true
+    },
+    "table_rows": {
+      "by": "role",
+      "role": "row",
+      "name": "",
+      "name_param": null,
+      "scope": null,
+      "exact": true
+    },
+    "first": {
+      "by": "row_with_cell",
+      "role": null,
+      "name": "Page-1",
+      "name_param": null,
+      "scope": null,
+      "exact": true
+    }
+  },
+  "required_checkpoints": {
+    "CP_LIST": {
+      "assertions": [
+        {
+          "target": "heading",
+          "kind": "visible",
+          "value": null,
+          "param": null
+        },
+        {
+          "target": "row",
+          "kind": "count_equals",
+          "value": 0,
+          "param": null
+        }
+      ],
+      "visual": []
+    },
+    "CP_DIALOG": {
+      "assertions": [
+        {
+          "target": "dialog",
+          "kind": "visible",
+          "value": null,
+          "param": null
+        }
+      ],
+      "visual": [
+        "The device form is visible, with readable Device name and Device type labels."
+      ]
+    },
+    "CP_FORM": {
+      "assertions": [
+        {
+          "target": "name",
+          "kind": "value_equals",
+          "value": null,
+          "param": "device_name"
+        },
+        {
+          "target": "type",
+          "kind": "text_equals",
+          "value": null,
+          "param": "device_type"
+        }
+      ],
+      "visual": [
+        "The device name input and selected equipment type are readable; the Save control is visible."
+      ]
+    },
+    "CP_SAVED": {
+      "assertions": [
+        {
+          "target": "status",
+          "kind": "visible",
+          "value": null,
+          "param": null
+        },
+        {
+          "target": "dialog",
+          "kind": "hidden",
+          "value": null,
+          "param": null
+        }
+      ],
+      "visual": [
+        "Device saved is visibly displayed in the success message."
+      ]
+    },
+    "CP_PERSISTED": {
+      "assertions": [
+        {
+          "target": "row",
+          "kind": "count_equals",
+          "value": 1,
+          "param": null
+        },
+        {
+          "target": "row",
+          "kind": "visible",
+          "value": null,
+          "param": null
+        },
+        {
+          "target": "type_cell",
+          "kind": "visible",
+          "value": null,
+          "param": null
+        }
+      ],
+      "visual": [
+        "The device list is legible and the created or edited device row is visibly displayed with its equipment type."
+      ]
+    }
+  },
+  "excluded": [
+    "Real product integration",
+    "Native dialogs and IME",
+    "Other browsers"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "addon": "BEH交互与测试补充规范",
+  "version": "1.1",
+  "date": "2026-08-19",
+  "policy": "additive_only_no_existing_docs_modified",
+  "human_in_loop": false,
+  "documents": [
+    {
+      "path": "20_Testing/29_确定性AcceptanceGolden与TestOracle规范_v1.1.md",
+      "sha256": "33d03103015419396804bfc768bd8f7bff7adefe4cb779f012d4e7f34a835eb9",
+      "size": 3782
+    },
+    {
+      "path": "20_Testing/30_Playwright连续交互_状态机与Viewport测试规范_v1.0.md",
+      "sha256": "9944f6859040ace12d57089696542c5157fc4a74eb961681ed2630edd0589f81",
+      "size": 3739
+    },
+    {
+      "path": "20_Testing/31_NativeScene视觉保真与Arrow_Port_Relation验收规范_v1.1.md",
+      "sha256": "a7910e8f42d39c5618708c1d2f03451606be4b401e60fd1ae0af9252f1319f85",
+      "size": 3253
+    },
+    {
+      "path": "20_Testing/32_当前交互缺陷_自动化Golden回归案例_v1.1.md",
+      "sha256": "85a553ec759ecd9efb6e4695684aba085e8a5604b291831de4a2ec343a172106",
+      "size": 3238
+    },
+    {
+      "path": "40_UI/28_Web画布交互行为契约_v1.0.md",
+      "sha256": "956b5f2e79d19940684579ce83a485a09c77c78ed9c65cabcb326ea7d68682fb",
+      "size": 6860
+    },
+    {
+      "path": "ADDON_README.md",
+      "sha256": "a6b5361016c987998e292873a72ef9a76438ecbdab88d2420d794c6c9bdabcd5",
+      "size": 1819
+    }
+  ]
+}

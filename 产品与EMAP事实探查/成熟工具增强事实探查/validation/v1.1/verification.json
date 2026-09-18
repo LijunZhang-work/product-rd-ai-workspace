@@ -1,0 +1,226 @@
+{
+  "package_version": "v1.1",
+  "date": "2026-09-18",
+  "scope": "Task-package maintenance; no real product or EMAP analysis performed",
+  "checks": {
+    "python_syntax": {
+      "passed": true,
+      "files": [
+        "scripts/check_workflow.py",
+        "scripts/probe.py",
+        "scripts/run_codeql.py",
+        "tests/test_codeql_adapter.py",
+        "tests/test_probe.py",
+        "tests/test_workflow.py"
+      ]
+    },
+    "configuration_json": {
+      "passed": true,
+      "files": [
+        "config/execution.example.json",
+        "config/project.example.json",
+        "config/workflow.json",
+        "templates/ledger.example.json"
+      ]
+    },
+    "shell_example_syntax": {
+      "passed": true,
+      "blocks": [
+        {
+          "document": "00_总入口与执行约定.md",
+          "block": 1,
+          "exit_code": 0,
+          "error": ""
+        },
+        {
+          "document": "00_总入口与执行约定.md",
+          "block": 2,
+          "exit_code": 0,
+          "error": ""
+        },
+        {
+          "document": "00_总入口与执行约定.md",
+          "block": 3,
+          "exit_code": 0,
+          "error": ""
+        },
+        {
+          "document": "05_成熟工具执行手册.md",
+          "block": 1,
+          "exit_code": 0,
+          "error": ""
+        },
+        {
+          "document": "05_成熟工具执行手册.md",
+          "block": 2,
+          "exit_code": 0,
+          "error": ""
+        },
+        {
+          "document": "05_成熟工具执行手册.md",
+          "block": 3,
+          "exit_code": 0,
+          "error": ""
+        },
+        {
+          "document": "05_成熟工具执行手册.md",
+          "block": 4,
+          "exit_code": 0,
+          "error": ""
+        },
+        {
+          "document": "05_成熟工具执行手册.md",
+          "block": 5,
+          "exit_code": 0,
+          "error": ""
+        },
+        {
+          "document": "05_成熟工具执行手册.md",
+          "block": 6,
+          "exit_code": 0,
+          "error": ""
+        },
+        {
+          "document": "05_成熟工具执行手册.md",
+          "block": 7,
+          "exit_code": 0,
+          "error": ""
+        },
+        {
+          "document": "05_成熟工具执行手册.md",
+          "block": 8,
+          "exit_code": 0,
+          "error": ""
+        },
+        {
+          "document": "05_成熟工具执行手册.md",
+          "block": 9,
+          "exit_code": 0,
+          "error": ""
+        },
+        {
+          "document": "05_成熟工具执行手册.md",
+          "block": 10,
+          "exit_code": 0,
+          "error": ""
+        },
+        {
+          "document": "05_成熟工具执行手册.md",
+          "block": 11,
+          "exit_code": 0,
+          "error": ""
+        },
+        {
+          "document": "05_成熟工具执行手册.md",
+          "block": 12,
+          "exit_code": 0,
+          "error": ""
+        },
+        {
+          "document": "05_成熟工具执行手册.md",
+          "block": 13,
+          "exit_code": 0,
+          "error": ""
+        },
+        {
+          "document": "05_成熟工具执行手册.md",
+          "block": 14,
+          "exit_code": 0,
+          "error": ""
+        },
+        {
+          "document": "05_成熟工具执行手册.md",
+          "block": 15,
+          "exit_code": 0,
+          "error": ""
+        },
+        {
+          "document": "08_工具盘点下载安装与存放指南.md",
+          "block": 1,
+          "exit_code": 0,
+          "error": ""
+        },
+        {
+          "document": "08_工具盘点下载安装与存放指南.md",
+          "block": 2,
+          "exit_code": 0,
+          "error": ""
+        },
+        {
+          "document": "08_工具盘点下载安装与存放指南.md",
+          "block": 3,
+          "exit_code": 0,
+          "error": ""
+        },
+        {
+          "document": "08_工具盘点下载安装与存放指南.md",
+          "block": 4,
+          "exit_code": 0,
+          "error": ""
+        }
+      ],
+      "commands_executed": false
+    },
+    "unit_tests": {
+      "passed": true,
+      "command": [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "working_directory": "/workspace/scratch/16a8853d682c/fact_tools_refresh/package",
+      "exit_code": 0,
+      "tests": 44,
+      "legacy_tests": 32,
+      "new_workflow_tests": 12,
+      "stdout": "unittest-stdout.txt",
+      "stderr": "unittest-stderr.txt"
+    },
+    "original_analyzers_and_queries_unchanged": {
+      "passed": true,
+      "files": [
+        "scripts/probe.py",
+        "scripts/run_codeql.py",
+        "tests/test_probe.py",
+        "tests/test_codeql_adapter.py",
+        "queries/clang/definitions.matcher",
+        "queries/clang/named_calls.matcher",
+        "queries/codeql/Q00_Definitions.ql",
+        "queries/codeql/Q01_ExtractionErrors.ql",
+        "queries/codeql/Q10_NamedCallBindings.ql",
+        "queries/codeql/Q11_FunctionReferences.ql",
+        "queries/codeql/Q12_OtherCalls.ql",
+        "queries/codeql/Q20_DirectVariableWrites.ql",
+        "queries/codeql/Q30_Conditions.ql",
+        "queries/codeql/Scope.qll",
+        "queries/codeql/qlpack.yml"
+      ]
+    }
+  },
+  "limitations": [
+    "No real product repositories, SDK, WSL host or product containers tested",
+    "CodeQL, Clang and Bear engines not exercised by this maintenance verification",
+    "CodeQL adapter tests use a labelled fixture CLI",
+    "Workflow evidence fixtures check declarations, not content truth"
+  ],
+  "runtime": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "platform": "linux"
+  },
+  "input_sha256": {
+    "scripts/check_workflow.py": "2f377c2006ecdaff82134ee2f0eb3bef18b1b87320fd6c97afb016f366a8d42a",
+    "scripts/probe.py": "fd0070770279d399c566097348d33d3c2e32d053b5dfb517d255c9cbb74d616b",
+    "scripts/run_codeql.py": "972270d9dccd4b9be581029288c516923fddf69eba063b031bb756d44c44e3ae",
+    "tests/test_codeql_adapter.py": "bbacfba6d3d595905bdf85974aa4b461905e34669bf6966e86137d2e80a1cee4",
+    "tests/test_probe.py": "6b0925b53c644362dc831d2332949dece0df767c98768ddb7df35a47c0b61517",
+    "tests/test_workflow.py": "2e8e7ccfff5b6bbf169ee01be1194ea4e076d5d0c17d364ec58f7bbe40691933",
+    "config/execution.example.json": "1cdbf1c0f56b3113a3cb4ad30a5605b6638e95e7c3d2733744ee99b9e5d113c2",
+    "config/project.example.json": "e3080512b8b43f52b0e15e26c3591332a8947194d69d9fee544f77be769603af",
+    "config/workflow.json": "03b91145c5cb6b3accf333673757c824d0bfb53b0b85c4c384d8906ee45cfbe7",
+    "templates/ledger.example.json": "a14b23176e11faa2a68e982d5c1aede613bb7df1c7596667f63ff4962e01226f"
+  }
+}

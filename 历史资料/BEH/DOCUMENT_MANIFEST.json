@@ -1,0 +1,163 @@
+{
+  "project": "BEH 图源与代码分析工作台",
+  "version": "1.0",
+  "date": "2026-08-19",
+  "document_count": 31,
+  "documents": [
+    {
+      "path": "00_Current/01_项目章程_目标范围与非目标_v1.0.md",
+      "sha256": "1aebd59aed4773dc70b5555d0b7349fb324164a8fec1b9ebf6a02134ae8710cf",
+      "size": 3076
+    },
+    {
+      "path": "00_Current/02_术语_事实源与信任边界_v1.0.md",
+      "sha256": "e82a9517bd4f2f4d1b748a4cf00dfe1c93f2a4772534fa5066fca8c4215bbca1",
+      "size": 6154
+    },
+    {
+      "path": "00_Current/02A_按事实域划分的证据可信度矩阵_v1.0.md",
+      "sha256": "a9a17dee7b6ad6a27d119796e0970614b99bf26cd21bea5bfaadf0371559378f",
+      "size": 12288
+    },
+    {
+      "path": "00_Current/03_总体软件架构与关键决策_v1.0.md",
+      "sha256": "bed8b150c924ca5b3fd1cc231d86fd3d3c2e73f00ba48a9f48423e97467bf6f6",
+      "size": 4344
+    },
+    {
+      "path": "00_Current/04_代码仓与目录架构_v1.0.md",
+      "sha256": "713eda50a5702ffd9ba816e0174e30b9204c45cb2c731673f2d1870430caffce",
+      "size": 2891
+    },
+    {
+      "path": "00_Current/05_开发总路线图_先解释后开发_v1.0.md",
+      "sha256": "53785e4a9985d0e1eacffb7a25beef9a7f6d0556c9e0f757079fc1c086df29c2",
+      "size": 2684
+    },
+    {
+      "path": "00_Current/06_阶段0_原生Headless场景底座固化_v1.0.md",
+      "sha256": "f2c9ca4cd1bcbc48d3839908a4dc2814a9d0dfd5e8681cd94cb3cde1a75d0f80",
+      "size": 1943
+    },
+    {
+      "path": "00_Current/07_阶段1_Web查看圈选与任务导出MVP_v1.0.md",
+      "sha256": "0c31e56a1fcf05dd6dd30a4b80003600b9f1d4dc88099dd3bc45a8ac9b87a40d",
+      "size": 2281
+    },
+    {
+      "path": "00_Current/08_阶段2_AI解释MVP_外置Skill_v1.0.md",
+      "sha256": "3af1719ec1680fefce9c710fa7ede6d1a2819803873798506babec7c063b96b8",
+      "size": 2033
+    },
+    {
+      "path": "00_Current/09_阶段3_代码仓关联与解释准确性增强_v1.0.md",
+      "sha256": "74777a9bb86fffb673bd699db2360486db0d93a0d7e1cc330395c358ffdd5541",
+      "size": 1776
+    },
+    {
+      "path": "00_Current/10_阶段4_AI开发图元与C_CPP代码候选MVP_v1.0.md",
+      "sha256": "58269e3255be981d3246c037c34c99d60c92e2d755b75c6e5128a2ba92afbafc",
+      "size": 1620
+    },
+    {
+      "path": "00_Current/11_阶段5_原生应用_RoundTrip与安全提交_v1.0.md",
+      "sha256": "388909da626999439c4cd05fca24b40387e7b123bbcb0b0d8945a0a6e265a29d",
+      "size": 1272
+    },
+    {
+      "path": "00_Current/12_阶段6_Workbench与DeepSeekHarness一体化_v1.0.md",
+      "sha256": "f1a3ea7b18be6438014519dccbf4c73ae8c46c3984bef0d86e62896a00987cba",
+      "size": 1401
+    },
+    {
+      "path": "00_START_HERE_项目入口与文档顺序_v1.0_2026-08-19.md",
+      "sha256": "7dba8307bedfe8d3dc82475b0c0611fcd51eb7ece21ef63d15644ea25548a031",
+      "size": 5110
+    },
+    {
+      "path": "10_Contracts/13_NativeSceneBundle与HitMap数据契约_v1.0.md",
+      "sha256": "d347d712c59247686808e22063ae74a45e9bd1a4fd74b6893ba0544382cd07d7",
+      "size": 3793
+    },
+    {
+      "path": "10_Contracts/14_Selection_Annotation_Intent数据契约_v1.0.md",
+      "sha256": "4f3229c5786afbf047bc88e20a089f9d5db356319fbe41968ef3dce108fcf1b9",
+      "size": 2284
+    },
+    {
+      "path": "10_Contracts/15_AnalysisTaskBundle与ResultBundle数据契约_v1.0.md",
+      "sha256": "1cdd4a0a0d9f01f2114a4678ec1160471173d3da2412790743c3451053bfb476",
+      "size": 2629
+    },
+    {
+      "path": "10_Contracts/16_ProposalGraphOperations与CodePatch数据契约_v1.0.md",
+      "sha256": "faf777ac005981285218785a4e6883fab74cfb6c09441c5d197c542d0aea0205",
+      "size": 1760
+    },
+    {
+      "path": "20_Testing/17_测试总策略与阶段质量门禁_v1.0.md",
+      "sha256": "70c840b9b448c742095fe9c57b0d16c09a12849a3c63ee71abb4f1024b0a9c35",
+      "size": 3283
+    },
+    {
+      "path": "20_Testing/18_Playwright端到端测试设计_v1.0.md",
+      "sha256": "a369766aea6cdbb77e3c9955843b3b8226b649e978a389bb94a7ff34aeb1817f",
+      "size": 2929
+    },
+    {
+      "path": "20_Testing/19_Golden样本_回归数据集与原生BEH对照_v1.0.md",
+      "sha256": "68a6ac151a08f77791f30563c9ca58301639e3688ecaa55f7d3dfd34f1443ea0",
+      "size": 2095
+    },
+    {
+      "path": "20_Testing/20_大项目性能_稳定性与安全测试_v1.0.md",
+      "sha256": "6726a04bd9712ac71066c29b3e6b1d5ff769a103c67187f513f757dca8a5e855",
+      "size": 2331
+    },
+    {
+      "path": "30_Model_and_Skill/21_DeepSeekV4Flash_GLM5_2_Harness工程规范_v1.0.md",
+      "sha256": "576719343e20f1b3d24563104f3f3aabf41faec86fa288373e39e720d643f282",
+      "size": 3120
+    },
+    {
+      "path": "30_Model_and_Skill/22_beh_diagram_analysis_Skill设计_v1.0.md",
+      "sha256": "2c6118b095cfcc1eb0d272e05ab5b8905ece7ccea6e3bd8477b06ad32d2d7308",
+      "size": 2567
+    },
+    {
+      "path": "30_Model_and_Skill/23_beh_compose_graph_and_code_Skill设计_v1.0.md",
+      "sha256": "78e2d238ae8c18311be88af4d8d534ca231532df959c227ca2607e113d176850",
+      "size": 1935
+    },
+    {
+      "path": "30_Model_and_Skill/24_证据优先_禁止硬凑与防补丁原则_v1.0.md",
+      "sha256": "05e30f2bb9796247c1a4e32e6e66eab433a8b90914547589b59af76789921301",
+      "size": 2137
+    },
+    {
+      "path": "30_Model_and_Skill/25_模型任务SOP与输出Schema执行规范_v1.0.md",
+      "sha256": "1a79dacf57952071ecb1c053e22c1cc84dc93a93ddd64d38c1f68e80486f04fc",
+      "size": 1285
+    },
+    {
+      "path": "40_UI/26_Web信息架构与画布优先交互设计_v1.0.md",
+      "sha256": "b6e356904f644e77959975eed4a8aa16313d8b2882fd441b6a8fc34e8961ec2d",
+      "size": 3152
+    },
+    {
+      "path": "90_Later_Polish/27_精雕细琢与高级能力路线_后置_v1.0.md",
+      "sha256": "3a91a46c4068e0ee149ff839c0c12b14bdcc107e319d8bbaac45be57bc29a1a5",
+      "size": 1607
+    },
+    {
+      "path": "PROJECT_INSTRUCTIONS_项目运行规则_v1.0_2026-08-19.md",
+      "sha256": "8e0eafd82f46d03c479cacb31018146ce3414aeee00b747f882c208a70aabede",
+      "size": 4834
+    },
+    {
+      "path": "README.md",
+      "sha256": "d05d883a83ac6c984579232759efbe7c27e167a04b5676016f5a81d5edcfa748",
+      "size": 679
+    }
+  ]
+}

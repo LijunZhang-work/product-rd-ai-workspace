@@ -1,0 +1,2 @@
+set output diag
+match callExpr(isExpansionInMainFile(), callee(functionDecl().bind("callee"))).bind("call")

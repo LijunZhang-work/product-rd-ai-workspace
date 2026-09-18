@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "helper_version": "1.0.0",
+  "kind": "command_record",
+  "target": "host-recorder-fixture",
+  "started_at": "2026-09-18T02:04:36.043336+00:00",
+  "cwd": "/workspace/scratch/16a8853d682c/产品与EMAP_成熟工具增强事实探查任务包_v1.0_2026-09-18",
+  "argv": [
+    "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "-c",
+    "import sys; sys.stdout.write('A'*12000+'END_STDOUT'); sys.stderr.write('B'*12000+'END_STDERR')"
+  ],
+  "shell": false,
+  "executable": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+  "inputs_before": {},
+  "timeout_seconds": 10,
+  "finished_at": "2026-09-18T02:04:36.059509+00:00",
+  "elapsed_seconds": 0.016,
+  "exit_code": 0,
+  "status": "succeeded",
+  "errors": [],
+  "inputs_after": {},
+  "stdout_sha256": "6fcb94944e140a7922075d89939b39c3e36edd81ad5d3c91bb79f97f2838d9aa",
+  "stderr_sha256": "d24ae6b3a795372743fddefcfd0d92a16832cea6f86fe8d0bec771cf91c6db60",
+  "meaning": "Command execution record; exit zero does not establish analysis completeness"
+}

@@ -1,0 +1,11 @@
+{
+  "device_name": {
+    "min_length": 1,
+    "max_length": 32
+  },
+  "device_type": {
+    "choices": [
+      "PCS"
+    ]
+  }
+}

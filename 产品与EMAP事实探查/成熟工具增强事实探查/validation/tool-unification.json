@@ -1,0 +1,57 @@
+{
+  "scope": "任务包脚本与文档维护验证；非用户环境验收",
+  "unit_tests": {
+    "kind": "task_package_selftest",
+    "recorded_at": "2026-09-18T23:34:31.998129+00:00",
+    "command": [
+      "python3",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "unified_workspace_rebuild/workspace/产品与EMAP事实探查/成熟工具增强事实探查/tests",
+      "-v"
+    ],
+    "cwd": "/workspace/scratch/16a8853d682c",
+    "exit_code": 0,
+    "meaning": "Only package/helper regression tests and fixtures; not tools installed or executed on user machine; no product/EMAP source analysis.",
+    "tool_readiness_checked": false,
+    "semantic_truth_checked": false,
+    "stdout_text": "",
+    "stderr_text": "test_empty_definition_inventory_is_rejected (test_codeql_adapter.CodeQLAdapterTests.test_empty_definition_inventory_is_rejected) ... ok\ntest_extraction_errors_are_not_ignored (test_codeql_adapter.CodeQLAdapterTests.test_extraction_errors_are_not_ignored) ... ok\ntest_fake_cli_records_do_not_claim_truth (test_codeql_adapter.CodeQLAdapterTests.test_fake_cli_records_do_not_claim_truth) ... ok\ntest_missing_executable_is_explicit (test_codeql_adapter.CodeQLAdapterTests.test_missing_executable_is_explicit) ... ok\ntest_missing_lock_is_rejected (test_codeql_adapter.CodeQLAdapterTests.test_missing_lock_is_rejected) ... ok\ntest_placeholder_scope_is_rejected (test_codeql_adapter.CodeQLAdapterTests.test_placeholder_scope_is_rejected) ... ok\ntest_command_with_spaces (test_probe.ProbeTests.test_command_with_spaces) ... ok\ntest_compdb_both_repositories (test_probe.ProbeTests.test_compdb_both_repositories) ... ok\ntest_compdb_does_not_execute_commands (test_probe.ProbeTests.test_compdb_does_not_execute_commands) ... ok\ntest_corrupt_evidence_detected (test_probe.ProbeTests.test_corrupt_evidence_detected) ... ok\ntest_definition_prefix_mapping_is_recorded (test_probe.ProbeTests.test_definition_prefix_mapping_is_recorded) ... ok\ntest_definition_presence_missing_backend (test_probe.ProbeTests.test_definition_presence_missing_backend) ... ok\ntest_empty_database_is_error (test_probe.ProbeTests.test_empty_database_is_error) ... ok\ntest_evidence_path_escape_detected (test_probe.ProbeTests.test_evidence_path_escape_detected) ... ok\ntest_missing_emap_key_is_error (test_probe.ProbeTests.test_missing_emap_key_is_error) ... ok\ntest_multi_variant_is_not_silently_deduplicated (test_probe.ProbeTests.test_multi_variant_is_not_silently_deduplicated) ... ok\ntest_overlapping_roots_are_error (test_probe.ProbeTests.test_overlapping_roots_are_error) ... ok\ntest_real_host_macros_and_linked_backend (test_probe.ProbeTests.test_real_host_macros_and_linked_backend) ... ok\ntest_record_changed_input_is_failure (test_probe.ProbeTests.test_record_changed_input_is_failure) ... ok\ntest_record_never_overwrites_run (test_probe.ProbeTests.test_record_never_overwrites_run) ... ok\ntest_record_nonzero_is_failure (test_probe.ProbeTests.test_record_nonzero_is_failure) ... ok\ntest_record_preserves_literal_arguments (test_probe.ProbeTests.test_record_preserves_literal_arguments) ... ok\ntest_record_timeout (test_probe.ProbeTests.test_record_timeout) ... ok\ntest_report_never_overwrites (test_probe.ProbeTests.test_report_never_overwrites) ... ok\ntest_response_file_missing (test_probe.ProbeTests.test_response_file_missing) ... ok\ntest_source_cannot_be_promoted_to_running (test_probe.ProbeTests.test_source_cannot_be_promoted_to_running) ... ok\ntest_symlink_escape_detected (test_probe.ProbeTests.test_symlink_escape_detected) ... ok\ntest_unknown_evidence_detected (test_probe.ProbeTests.test_unknown_evidence_detected) ... ok\ntest_unknown_is_retained_as_gap (test_probe.ProbeTests.test_unknown_is_retained_as_gap) ... ok\ntest_valid_ledger_is_mechanical_only (test_probe.ProbeTests.test_valid_ledger_is_mechanical_only) ... ok\ntest_wrong_baseline_detected (test_probe.ProbeTests.test_wrong_baseline_detected) ... ok\ntest_wrong_target_detected (test_probe.ProbeTests.test_wrong_target_detected) ... ok\ntest_complete_declarations_are_not_semantic_proof (test_workflow.WorkflowTests.test_complete_declarations_are_not_semantic_proof) ... ok\ntest_current_tool_report_reference_is_required (test_workflow.WorkflowTests.test_current_tool_report_reference_is_required) ... ok\ntest_duplicate_task_and_manifest_drift_are_detected (test_workflow.WorkflowTests.test_duplicate_task_and_manifest_drift_are_detected) ... ok\ntest_empty_shared_report_is_detected (test_workflow.WorkflowTests.test_empty_shared_report_is_detected) ... ok\ntest_existing_progress_file_is_not_overwritten (test_workflow.WorkflowTests.test_existing_progress_file_is_not_overwritten) ... ERROR: [Errno 17] File exists: '/tmp/tmp2212z34h/state.json'\nok\ntest_full_mode_cannot_silently_become_preparation (test_workflow.WorkflowTests.test_full_mode_cannot_silently_become_preparation) ... ok\ntest_installation_evidence_cannot_omit_task_run_reference (test_workflow.WorkflowTests.test_installation_evidence_cannot_omit_task_run_reference) ... ok\ntest_missing_and_empty_evidence_are_detected (test_workflow.WorkflowTests.test_missing_and_empty_evidence_are_detected) ... ok\ntest_missing_configuration_step_is_detected (test_workflow.WorkflowTests.test_missing_configuration_step_is_detected) ... ok\ntest_missing_shared_guide_is_detected (test_workflow.WorkflowTests.test_missing_shared_guide_is_detected) ... ok\ntest_optional_choice_requires_reason_and_evidence (test_workflow.WorkflowTests.test_optional_choice_requires_reason_and_evidence) ... ok\ntest_outside_evidence_symlink_is_rejected (test_workflow.WorkflowTests.test_outside_evidence_symlink_is_rejected) ... ok\ntest_package_missing_payload_and_unreachable_document (test_workflow.WorkflowTests.test_package_missing_payload_and_unreachable_document) ... ok\ntest_pending_partial_blocked_are_not_complete (test_workflow.WorkflowTests.test_pending_partial_blocked_are_not_complete) ... ok\ntest_required_step_cannot_be_marked_inapplicable (test_workflow.WorkflowTests.test_required_step_cannot_be_marked_inapplicable) ... ok\ntest_reuse_requires_applicability_reason (test_workflow.WorkflowTests.test_reuse_requires_applicability_reason) ... ok\ntest_shared_dependency_cannot_escape_allowlist (test_workflow.WorkflowTests.test_shared_dependency_cannot_escape_allowlist) ... ok\ntest_shared_dependency_symlink_cannot_escape_expected_location (test_workflow.WorkflowTests.test_shared_dependency_symlink_cannot_escape_expected_location) ... ok\ntest_shared_guide_and_unknown_report_only_prove_package_complete (test_workflow.WorkflowTests.test_shared_guide_and_unknown_report_only_prove_package_complete) ... ok\ntest_task_run_reference_must_exist (test_workflow.WorkflowTests.test_task_run_reference_must_exist) ... ok\ntest_v12_manifest_cannot_drop_shared_dependencies (test_workflow.WorkflowTests.test_v12_manifest_cannot_drop_shared_dependencies) ... ok\n\n----------------------------------------------------------------------\nRan 53 tests in 0.923s\n\nOK\n",
+    "tests_run": 53
+  },
+  "package_check": {
+    "kind": "package_navigation",
+    "ok": true,
+    "errors": [],
+    "documents": 9,
+    "reachable_documents": 9,
+    "shared_documents": 2,
+    "tool_readiness_checked": false,
+    "tool_execution_checked": false,
+    "semantic_truth_checked": false
+  },
+  "document_checks": {
+    "ok": true,
+    "changed_markdown_files": 26,
+    "guide_anchors_checked": 49,
+    "reference_style_uses_checked": 3,
+    "bash_blocks_syntax_checked": 25,
+    "shell_blocks_executed": false,
+    "errors": []
+  },
+  "tool_readiness_checked": false,
+  "tool_execution_checked": false,
+  "product_analysis_executed": false,
+  "semantic_truth_checked": false,
+  "review_resolutions": [
+    "05/08只作兼容入口，工具规则唯一维护",
+    "01/02/07去除冲突的旧当前指令",
+    "报告R000明确未实测，复用须核对实际适用范围",
+    "配置模板、baseline和ledger命令迁移完整",
+    "90GB范围不自动运行全仓递归baseline",
+    "旧v1.1任务状态保留证据逐项迁移",
+    "完整工作区交付保留共享依赖，旧专项包原字节归历史"
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "name": {
+      "title": "Name",
+      "type": "string"
+    },
+    "entry_url": {
+      "title": "Entry Url",
+      "type": "string"
+    },
+    "allowed_origins": {
+      "items": {
+        "type": "string"
+      },
+      "maxItems": 30,
+      "minItems": 1,
+      "title": "Allowed Origins",
+      "type": "array"
+    },
+    "app_build": {
+      "default": "unknown",
+      "title": "App Build",
+      "type": "string"
+    },
+    "role": {
+      "default": "test-user",
+      "title": "Role",
+      "type": "string"
+    },
+    "viewport_width": {
+      "default": 1280,
+      "maximum": 3840,
+      "minimum": 320,
+      "title": "Viewport Width",
+      "type": "integer"
+    },
+    "viewport_height": {
+      "default": 900,
+      "maximum": 2160,
+      "minimum": 400,
+      "title": "Viewport Height",
+      "type": "integer"
+    },
+    "locale": {
+      "default": "en-US",
+      "title": "Locale",
+      "type": "string"
+    },
+    "timezone": {
+      "default": "UTC",
+      "title": "Timezone",
+      "type": "string"
+    },
+    "headless": {
+      "default": true,
+      "title": "Headless",
+      "type": "boolean"
+    },
+    "run_timeout_ms": {
+      "default": 120000,
+      "maximum": 600000,
+      "minimum": 1000,
+      "title": "Run Timeout Ms",
+      "type": "integer"
+    }
+  },
+  "required": [
+    "name",
+    "entry_url",
+    "allowed_origins"
+  ],
+  "title": "Environment",
+  "type": "object"
+}

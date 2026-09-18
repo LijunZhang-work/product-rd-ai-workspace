@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1400" viewBox="0 0 1600 1400" role="img"><title>Windows、WSL、Ubuntu与Docker：一组构建关系</title><desc>示意，非本机现状。Ubuntu中原生Docker；源码和产物在容器外，bind挂载把同一数据映射到容器路径。</desc><defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 Z" fill="#54848f"/></marker></defs><rect width="1600" height="1400" fill="#fff"/>
+<text x="52" y="70" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="44" fill="#182d46" font-weight="700" text-anchor="start">代码、镜像、容器，分别在哪里？</text>
+<text x="54" y="117" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="24" fill="#5d6878" font-weight="400" text-anchor="start">原生 Docker 在 Ubuntu 中的示例 · 所有路径、盘符和名称均待本机核对</text>
+<rect x="38" y="158" width="1524" height="1130" rx="26" fill="#f1f6ff" stroke="#8ca9cd" stroke-width="2"/>
+<text x="68" y="203" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="32" fill="#182d46" font-weight="700" text-anchor="start">Windows 电脑</text>
+<text x="68" y="246" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="25" fill="#182d46" font-weight="400" text-anchor="start">公司版编辑器／Windows AI：能否访问并执行 Linux 命令，分别验证</text>
+<rect x="72" y="286" width="1456" height="890" rx="24" fill="#e8f0fd" stroke="#799eca" stroke-width="2"/>
+<text x="103" y="335" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="30" fill="#182d46" font-weight="700" text-anchor="start">WSL 2：让 Windows 运行 Linux 环境</text>
+<rect x="104" y="370" width="1392" height="770" rx="22" fill="#fff9ec" stroke="#d6b36d" stroke-width="2"/>
+<text x="135" y="416" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="30" fill="#182d46" font-weight="700" text-anchor="start">Ubuntu：你使用的 Linux 发行版</text>
+<text x="135" y="458" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="24" fill="#665434" font-weight="400" text-anchor="start">工作根示例：W = /home/dev/workspace</text>
+<rect x="134" y="488" width="565" height="130" rx="18" fill="#ffffff" stroke="#d6b36d" stroke-width="2"/>
+<text x="159" y="530" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="26" fill="#182d46" font-weight="700" text-anchor="start">构建配置 + 现有入口</text>
+<text x="159" y="568" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="22" fill="#182d46" font-weight="400" text-anchor="start">W/config/builds.yaml（设计示例）</text>
+<text x="159" y="600" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="22" fill="#182d46" font-weight="400" text-anchor="start">登记仓、目标、镜像、挂载和输出</text>
+<rect x="134" y="654" width="565" height="130" rx="18" fill="#eaf5ff" stroke="#74a6c5" stroke-width="2"/>
+<text x="159" y="698" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="26" fill="#182d46" font-weight="700" text-anchor="start">源码真实目录 · 容器外</text>
+<text x="159" y="743" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="25" fill="#182d46" font-weight="400" text-anchor="start">W/repos/repo1</text>
+<rect x="134" y="854" width="565" height="173" rx="18" fill="#eaf7f1" stroke="#7bae91" stroke-width="2"/>
+<text x="159" y="898" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="26" fill="#182d46" font-weight="700" text-anchor="start">产物真实目录 · 容器外</text>
+<text x="159" y="940" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="22" fill="#182d46" font-weight="400" text-anchor="start">W/artifacts/repo1/product-a/run-001/</text>
+<text x="159" y="978" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="22" fill="#182d46" font-weight="400" text-anchor="start">build/   logs/   packages/   metadata/</text>
+<rect x="818" y="488" width="646" height="540" rx="18" fill="#f0f3f7" stroke="#94a7bb" stroke-width="2"/>
+<text x="844" y="530" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="25" fill="#182d46" font-weight="700" text-anchor="start">Docker 引擎管理区（原生示例）</text>
+<rect x="844" y="552" width="594" height="80" rx="18" fill="#e7edff" stroke="#929ed2" stroke-width="2"/>
+<text x="868" y="600" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="25" fill="#182d46" font-weight="400" text-anchor="start">镜像 A：编译器 + SDK + 工具环境</text>
+<polyline points="1140,637 1140,684" fill="none" stroke="#54848f" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="1161" y="670" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="19" fill="#516877" font-weight="400" text-anchor="start">创建实例</text>
+<rect x="844" y="692" width="594" height="309" rx="18" fill="#fff" stroke="#7c95ad" stroke-width="2"/>
+<text x="870" y="736" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="25" fill="#182d46" font-weight="700" text-anchor="start">容器 1：这一次编译的运行实例</text>
+<text x="870" y="794" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="24" fill="#182d46" font-weight="400" text-anchor="start">/src  →  访问左边那份源码</text>
+<text x="870" y="838" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="24" fill="#182d46" font-weight="400" text-anchor="start">编译入口在这里执行</text>
+<text x="870" y="933" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="24" fill="#182d46" font-weight="400" text-anchor="start">/out  →  写入左边产物目录</text>
+<text x="870" y="978" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21" fill="#667281" font-weight="400" text-anchor="start">容器自身可写层 ≠ /out 挂载</text>
+<polyline points="703,748 755,748 755,792 840,792" fill="none" stroke="#54848f" stroke-width="3" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<text x="716" y="705" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="22" fill="#426f80" font-weight="400" text-anchor="start">bind</text>
+<polyline points="703,934 840,934" fill="none" stroke="#54848f" stroke-width="3" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<text x="716" y="904" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="22" fill="#426f80" font-weight="400" text-anchor="start">bind</text>
+<text x="135" y="1081" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="25" fill="#182d46" font-weight="700" text-anchor="start">两个路径名，一处数据；不是“先拷进容器，再拷出来”。</text>
+<text x="104" y="1222" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="25" fill="#182d46" font-weight="400" text-anchor="start">存储示例：Ubuntu 根文件系统装在 D:\WSL\Ubuntu\ext4.vhdx 中。</text>
+<text x="104" y="1263" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="23" fill="#182d46" font-weight="400" text-anchor="start">因此 W 内普通目录占这个文件的空间；外部挂载、链接与 Docker Desktop 要另查。</text>
+<text x="52" y="1340" font-family="Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="24" fill="#6b7480" font-weight="400" text-anchor="start">图是目标关系示意；不是你电脑的盘点结果，也不表示迁移或编译已经完成。</text>
+</svg>

@@ -1,0 +1,59 @@
+{
+  "python": "3.12.14",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "tools": {
+    "gcc": {
+      "path": "/usr/bin/gcc",
+      "available": true,
+      "version_first_line": "gcc (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0",
+      "exit_code": 0
+    },
+    "g++": {
+      "path": "/usr/bin/g++",
+      "available": true,
+      "version_first_line": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0",
+      "exit_code": 0
+    },
+    "readelf": {
+      "path": "/usr/bin/readelf",
+      "available": true,
+      "version_first_line": "GNU readelf (GNU Binutils for Ubuntu) 2.42",
+      "exit_code": 0
+    },
+    "nm": {
+      "path": "/usr/bin/nm",
+      "available": true,
+      "version_first_line": "GNU nm (GNU Binutils for Ubuntu) 2.42",
+      "exit_code": 0
+    },
+    "objdump": {
+      "path": "/usr/bin/objdump",
+      "available": true,
+      "version_first_line": "GNU objdump (GNU Binutils for Ubuntu) 2.42",
+      "exit_code": 0
+    },
+    "clangd": {
+      "path": null,
+      "available": false
+    },
+    "clang-query": {
+      "path": null,
+      "available": false
+    },
+    "codeql": {
+      "path": null,
+      "available": false
+    },
+    "bear": {
+      "path": null,
+      "available": false
+    },
+    "cmake": {
+      "path": null,
+      "available": false
+    }
+  },
+  "source_repositories_available": false,
+  "codeql_queries_executed": false,
+  "clang_queries_executed": false
+}

@@ -1,0 +1,278 @@
+{
+  "package": "产品与EMAP_成熟工具增强事实探查任务包",
+  "version": "1.2",
+  "packaging_revision": 2,
+  "date": "2026-09-19",
+  "entry": "00_总入口与执行约定.md",
+  "note": "工作流仍为v1.2；补齐会话共识并更新共享工具指南/报告发布快照；仅完整工作区交付。",
+  "files": [
+    {
+      "path": "00_总入口与执行约定.md",
+      "size": 16615,
+      "sha256": "2a7be343aaab8ad87230a6f43dc002fae8a158f461cdab8e2500f8aaf36a67f4"
+    },
+    {
+      "path": "01_产品仓事实探查任务书.md",
+      "size": 8501,
+      "sha256": "5fae5302cac789247fe553f49028f3bd7fafbe1dcbb14e23a3821f07829e55b3"
+    },
+    {
+      "path": "02_EMAP仓事实探查任务书.md",
+      "size": 6774,
+      "sha256": "9041a030eec2141dd9a4a01cfdfe28b5f21b70e71587b134ec3755d156a44582"
+    },
+    {
+      "path": "03_双仓关联核对与事实验收.md",
+      "size": 8967,
+      "sha256": "26696a401276b2dfe063d2020fa45e03ba4a68c95870081ae448fa0ca68783ff"
+    },
+    {
+      "path": "04_证据与结果记录模板.md",
+      "size": 12519,
+      "sha256": "dd55dc58d8549445c184d9c3fbed74bf62757992959c09effc1cbf7c4610485e"
+    },
+    {
+      "path": "05_成熟工具执行手册.md",
+      "size": 1222,
+      "sha256": "23c6d2f0d31f048ef49959fdcd9c2a66c57108f5be68ab6d6dd883bf1de92a3c"
+    },
+    {
+      "path": "06_本地AI执行与续接.md",
+      "size": 9116,
+      "sha256": "393babb6dfcb208c6b854ed85e531a301c1dcea1d53d220bd0b3207b1b063268"
+    },
+    {
+      "path": "07_验证记录与适用边界.md",
+      "size": 9892,
+      "sha256": "4b28be4a79f8e062436b8d1c790b408d70c9571827cdcc9575bf9b48810cedc0"
+    },
+    {
+      "path": "08_工具盘点下载安装与存放指南.md",
+      "size": 1238,
+      "sha256": "ed2d344d9178e00c4712f1dff5a289845bbfe746c41af8611847d383db3d4755"
+    },
+    {
+      "path": "config/execution.example.json",
+      "size": 1570,
+      "sha256": "1cdbf1c0f56b3113a3cb4ad30a5605b6638e95e7c3d2733744ee99b9e5d113c2"
+    },
+    {
+      "path": "config/project.example.json",
+      "size": 1650,
+      "sha256": "e3080512b8b43f52b0e15e26c3591332a8947194d69d9fee544f77be769603af"
+    },
+    {
+      "path": "config/workflow.json",
+      "size": 5176,
+      "sha256": "92e35c0c5cbca6dbb96677663d0bf581d6da219de96fdf368530d54d3dbeb0af"
+    },
+    {
+      "path": "queries/clang/definitions.matcher",
+      "size": 95,
+      "sha256": "fb7377cc62b824544f275e291e1fe905f9383c2d3280f2e8bf6c1fcea75aafa5"
+    },
+    {
+      "path": "queries/clang/named_calls.matcher",
+      "size": 108,
+      "sha256": "f03431f9851d93521a166030a57087f531b43ec560e2a4f0db0b73ca30a7caa1"
+    },
+    {
+      "path": "queries/codeql/Q00_Definitions.ql",
+      "size": 353,
+      "sha256": "b20a79d308541addc8e73307298f6233676ffbf216aaf7f8a5a0116218d32c7e"
+    },
+    {
+      "path": "queries/codeql/Q01_ExtractionErrors.ql",
+      "size": 294,
+      "sha256": "c815b9301076158fa594a7f376c6cca46559d7977d8f9e485f08416ad4c4259c"
+    },
+    {
+      "path": "queries/codeql/Q10_NamedCallBindings.ql",
+      "size": 614,
+      "sha256": "ca3fea132bdb43b4a8671bf987984cd5fb7aec44a64c718c4938d60ec9091b18"
+    },
+    {
+      "path": "queries/codeql/Q11_FunctionReferences.ql",
+      "size": 481,
+      "sha256": "5f19faba403fcb470452215b64af948ac6c899048808c00a60ff353b31dad517"
+    },
+    {
+      "path": "queries/codeql/Q12_OtherCalls.ql",
+      "size": 334,
+      "sha256": "520a616f3c4623d7448e54a109cda75ccf382dcaf5b6aa0cb079e6095142207e"
+    },
+    {
+      "path": "queries/codeql/Q20_DirectVariableWrites.ql",
+      "size": 472,
+      "sha256": "c8c6121bee7c7546da6ffc609547c19844ee18245239872aa26253d036186a0b"
+    },
+    {
+      "path": "queries/codeql/Q30_Conditions.ql",
+      "size": 288,
+      "sha256": "340b353ce7663ff86bdfa9e94d6c73a50d5015495bf23667b363c8c7c07a38c6"
+    },
+    {
+      "path": "queries/codeql/Scope.qll",
+      "size": 319,
+      "sha256": "4c3816bb7ae50801fb22749d5a5cf248aa3809c65fd8fdcf3fdf91e7b34cb0d7"
+    },
+    {
+      "path": "queries/codeql/qlpack.yml",
+      "size": 87,
+      "sha256": "ce699280602173ab0dbe8e7d3da2b90dfca6dd9c4811015d87262c6f3cae9561"
+    },
+    {
+      "path": "scripts/check_workflow.py",
+      "size": 11208,
+      "sha256": "a3207eb46a4650ed9b9242d0f8dce71c3a4891a4b1030ba609eb63709cf8ce1a"
+    },
+    {
+      "path": "scripts/probe.py",
+      "size": 22331,
+      "sha256": "fd0070770279d399c566097348d33d3c2e32d053b5dfb517d255c9cbb74d616b"
+    },
+    {
+      "path": "scripts/run_codeql.py",
+      "size": 4839,
+      "sha256": "972270d9dccd4b9be581029288c516923fddf69eba063b031bb756d44c44e3ae"
+    },
+    {
+      "path": "templates/acceptance.csv",
+      "size": 74,
+      "sha256": "d895b44928920aeb1c960939502e6effe951ba4ee0b997a56536e7e2d3b66f77"
+    },
+    {
+      "path": "templates/gaps.csv",
+      "size": 128,
+      "sha256": "a6c3f3dfb188754f1e8d758fb6386d13415a97f8ef1f5d14bffb32670452a8af"
+    },
+    {
+      "path": "templates/ledger.example.json",
+      "size": 96,
+      "sha256": "a14b23176e11faa2a68e982d5c1aede613bb7df1c7596667f63ff4962e01226f"
+    },
+    {
+      "path": "templates/mechanisms.csv",
+      "size": 174,
+      "sha256": "82deb1ee2f49569e5202996ac45ebd5f2a0a9a105c2ebeced8526f02456aa0a1"
+    },
+    {
+      "path": "templates/relations.csv",
+      "size": 154,
+      "sha256": "598a8ed6c82fe2d4aa3d669ab1aa139c8ee09867d5165c6740e2260e337f00a6"
+    },
+    {
+      "path": "templates/targets.csv",
+      "size": 136,
+      "sha256": "13c66b3e2250c8524c5901315388ddd01e915219d9405a0959b03860eb1fe472"
+    },
+    {
+      "path": "templates/tool-inventory.csv",
+      "size": 239,
+      "sha256": "5b11f6c26206e13db0ce5188f8e0745797a4e3fa21c615a3f72e044aa7ffee14"
+    },
+    {
+      "path": "tests/test_codeql_adapter.py",
+      "size": 3998,
+      "sha256": "bbacfba6d3d595905bdf85974aa4b461905e34669bf6966e86137d2e80a1cee4"
+    },
+    {
+      "path": "tests/test_probe.py",
+      "size": 11223,
+      "sha256": "6b0925b53c644362dc831d2332949dece0df767c98768ddb7df35a47c0b61517"
+    },
+    {
+      "path": "tests/test_workflow.py",
+      "size": 9155,
+      "sha256": "59b7af328f0d337981e3cde6c8bb93fbd1d6aa228275f7da58cc12731e49194d"
+    },
+    {
+      "path": "validation/direct-capture/stderr.txt",
+      "size": 3381,
+      "sha256": "13af80029cdebb43998e63d7109fccbd50efa7f42c2ecfd67173c9d76dc01bfb"
+    },
+    {
+      "path": "validation/direct-capture/stdout.txt",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "validation/environment.json",
+      "size": 1408,
+      "sha256": "9d11ad36613b83094fc12174db0d0fd6d856f861ce86add039062d15fbd363e9"
+    },
+    {
+      "path": "validation/recorder-output-check/run.json",
+      "size": 1083,
+      "sha256": "658ffb9028239fe7fcb32e37e16fd8451cd871d7f01ceb818d019a39dbb36b7f"
+    },
+    {
+      "path": "validation/recorder-output-check/stderr.txt",
+      "size": 12010,
+      "sha256": "d24ae6b3a795372743fddefcfd0d92a16832cea6f86fe8d0bec771cf91c6db60"
+    },
+    {
+      "path": "validation/recorder-output-check/stdout.txt",
+      "size": 12010,
+      "sha256": "6fcb94944e140a7922075d89939b39c3e36edd81ad5d3c91bb79f97f2838d9aa"
+    },
+    {
+      "path": "validation/selftest/run.json",
+      "size": 2578,
+      "sha256": "60e450d74548a933b1311ef54e7536565430686d4ce8e3c8dce030d4f9ed4969"
+    },
+    {
+      "path": "validation/selftest/stderr.txt",
+      "size": 2062,
+      "sha256": "540d3f6b976e313f9660cf8600c56a39f986c264176bb6c782e4d2527537c142"
+    },
+    {
+      "path": "validation/selftest/stdout.txt",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "validation/tool-unification.json",
+      "size": 8178,
+      "sha256": "0ddaa0a0358c7d3072c888ee7e6eb6c90d8fec786ff3b2610b46552a34ebe4bf"
+    },
+    {
+      "path": "validation/v1.1/package-check.json",
+      "size": 146,
+      "sha256": "d2d59324a9a66bccf89690901a575a312e08de31acb3743c9dffb64069b75298"
+    },
+    {
+      "path": "validation/v1.1/unittest-stderr.txt",
+      "size": 5026,
+      "sha256": "ac316b721cd5c9267816638c2e3e8a273a8dd9295afdb7a1dd677a860c608de8"
+    },
+    {
+      "path": "validation/v1.1/unittest-stdout.txt",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "validation/v1.1/verification.json",
+      "size": 6735,
+      "sha256": "d0cc9dd7a1e7e4a11ca1c37befb512eecbc50c107dade68596e55877d98f26c1"
+    },
+    {
+      "path": "validation/verification.json",
+      "size": 1005,
+      "sha256": "6af41eca0343b6b388bdd276c5eed8953da2a05dd46f34133ebff21fdf26aa59"
+    }
+  ],
+  "shared_dependencies": [
+    {
+      "path": "../../工具接入与共享能力/工具统一管理与使用指南.md",
+      "size": 69093,
+      "sha256": "8f89f32ab0740594d6adef1e934b3f9e02d048eaf21de8a214a8b9cab213b953"
+    },
+    {
+      "path": "../../工具接入与共享能力/工具状态与验收报告.md",
+      "size": 10026,
+      "sha256": "221123f362ec55c69246c85a32ce30f044769f6237df1d6a0e43dc8041e2c5ac"
+    }
+  ],
+  "shared_dependencies_note": "本字段摘要对应发布快照；用户本机更新当前工具报告后须重新生成交付清单，不能将原摘要当成工具状态有效性证明。"
+}
