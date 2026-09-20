@@ -1,0 +1,25 @@
+flowchart TB
+ R1["仓 1"]:::work
+ R2["仓 2"]:::work
+ A["镜像 A"]:::fact
+ B["镜像 B"]:::work
+ C1["运行 1 · 目标 a"]:::focus
+ C2["运行 2 · 目标 b"]:::focus
+ C3["运行 3 · 目标 c"]:::focus
+ O1["独立产物 a 与日志"]:::work
+ O2["独立产物 b 与日志"]:::work
+ O3["独立产物 c 与日志"]:::work
+ R1 --> C1
+ A --> C1
+ R1 --> C2
+ B --> C2
+ R2 --> C3
+ A --> C3
+ C1 --> O1
+ C2 --> O2
+ C3 --> O3
+
+classDef fact fill:#E1E9E9,stroke:#65777E,color:#18232A;
+classDef work fill:#FFFEFB,stroke:#AEBBBE,color:#18232A;
+classDef focus fill:#F1DDD3,stroke:#C75132,color:#18232A;
+classDef base fill:#18232A,stroke:#18232A,color:#FFFFFF;

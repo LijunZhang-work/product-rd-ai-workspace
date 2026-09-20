@@ -1,25 +1,25 @@
 {
   "package": "产品与EMAP_成熟工具增强事实探查任务包",
   "version": "1.2",
-  "packaging_revision": 2,
-  "date": "2026-09-19",
+  "packaging_revision": 3,
+  "date": "2026-09-20",
   "entry": "00_总入口与执行约定.md",
-  "note": "工作流仍为v1.2；补齐会话共识并更新共享工具指南/报告发布快照；仅完整工作区交付。",
+  "note": "工作流仍为 v1.2；本次修订编译数据库逐仓逐配置核实规则，并同步共享工具指南 v1.2/报告模板的文档摘要。不是公司产品执行验证；既有 ZIP 未重打包。",
   "files": [
     {
       "path": "00_总入口与执行约定.md",
-      "size": 16615,
-      "sha256": "2a7be343aaab8ad87230a6f43dc002fae8a158f461cdab8e2500f8aaf36a67f4"
+      "size": 16829,
+      "sha256": "b497420c2b4fd40696cb332895ee8ac590ae8c43bbe8a35464e2b18ef1a92cee"
     },
     {
       "path": "01_产品仓事实探查任务书.md",
-      "size": 8501,
-      "sha256": "5fae5302cac789247fe553f49028f3bd7fafbe1dcbb14e23a3821f07829e55b3"
+      "size": 8514,
+      "sha256": "f5c27bdb1a26f5295c16ab3ad9b03463c798c0dc8e0a5785c555578587531e93"
     },
     {
       "path": "02_EMAP仓事实探查任务书.md",
-      "size": 6774,
-      "sha256": "9041a030eec2141dd9a4a01cfdfe28b5f21b70e71587b134ec3755d156a44582"
+      "size": 6964,
+      "sha256": "75a18e110e8e039a06b36cf52e9e9fbdc94405ddda38cc6984c7f2af5e00b5a2"
     },
     {
       "path": "03_双仓关联核对与事实验收.md",
@@ -28,8 +28,8 @@
     },
     {
       "path": "04_证据与结果记录模板.md",
-      "size": 12519,
-      "sha256": "dd55dc58d8549445c184d9c3fbed74bf62757992959c09effc1cbf7c4610485e"
+      "size": 13018,
+      "sha256": "4b7e182b1d85fd7c6356ba1365c5ca3f5fb63d990d2a27c6897ad6cb2ea2425f"
     },
     {
       "path": "05_成熟工具执行手册.md",
@@ -38,13 +38,13 @@
     },
     {
       "path": "06_本地AI执行与续接.md",
-      "size": 9116,
-      "sha256": "393babb6dfcb208c6b854ed85e531a301c1dcea1d53d220bd0b3207b1b063268"
+      "size": 9166,
+      "sha256": "e1bd3dc698831bac605e4a9686adacc70655177ff3f2a28ed3a35296c059ef4b"
     },
     {
       "path": "07_验证记录与适用边界.md",
-      "size": 9892,
-      "sha256": "4b28be4a79f8e062436b8d1c790b408d70c9571827cdcc9575bf9b48810cedc0"
+      "size": 10311,
+      "sha256": "dc5f31ab33a4389cc6042807f572df007e9ac4aff863f2b766d6b057e10c8960"
     },
     {
       "path": "08_工具盘点下载安装与存放指南.md",
@@ -265,13 +265,13 @@
   "shared_dependencies": [
     {
       "path": "../../工具接入与共享能力/工具统一管理与使用指南.md",
-      "size": 69093,
-      "sha256": "8f89f32ab0740594d6adef1e934b3f9e02d048eaf21de8a214a8b9cab213b953"
+      "size": 70594,
+      "sha256": "17b2aef55862720110de6160a08a0fce41b64a5912607a96d601ed2cbd0e89d6"
     },
     {
       "path": "../../工具接入与共享能力/工具状态与验收报告.md",
-      "size": 10026,
-      "sha256": "221123f362ec55c69246c85a32ce30f044769f6237df1d6a0e43dc8041e2c5ac"
+      "size": 10840,
+      "sha256": "1ffb5fbadaa051c1d3293ce85f459593f783f0f16b4f46f350abc356bd86419b"
     }
   ],
   "shared_dependencies_note": "本字段摘要对应发布快照；用户本机更新当前工具报告后须重新生成交付清单，不能将原摘要当成工具状态有效性证明。"

@@ -1,0 +1,14 @@
+flowchart TB
+ subgraph F["故障的五个因果角色"]
+ direction LR
+ A["源头违约"]:::focus --> B["传播过程"]:::work --> C["首次观测"]:::work --> D["最终崩溃"]:::work --> E["复位机制"]:::work
+ end
+ D -. "向前回溯" .-> A
+ X["源头证据：地址、对象、调用上下文"]:::fact -.-> A
+ Y["传播证据：共享状态、消息、时序"]:::fact -.-> B
+ Z["复位证据：触发者、条件、范围"]:::fact -.-> E
+
+classDef fact fill:#E1E9E9,stroke:#65777E,color:#18232A;
+classDef work fill:#FFFEFB,stroke:#AEBBBE,color:#18232A;
+classDef focus fill:#F1DDD3,stroke:#C75132,color:#18232A;
+classDef base fill:#18232A,stroke:#18232A,color:#FFFFFF;

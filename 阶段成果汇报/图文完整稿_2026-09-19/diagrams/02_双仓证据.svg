@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="800" viewBox="0 0 1400 800">
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#65777E" stroke-width="2"/></marker><marker id="arrowO" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#C75132" stroke-width="2"/></marker></defs>
+<rect width="1400" height="800" fill="#F4F1EA"/>
+<style>text {font-family:"Noto Sans CJK SC",sans-serif;}</style>
+<text x="55" y="45" font-size="19" font-weight="700" fill="#C75132" text-anchor="start">工程方法  /  02</text>
+<text x="55" y="99" font-size="40" font-weight="700" fill="#18232A" text-anchor="start">产品与 EMAP：把分散线索连成同一组事实</text>
+<text x="55" y="137" font-size="24" font-weight="400" fill="#65777E" text-anchor="start">方法结构示意 · 实际调用关系以对应版本和本地核查结果为准</text>
+<line x1="55" y1="165" x2="1345" y2="165" stroke="#C9D0CE" stroke-width="1"/>
+<text x="55" y="770" font-size="19" font-weight="400" fill="#65777E" text-anchor="start">痛点攻坚型 AI  ·  产品研发与测试</text>
+<text x="1345" y="770" font-size="19" font-weight="400" fill="#65777E" text-anchor="end">02</text>
+<path d="M205 315 V360 H700" fill="none" stroke="#65777E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="55" y="205" width="300" height="110" rx="14" fill="#E1E9E9" stroke="#C9D0CE" stroke-width="1.5"/>
+<text x="205.0" y="247" font-size="30" font-weight="700" fill="#18232A" text-anchor="middle">产品业务</text>
+<text x="205.0" y="284" font-size="24" font-weight="400" fill="#65777E" text-anchor="middle">入口 · 配置 · 业务对象</text>
+<path d="M535 315 V360 H700" fill="none" stroke="#65777E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="385" y="205" width="300" height="110" rx="14" fill="#E1E9E9" stroke="#C9D0CE" stroke-width="1.5"/>
+<text x="535.0" y="247" font-size="30" font-weight="700" fill="#18232A" text-anchor="middle">EMAP 机制</text>
+<text x="535.0" y="284" font-size="24" font-weight="400" fill="#65777E" text-anchor="middle">接口 · 封装 · 底层能力</text>
+<path d="M865 315 V360 H700" fill="none" stroke="#65777E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="715" y="205" width="300" height="110" rx="14" fill="#FFFEFB" stroke="#C9D0CE" stroke-width="1.5"/>
+<text x="865.0" y="247" font-size="30" font-weight="700" fill="#18232A" text-anchor="middle">构建上下文</text>
+<text x="865.0" y="284" font-size="24" font-weight="400" fill="#65777E" text-anchor="middle">宏 · 编译参数 · 目标</text>
+<path d="M1195 315 V360 H700" fill="none" stroke="#65777E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1045" y="205" width="300" height="110" rx="14" fill="#FFFEFB" stroke="#C9D0CE" stroke-width="1.5"/>
+<text x="1195.0" y="247" font-size="30" font-weight="700" fill="#18232A" text-anchor="middle">依赖与产物</text>
+<text x="1195.0" y="284" font-size="24" font-weight="400" fill="#65777E" text-anchor="middle">来源 · 版本 · 链接结果</text>
+<path d="M700 360 V402" fill="none" stroke="#C75132" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowO)"/>
+<rect x="360" y="405" width="680" height="110" rx="14" fill="#F1DDD3" stroke="#C75132" stroke-width="1.5"/>
+<text x="700.0" y="447" font-size="30" font-weight="700" fill="#18232A" text-anchor="middle">联合调用与对象证据</text>
+<text x="700.0" y="484" font-size="24" font-weight="400" fill="#65777E" text-anchor="middle">让业务入口、机制实现与真实产物相互印证</text>
+<path d="M700 515 V552 H260 V586" fill="none" stroke="#65777E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M700 515 V586" fill="none" stroke="#65777E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M700 515 V552 H1140 V586" fill="none" stroke="#65777E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="65" y="590" width="390" height="110" rx="14" fill="#FFFEFB" stroke="#C9D0CE" stroke-width="1.5"/>
+<text x="260.0" y="632" font-size="30" font-weight="700" fill="#18232A" text-anchor="middle">业务消息路径</text>
+<text x="260.0" y="669" font-size="24" font-weight="400" fill="#65777E" text-anchor="middle">发送 · 交接 · 处理</text>
+<rect x="505" y="590" width="390" height="110" rx="14" fill="#FFFEFB" stroke="#C9D0CE" stroke-width="1.5"/>
+<text x="700.0" y="632" font-size="30" font-weight="700" fill="#18232A" text-anchor="middle">对象与内存路径</text>
+<text x="700.0" y="669" font-size="24" font-weight="400" fill="#65777E" text-anchor="middle">创建 · 所有权 · 生命周期</text>
+<rect x="945" y="590" width="390" height="110" rx="14" fill="#FFFEFB" stroke="#C9D0CE" stroke-width="1.5"/>
+<text x="1140.0" y="632" font-size="30" font-weight="700" fill="#18232A" text-anchor="middle">异常与复位路径</text>
+<text x="1140.0" y="669" font-size="24" font-weight="400" fill="#65777E" text-anchor="middle">故障传播 · 观测 · 复位</text>
+</svg>

@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "date": "2026-09-18",
+  "date": "2026-09-20",
   "entry": "README.md",
-  "scope": "展开后的正式资料、工具源码、必要历史资料与证据；不包含交付区 ZIP",
+  "scope": "本次完整展开交付的文档、工具源码、配图、必要历史与证据；排除重复交付 ZIP 及自身/核验报告",
   "excluded": [
     "本清单自身",
     "核验结果.json",
@@ -57,18 +57,18 @@
     },
     {
       "path": "AI测试/00_AI测试_模块入口与复用规则.md",
-      "size_bytes": 4549,
-      "sha256": "fbc3ecda1058ba581fc922050ac99b2f589f2063c6bbca00c602867ac4f1c23d"
+      "size_bytes": 5022,
+      "sha256": "3a3de4df2c1f2ef084bf24f92095d6962701c70dfbba48a15b4b0fad80a3180e"
     },
     {
       "path": "AI测试/README.md",
-      "size_bytes": 3441,
-      "sha256": "7deebf19aef5c9e94d01ba7821b4bb1c9ccb621855cf8cc5239f61406180f41c"
+      "size_bytes": 3798,
+      "sha256": "afba4d0c2d32ad792a30e55a729b73f56831d975ee596d21fe4d4daa646bf76c"
     },
     {
       "path": "AI测试/产品端到端/BEH_产品端到端测试融合_主窗口与多工具协作探索指南_v1.0_2026-09-16.md",
-      "size_bytes": 50843,
-      "sha256": "18f782caf919dcdca32f373112a6f082444680625479352cf53d12d0f892131c"
+      "size_bytes": 51350,
+      "sha256": "19344056ff7e893445092e03b3c09f050f272708cacc4533fc200833ee0c5906"
     },
     {
       "path": "AI测试/图元行为测试/参考规范/BEH_FB全库发现与批量适配实施手册_基于8个FB基线_v1.0_2026-09-07.md",
@@ -92,8 +92,8 @@
     },
     {
       "path": "AI测试/测试与解释融合/02_AI测试与解释融合_双环境实施指导_v1.0_2026-09-16.md",
-      "size_bytes": 38309,
-      "sha256": "d23de8f9d7a66faac4544d9d55cc203cff62846a81ddf01ad9c9d7bb702c2d77"
+      "size_bytes": 38817,
+      "sha256": "6ee4494dd5a1364da5f08b44dd238c9ca86023eed17184ca61faa8c5ddf9d2b6"
     },
     {
       "path": "AI测试/网页人工路径/00_总体架构设计_多模态探路与人工路径验证_v0.1_2026-09-13.md",
@@ -562,8 +562,8 @@
     },
     {
       "path": "AI解释/00_AI解释_两档模式与测试增强规范.md",
-      "size_bytes": 9153,
-      "sha256": "72dd897d71ea0ca0346ed63aa2404df799deffd170051325f5eab5d226c3db1b"
+      "size_bytes": 9515,
+      "sha256": "b1f06650f67499e55465e91f206221e887352ab2d80905730473d09e5d6ee153"
     },
     {
       "path": "AI解释/README.md",
@@ -572,8 +572,8 @@
     },
     {
       "path": "AI解释/参考规范/08_阶段2_AI解释MVP_外置Skill_v1.0.md",
-      "size_bytes": 2295,
-      "sha256": "2390acb8b304af69c5d9bf7f43caee7670460657c59aabe73dde7b5774838089"
+      "size_bytes": 2631,
+      "sha256": "44b287919c14a0f2d7be872fb0b7b1c14609ffb7a1e54558b6e0f87a0607745c"
     },
     {
       "path": "AI解释/参考规范/15_AnalysisTaskBundle与ResultBundle数据契约_v1.0.md",
@@ -587,8 +587,8 @@
     },
     {
       "path": "README.md",
-      "size_bytes": 3703,
-      "sha256": "7e01868db804ed7ae564284cc5ee7cd1cbd102cbd92efb8679200b50688c0fde"
+      "size_bytes": 4429,
+      "sha256": "966f8bd63f731c97ff210b04a7b7457e70ec1f1be6d6db09abb2c041e5ccb113"
     },
     {
       "path": "Windows与WSL开发环境/01_WSL与磁盘现状只读探查_AI任务书.md",
@@ -642,38 +642,38 @@
     },
     {
       "path": "交付包/README.md",
-      "size_bytes": 3582,
-      "sha256": "ec493c37e67854572c74ca51bbc39e931c0ef646509ebe4092abeffdeecf940a"
+      "size_bytes": 4622,
+      "sha256": "23387e073ce3a1c278a2457b1da99db5d34eca75189b8bb12c1a355110ff3b81"
     },
     {
       "path": "产品与EMAP事实探查/README.md",
-      "size_bytes": 2110,
-      "sha256": "34e0465a3a090476b18214aa640cce4210f3c8f7ac170d587394f9093f6613ba"
+      "size_bytes": 2542,
+      "sha256": "350d0e874f0ee8b9702b9134f6b3adf83f2b5f198e1600b0df243244c42d9513"
     },
     {
       "path": "产品与EMAP事实探查/产品与EMAP_CodeQL全链路追踪与机制诊断_上板实施指南_v1.0_2026-09-17.md",
-      "size_bytes": 50214,
-      "sha256": "ca5efb867a04e15ad443c007de49740ae642437d1c6bf5966bbc80aa07076add"
+      "size_bytes": 50866,
+      "sha256": "48d603cc761272d044da16cea87eda21cc4624ff08f340a243ba0ea8d48a179d"
     },
     {
       "path": "产品与EMAP事实探查/产品多核与BEH架构背景记录_v1.0_2026-09-17.md",
-      "size_bytes": 13920,
-      "sha256": "03f76b61844a941aa3b53bc1a5cc9798ac26d30a7e34bc6bd5880b66f1a75ddc"
+      "size_bytes": 15159,
+      "sha256": "13a302a903b23da4ae685934684e4c5de544e205bdbdb647e8ffffb39f8ee44b"
     },
     {
       "path": "产品与EMAP事实探查/成熟工具增强事实探查/00_总入口与执行约定.md",
-      "size_bytes": 16615,
-      "sha256": "2a7be343aaab8ad87230a6f43dc002fae8a158f461cdab8e2500f8aaf36a67f4"
+      "size_bytes": 16829,
+      "sha256": "b497420c2b4fd40696cb332895ee8ac590ae8c43bbe8a35464e2b18ef1a92cee"
     },
     {
       "path": "产品与EMAP事实探查/成熟工具增强事实探查/01_产品仓事实探查任务书.md",
-      "size_bytes": 8501,
-      "sha256": "5fae5302cac789247fe553f49028f3bd7fafbe1dcbb14e23a3821f07829e55b3"
+      "size_bytes": 8514,
+      "sha256": "f5c27bdb1a26f5295c16ab3ad9b03463c798c0dc8e0a5785c555578587531e93"
     },
     {
       "path": "产品与EMAP事实探查/成熟工具增强事实探查/02_EMAP仓事实探查任务书.md",
-      "size_bytes": 6774,
-      "sha256": "9041a030eec2141dd9a4a01cfdfe28b5f21b70e71587b134ec3755d156a44582"
+      "size_bytes": 6964,
+      "sha256": "75a18e110e8e039a06b36cf52e9e9fbdc94405ddda38cc6984c7f2af5e00b5a2"
     },
     {
       "path": "产品与EMAP事实探查/成熟工具增强事实探查/03_双仓关联核对与事实验收.md",
@@ -682,8 +682,8 @@
     },
     {
       "path": "产品与EMAP事实探查/成熟工具增强事实探查/04_证据与结果记录模板.md",
-      "size_bytes": 12519,
-      "sha256": "dd55dc58d8549445c184d9c3fbed74bf62757992959c09effc1cbf7c4610485e"
+      "size_bytes": 13018,
+      "sha256": "4b7e182b1d85fd7c6356ba1365c5ca3f5fb63d990d2a27c6897ad6cb2ea2425f"
     },
     {
       "path": "产品与EMAP事实探查/成熟工具增强事实探查/05_成熟工具执行手册.md",
@@ -692,13 +692,13 @@
     },
     {
       "path": "产品与EMAP事实探查/成熟工具增强事实探查/06_本地AI执行与续接.md",
-      "size_bytes": 9116,
-      "sha256": "393babb6dfcb208c6b854ed85e531a301c1dcea1d53d220bd0b3207b1b063268"
+      "size_bytes": 9166,
+      "sha256": "e1bd3dc698831bac605e4a9686adacc70655177ff3f2a28ed3a35296c059ef4b"
     },
     {
       "path": "产品与EMAP事实探查/成熟工具增强事实探查/07_验证记录与适用边界.md",
-      "size_bytes": 9892,
-      "sha256": "4b28be4a79f8e062436b8d1c790b408d70c9571827cdcc9575bf9b48810cedc0"
+      "size_bytes": 10311,
+      "sha256": "dc5f31ab33a4389cc6042807f572df007e9ac4aff863f2b766d6b057e10c8960"
     },
     {
       "path": "产品与EMAP事实探查/成熟工具增强事实探查/08_工具盘点下载安装与存放指南.md",
@@ -707,8 +707,8 @@
     },
     {
       "path": "产品与EMAP事实探查/成熟工具增强事实探查/PACKAGE_MANIFEST.json",
-      "size_bytes": 9338,
-      "sha256": "a85a74a47ec04d55592e231728179f3690869b9cd8ac9a1038911a901c13d008"
+      "size_bytes": 9425,
+      "sha256": "4a39d451d2e194cc4c6845a70d1626240e8a2f1981bf363b7a0257ef35fd473e"
     },
     {
       "path": "产品与EMAP事实探查/成熟工具增强事实探查/config/execution.example.json",
@@ -947,18 +947,18 @@
     },
     {
       "path": "产品与EMAP事实探查/调度相关产品与EMAP代码联合探查方案_v1.0_2026-09-18.md",
-      "size_bytes": 39153,
-      "sha256": "123b184142b99f0845309da10841fc8335fe50a40e9676ead2897733de0cfdfb"
+      "size_bytes": 39269,
+      "sha256": "47915f7d433114ba58ac51dfa0bb39a080f60a18f8f0743144103fea21b68395"
     },
     {
       "path": "任务记录/README.md",
-      "size_bytes": 1011,
-      "sha256": "06360894eabaed34f8d1c024f88cccfafe4d17d24ed4af9b586a6cd48bac0367"
+      "size_bytes": 1289,
+      "sha256": "b4b66f2b79611ac0372408be06b187e00ff232c956a711c8083e36dafcb26cfa"
     },
     {
       "path": "任务记录/任务记录模板.md",
-      "size_bytes": 1031,
-      "sha256": "1f49db99b2983d912b254697c6523b070f4c1cbeb4d8286b4e08f3b9974e88aa"
+      "size_bytes": 2189,
+      "sha256": "d5125491c2b854e2fb1eb53db39e1cbc341d7f6ea66741e7aa19b97738c1ec12"
     },
     {
       "path": "历史资料/BEH/00_Current/05_开发总路线图_先解释后开发_v1.0.md",
@@ -1207,8 +1207,13 @@
     },
     {
       "path": "工具接入与共享能力/00_共享能力_图元代码与信号观测.md",
-      "size_bytes": 3584,
-      "sha256": "e10c357bd07131277324869109eb928ea99ee304e8c0fd85f68fe4131d9def88"
+      "size_bytes": 4096,
+      "sha256": "cd72e417f2ccaf1cb168764196ba75d322ec305e56e6cbc7db81c7e585984f5c"
+    },
+    {
+      "path": "工具接入与共享能力/BEH原生能力/BEH已知问题与观测适用边界.md",
+      "size_bytes": 5992,
+      "sha256": "65ea54aa6617fa8d34d29fcdfdb50b5878257ad7042bfb04f80bbb6b58430480"
     },
     {
       "path": "工具接入与共享能力/BEH原生能力/场景与对象/06_阶段0_原生Headless场景底座固化_v1.0.md",
@@ -1222,8 +1227,8 @@
     },
     {
       "path": "工具接入与共享能力/README.md",
-      "size_bytes": 2856,
-      "sha256": "d1a7e03c6adc3b117e29505a3619bf56acd428d68f7bd5144a8d463ce0c0632a"
+      "size_bytes": 3350,
+      "sha256": "bd86ebc9d01703a3aa5ec4eea5ac8d09a0c168ad671be3c96b19b152da8c2b85"
     },
     {
       "path": "工具接入与共享能力/代码关联与宿主接入/09_阶段3_代码仓关联与解释准确性增强_v1.0.md",
@@ -1237,43 +1242,68 @@
     },
     {
       "path": "工具接入与共享能力/信号追踪与运行观测/上板信号全链路采集建设与操作指南_跨核与BEH图元_v1.0.md",
-      "size_bytes": 62211,
-      "sha256": "df50acd8fb4b8c3006b020b042e360b46b049a182f86b9f5baff6f6ee2cc388a"
+      "size_bytes": 69158,
+      "sha256": "abab7ce1f8f1db1d44cf0d8fffad596e1716bd0b6e7738458ad6254187a5ca60"
     },
     {
       "path": "工具接入与共享能力/信号追踪与运行观测/不上板信号全链路建设与验收指南_跨核与BEH图元_v1.0.md",
-      "size_bytes": 59134,
-      "sha256": "1c67735e4470fb4845df078e77b196324a59f96ca7c42f6549ea66c5b18cd754"
+      "size_bytes": 60203,
+      "sha256": "8e4076ecb0ec8f3b8f446482ffc83d34577ed3f4bd583d3a72ad22f973ed31ba"
     },
     {
       "path": "工具接入与共享能力/工具状态与验收报告.md",
-      "size_bytes": 10026,
-      "sha256": "221123f362ec55c69246c85a32ce30f044769f6237df1d6a0e43dc8041e2c5ac"
+      "size_bytes": 10840,
+      "sha256": "1ffb5fbadaa051c1d3293ce85f459593f783f0f16b4f46f350abc356bd86419b"
     },
     {
       "path": "工具接入与共享能力/工具统一管理与使用指南.md",
-      "size_bytes": 69093,
-      "sha256": "8f89f32ab0740594d6adef1e934b3f9e02d048eaf21de8a214a8b9cab213b953"
+      "size_bytes": 70594,
+      "sha256": "17b2aef55862720110de6160a08a0fce41b64a5912607a96d601ed2cbd0e89d6"
     },
     {
       "path": "工具接入与共享能力/工具选型与接入调查/BEH_控制工具调研与源码调查任务单_v1.0_2026-09-17.md",
-      "size_bytes": 24504,
-      "sha256": "da0b4f79fd046f08a16ccc31e875ce8388594478be1c663629c4a9bfa0389af9"
+      "size_bytes": 24840,
+      "sha256": "80864f680f422f7294c35c30414c486ce0678609a9144ada4ea2f8e8fdb5fc4e"
     },
     {
       "path": "工具接入与共享能力/能力索引.md",
-      "size_bytes": 2069,
-      "sha256": "5f53589971eb43218c1ca1f62d8940dc640715d58e16a4b5ec9f8900ae14aabc"
+      "size_bytes": 2458,
+      "sha256": "3005b46128c3e1fe5c03a9c2cc7f04b4f714b8bfd8b0886b91c4e68abbe9f20b"
+    },
+    {
+      "path": "总览与规则/2026-09-20_场景集成与证据规则修订记录.md",
+      "size_bytes": 8366,
+      "sha256": "eb02eecc23fbfa329873576494dd50e653d5038029e255f987a9411dc4849e94"
     },
     {
       "path": "总览与规则/GitHub接入状态.md",
-      "size_bytes": 1910,
-      "sha256": "db5ddb377c428b70ec9fcb8bb7eaa87d3777f8922fc4a28c1e4e3cf70ba79e9b"
+      "size_bytes": 2328,
+      "sha256": "38e0fb3613515c69582dda00ccb8e66df29d25eebaa56c28e82c8032f61297a5"
     },
     {
       "path": "总览与规则/README.md",
-      "size_bytes": 1059,
-      "sha256": "268d7fb4da0dcb0cb0a9b3cd9d4ff7573a07c5ce12f6d22dbd15c8ff3afcaddf"
+      "size_bytes": 1410,
+      "sha256": "11b5a46fbacb90104f2ba91719d99eb5a00a49b3dfcca272df66e9b5196bcab5"
+    },
+    {
+      "path": "总览与规则/交付差异/2026-09-20_完整工作区/变更清单.csv",
+      "size_bytes": 23131,
+      "sha256": "8cfc4036123b947889587ebafac5f3f56ae8459eaf646bbb0df59507ec48b657"
+    },
+    {
+      "path": "总览与规则/交付差异/2026-09-20_完整工作区/变更说明.md",
+      "size_bytes": 4450,
+      "sha256": "892767083edf35b3a5374e53abccd44ac9d80f820f811a2c2ebeb50569ee9117"
+    },
+    {
+      "path": "总览与规则/交付差异/2026-09-20_完整工作区/基线与范围.json",
+      "size_bytes": 202234,
+      "sha256": "7f58abf2c7fb14eeeda903722bb1da733c0fb954d423703e85e079d5ecdc4067"
+    },
+    {
+      "path": "总览与规则/交付差异/2026-09-20_完整工作区/文本差异.diff",
+      "size_bytes": 6133439,
+      "sha256": "a6f7f445a400ce510ac5f74fa01a66776338183e1452a6a10e984293bbf782c6"
     },
     {
       "path": "总览与规则/参考规范/01_项目章程_目标范围与非目标_v1.0.md",
@@ -1282,13 +1312,13 @@
     },
     {
       "path": "总览与规则/参考规范/02A_按事实域划分的证据可信度矩阵_v1.0.md",
-      "size_bytes": 12550,
-      "sha256": "f29d3f035666231131558be8663ef657d96cc68f4fff1dd07556676af4ef02a8"
+      "size_bytes": 15300,
+      "sha256": "93fc8fa1d9642b2c19bcd9ea66c37c0f84a9b25434a35b5fb9eadc9dedc7a324"
     },
     {
       "path": "总览与规则/参考规范/02_术语_事实源与信任边界_v1.0.md",
-      "size_bytes": 6416,
-      "sha256": "0f4f6502900cbb69ba0b69bb8898c62ec9e69c1a67b4c0d2432f0910c961e3d2"
+      "size_bytes": 6822,
+      "sha256": "111470869f1d772f0d18554e050e90b91873badecbf1a0c998391d1c7df941d4"
     },
     {
       "path": "总览与规则/参考规范/03_总体软件架构与关键决策_v1.0.md",
@@ -1327,13 +1357,13 @@
     },
     {
       "path": "总览与规则/后续推进.md",
-      "size_bytes": 3601,
-      "sha256": "b2827a4a75763fa1d063b980a5d650502663f5ae9f4d766fef5631cf0c793795"
+      "size_bytes": 3944,
+      "sha256": "47e04a73d0278726f2455a0c276525468a73d5f3d700d5448c079bd73d58aa8c"
     },
     {
       "path": "总览与规则/归档与同步规则.md",
-      "size_bytes": 5425,
-      "sha256": "971bc29983f7059cefadd9502e6ee4ffe205454b1f7cabc00f8b2c31e0e0d25c"
+      "size_bytes": 12323,
+      "sha256": "0f141c223e63a8ca1b74f797839c546e95f61ccec856d88671837088aa57fee7"
     },
     {
       "path": "总览与规则/数据契约索引.md",
@@ -1357,8 +1387,8 @@
     },
     {
       "path": "总览与规则/资料索引.md",
-      "size_bytes": 38364,
-      "sha256": "26945abb035e6c2e1a8d7f6bab3fef2d3a6e80504302e8f9b1fae982067ccfd7"
+      "size_bytes": 39037,
+      "sha256": "0b7b39f1719e95679748059ba2ad4a7501cbf02758ec4e96ae268e7fae9d809e"
     },
     {
       "path": "总览与规则/资料迁移清单.csv",
@@ -1366,9 +1396,29 @@
       "sha256": "fadb291dfc0ac7155f9f5825cb83c45506c9fcc82047ddeb7af554a391c1ab97"
     },
     {
+      "path": "真实场景集成验证/00_总入口与执行约定.md",
+      "size_bytes": 7045,
+      "sha256": "be004bce79be05fc476462c31e17c8bc293957a2da2d4043530dd75719986d41"
+    },
+    {
+      "path": "真实场景集成验证/场景清单.md",
+      "size_bytes": 832,
+      "sha256": "378aed612a5f8efae64570752392ef3430c1067734c7222e6803c8be19aef793"
+    },
+    {
+      "path": "真实场景集成验证/端到端用例与POU验证/01_场景实施方案.md",
+      "size_bytes": 11313,
+      "sha256": "7163dd923e0576ddbcdcaec0d80fc2f84ae26561c971933ae4d67b4d14d8f324"
+    },
+    {
+      "path": "真实场景集成验证/端到端用例与POU验证/02_用例映射与执行记录模板.md",
+      "size_bytes": 5619,
+      "sha256": "10490a3a8b6923288f2d166f74e18bbe59192c3dac05c38ff92e75c7bd005f90"
+    },
+    {
       "path": "网页工作台/00_网页工作台_模块入口.md",
-      "size_bytes": 2536,
-      "sha256": "fb8c5730b47069b80d20b5666f6c8344774224c6a03fa8410554261ebcc75073"
+      "size_bytes": 2869,
+      "sha256": "366c7ea5848980575cad13ec67973df4a4324b00b92c7aa9dbd347c16ad43893"
     },
     {
       "path": "网页工作台/README.md",
@@ -1407,8 +1457,8 @@
     },
     {
       "path": "网页工作台/参考规范/19_Golden样本_回归数据集与原生BEH对照_v1.0.md",
-      "size_bytes": 2357,
-      "sha256": "a5d4fdcf2a9be3d894c404b49836c6296418492db819b5ac4075182b58d9f27c"
+      "size_bytes": 3000,
+      "sha256": "6c46c5aab2bf91ac3fc42b9379fbc64fd7d0ea3840908faab160014c4a3e69be"
     },
     {
       "path": "网页工作台/参考规范/26_Web信息架构与画布优先交互设计_v1.0.md",
@@ -1477,8 +1527,8 @@
     },
     {
       "path": "问题定位与修复/README.md",
-      "size_bytes": 2759,
-      "sha256": "0458a60dbf90a940b66d376abfa2f96ee83da1cdd70926701ad1e67a5fefee31"
+      "size_bytes": 3092,
+      "sha256": "4b96d0982e1326bf8534af929d39b0662380e70e87a07fefea44b9d2b840b365"
     },
     {
       "path": "问题定位与修复/定位材料模板.md",
@@ -1489,7 +1539,185 @@
       "path": "问题定位与修复/跨核崩溃复位与内存破坏_根因定位实施指南.md",
       "size_bytes": 24848,
       "sha256": "706453aa89f66a8c2d58e7bc328b832c802693eab250bd8204133444c791e92c"
+    },
+    {
+      "path": "阶段成果汇报/图文完整稿_2026-09-19/assets/00_hero.png",
+      "size_bytes": 1556650,
+      "sha256": "58964e18f4e627a60b7a7a05cf3c7f4b8a74eed3e38302980c9fac0c357193aa"
+    },
+    {
+      "path": "阶段成果汇报/图文完整稿_2026-09-19/assets/01_体系全景.png",
+      "size_bytes": 285372,
+      "sha256": "6d1dce567f909aa80b5dee45df60d162c33c0c9a6567c698a5ab61bf2f55cfe0"
+    },
+    {
+      "path": "阶段成果汇报/图文完整稿_2026-09-19/assets/02_双仓证据.png",
+      "size_bytes": 291985,
+      "sha256": "09972c441acb9afb0f6bc7f602256bc5697971b00838ce36be386142bfcefc29"
+    },
+    {
+      "path": "阶段成果汇报/图文完整稿_2026-09-19/assets/03_调度判断.png",
+      "size_bytes": 287566,
+      "sha256": "e83ef4b9eb750d684d06b2825df9b0f94d787138d12ad9a40e7298f86de66e03"
+    },
+    {
+      "path": "阶段成果汇报/图文完整稿_2026-09-19/assets/04_解释测试.png",
+      "size_bytes": 282178,
+      "sha256": "fb09b7bb099a4eb71d57d137413d0994e3567d78b405e1c2783a55221983953f"
+    },
+    {
+      "path": "阶段成果汇报/图文完整稿_2026-09-19/assets/05_开发保存重载.png",
+      "size_bytes": 288516,
+      "sha256": "bf7d9e6dc89592f2a910fb0beaa73ff98aea3568bdd28180f62a5dd233095f59"
+    },
+    {
+      "path": "阶段成果汇报/图文完整稿_2026-09-19/assets/06_故障五层.png",
+      "size_bytes": 281122,
+      "sha256": "3c46729bfd54658a81f025c222bb153fcf0ed49133f58eff6cb7a53dd1c2ce9e"
+    },
+    {
+      "path": "阶段成果汇报/图文完整稿_2026-09-19/assets/07_多工具业务验证.png",
+      "size_bytes": 333302,
+      "sha256": "d22bb8adba9bd7fe602528ebd82a49b959824775c58a0bc05313e18b457051f6"
+    },
+    {
+      "path": "阶段成果汇报/图文完整稿_2026-09-19/assets/08_环境与构建组合.png",
+      "size_bytes": 304847,
+      "sha256": "4fbd56c4b64edab92b3b2292a17405ca93ffb0d3c369e06e39e4c0c537176ca3"
+    },
+    {
+      "path": "阶段成果汇报/图文完整稿_2026-09-19/assets/09_HPT_填写.png",
+      "size_bytes": 70455,
+      "sha256": "608f4dc6847ca08b57f578a481c25143c1773a523610b1c6df1640db83bc3060"
+    },
+    {
+      "path": "阶段成果汇报/图文完整稿_2026-09-19/assets/10_HPT_持久化.png",
+      "size_bytes": 48509,
+      "sha256": "d99f129c9abd4c8a1ed1fa84348f2c23f1c8e65b405014416224e70ca51c99a9"
+    },
+    {
+      "path": "阶段成果汇报/图文完整稿_2026-09-19/diagrams/01_体系全景.mmd",
+      "size_bytes": 578,
+      "sha256": "e689d9e86915a10b4aac35ccb6c13de5bb0a28e2a4c055cfff1d336d101b9fc8"
+    },
+    {
+      "path": "阶段成果汇报/图文完整稿_2026-09-19/diagrams/01_体系全景.svg",
+      "size_bytes": 5136,
+      "sha256": "9f90e9778857e5c14a022d9699b389ce43a230a0b5a755f2467301d3f109f3ce"
+    },
+    {
+      "path": "阶段成果汇报/图文完整稿_2026-09-19/diagrams/02_双仓证据.mmd",
+      "size_bytes": 664,
+      "sha256": "52ccf689821d9b7a30695938c6173023c40b33584dc7d034d497dcb88387c79c"
+    },
+    {
+      "path": "阶段成果汇报/图文完整稿_2026-09-19/diagrams/02_双仓证据.svg",
+      "size_bytes": 5388,
+      "sha256": "99051340fc9ac79448cc4c2942bff8dfc8ad09fdb7f81c03bc0ca1b0410df028"
+    },
+    {
+      "path": "阶段成果汇报/图文完整稿_2026-09-19/diagrams/03_调度判断.mmd",
+      "size_bytes": 679,
+      "sha256": "dff7a396fdb0e1a5489b0b41507a3e5386c547b72b819a188bd5d549e44837fc"
+    },
+    {
+      "path": "阶段成果汇报/图文完整稿_2026-09-19/diagrams/03_调度判断.svg",
+      "size_bytes": 5789,
+      "sha256": "9e114d787ab73b12e98d7f80678d9368aaacc4ae3f7daf1e4f8ee6d82bd3102f"
+    },
+    {
+      "path": "阶段成果汇报/图文完整稿_2026-09-19/diagrams/04_解释测试.mmd",
+      "size_bytes": 509,
+      "sha256": "514ae82f1ef2a2ec9ee33d780b2dee7749223d63c23a14e7f949130d1871da6e"
+    },
+    {
+      "path": "阶段成果汇报/图文完整稿_2026-09-19/diagrams/04_解释测试.svg",
+      "size_bytes": 4373,
+      "sha256": "def0af84b01e182fa934f3c4f1ac97fac4d32dada1e4e9e5da2dc69919228549"
+    },
+    {
+      "path": "阶段成果汇报/图文完整稿_2026-09-19/diagrams/05_开发保存重载.mmd",
+      "size_bytes": 575,
+      "sha256": "8eb2a10ee3c2c400969a3c6cb2deb3bb0c98019043523097cd44a7b6a0079bc0"
+    },
+    {
+      "path": "阶段成果汇报/图文完整稿_2026-09-19/diagrams/05_开发保存重载.svg",
+      "size_bytes": 5127,
+      "sha256": "690dc29320def1f3295677471fbafcf8e4688bcc449b26b024eb563ec5668a9d"
+    },
+    {
+      "path": "阶段成果汇报/图文完整稿_2026-09-19/diagrams/06_故障五层.mmd",
+      "size_bytes": 673,
+      "sha256": "bdba974032168b676a811e6366c30f9e0c2cbf3c0ec3c8abaf7f41b3a2bae486"
+    },
+    {
+      "path": "阶段成果汇报/图文完整稿_2026-09-19/diagrams/06_故障五层.svg",
+      "size_bytes": 5559,
+      "sha256": "fedde4e649bd1230d778767bcf578e6488b44f03065c484d781df38a128d3d02"
+    },
+    {
+      "path": "阶段成果汇报/图文完整稿_2026-09-19/diagrams/07_多工具业务验证.mmd",
+      "size_bytes": 607,
+      "sha256": "07555cb49646f871d86d9e889b994a93073859d046c9de06039c50571ca7f719"
+    },
+    {
+      "path": "阶段成果汇报/图文完整稿_2026-09-19/diagrams/07_多工具业务验证.svg",
+      "size_bytes": 5498,
+      "sha256": "8a1b4e0f3a85caf9d7f360704ade70f717d396246a480b82d063000ee8f9c13f"
+    },
+    {
+      "path": "阶段成果汇报/图文完整稿_2026-09-19/diagrams/08_环境与构建组合.mmd",
+      "size_bytes": 648,
+      "sha256": "faf9b296def7abcaac94517559ee3e28e18f7a400536f4d6b017864e7552965d"
+    },
+    {
+      "path": "阶段成果汇报/图文完整稿_2026-09-19/diagrams/08_环境与构建组合.svg",
+      "size_bytes": 6244,
+      "sha256": "5e456ae6feab006dd3192f92ac36bfbe828779b0aca247ddb72e024e7a4e6d1b"
+    },
+    {
+      "path": "阶段成果汇报/图文完整稿_2026-09-19/痛点攻坚型AI_阶段成果全景_图文完整稿.html",
+      "size_bytes": 5826109,
+      "sha256": "3ce43a94d8d36f0e2bc5a08536ed9c70ae976be7fdef22e89cf3392b89eb0add"
+    },
+    {
+      "path": "阶段成果汇报/图文完整稿_2026-09-19/痛点攻坚型AI_阶段成果全景_图文完整稿.md",
+      "size_bytes": 80652,
+      "sha256": "fa92ac62d67b0a6b52b0ffe3a15e9638aaa50ef1d87d313b01e01dabc84d615f"
+    },
+    {
+      "path": "阶段成果汇报/图文完整稿_2026-09-19/阅读说明.md",
+      "size_bytes": 1583,
+      "sha256": "d6dd75378cf2b2d0f3a741e0f30c302df3a09ebd1d0520629f611a1ddbf31165"
+    },
+    {
+      "path": "阶段成果汇报/痛点攻坚型AI_技术创新成果展示_重构稿_v0.2.pptx",
+      "size_bytes": 1656360,
+      "sha256": "156c4ab0f9785d0eb9965e27524133f06d37d931fced8841f13bd2a566206547"
     }
   ],
-  "last_update": "2026-09-19 四项会话共识补齐；工具指南v1.1，工作流v1.2，报告R000未实测"
+  "last_update": "2026-09-20 完整交付：从全部已取得文件重新生成清单，包含本次交付差异与配图；未执行产品功能测试。",
+  "latest_revision": {
+    "delivery_id": "2026-09-20_完整工作区",
+    "all_payload_entries_rehashed": true,
+    "github_baseline_verified": false,
+    "comparison_type": "previous_delivery_P_to_current_N",
+    "excluded_delivery_duplicates": [
+      "交付包/专项包/产品与EMAP事实探查/产品与EMAP_事实探查任务包_v1.0_2026-09-17.zip",
+      "交付包/专项包/网页人工路径/AI人工路径测试自动化_源码与安装包_v0.1.0.zip",
+      "交付包/历史版本/产品与EMAP事实探查/产品与EMAP_成熟工具增强事实探查任务包_v1.1_2026-09-18.zip",
+      "交付包/历史版本/统一工作区/产品研发与测试_AI统一工作区_Git起步包_2026-09-17.zip",
+      "交付包/历史版本/统一工作区/产品研发与测试_AI统一工作区_完整Git包_2026-09-17.zip",
+      "交付包/历史版本/统一工作区/产品研发与测试_AI统一工作区_完整文件夹_2026-09-18.zip",
+      "交付包/历史版本/统一工作区/产品研发与测试_AI统一工作区_展开整理版_2026-09-18.zip",
+      "交付包/历史版本/网页人工路径/AI人工路径测试自动化_完整包_2026-09-17.zip",
+      "交付包/当前版本/产品研发与测试_AI统一工作区_展开整理版_2026-09-19.zip",
+      "阶段成果汇报/图文完整稿_2026-09-19/痛点攻坚型AI_完整图文稿与配图.zip"
+    ],
+    "restored_original_empty_logs": [
+      "产品与EMAP事实探查/成熟工具增强事实探查/validation/direct-capture/stdout.txt",
+      "产品与EMAP事实探查/成熟工具增强事实探查/validation/selftest/stdout.txt",
+      "产品与EMAP事实探查/成熟工具增强事实探查/validation/v1.1/unittest-stdout.txt"
+    ]
+  }
 }

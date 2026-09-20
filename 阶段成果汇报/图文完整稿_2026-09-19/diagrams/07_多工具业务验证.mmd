@@ -1,0 +1,21 @@
+flowchart TB
+ subgraph I["按场景选择输入能力"]
+ N["北向寄存器专用工具"]:::fact
+ P["南向 Python 脚本"]:::fact
+ R["南向 RS-485 独立工具"]:::fact
+ end
+ W["产品网页 · Playwright"]:::work
+ B["业务场景 / 产品过程"]:::focus
+ H["BEH 图元观测"]:::work
+ L["日志 / 报文解析"]:::work
+ N --> B
+ P --> B
+ R --> B
+ W --> B
+ B --> H
+ B --> L
+
+classDef fact fill:#E1E9E9,stroke:#65777E,color:#18232A;
+classDef work fill:#FFFEFB,stroke:#AEBBBE,color:#18232A;
+classDef focus fill:#F1DDD3,stroke:#C75132,color:#18232A;
+classDef base fill:#18232A,stroke:#18232A,color:#FFFFFF;

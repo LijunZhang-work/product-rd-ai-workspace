@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="800" viewBox="0 0 1400 800">
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#65777E" stroke-width="2"/></marker><marker id="arrowO" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#C75132" stroke-width="2"/></marker></defs>
+<rect width="1400" height="800" fill="#F4F1EA"/>
+<style>text {font-family:"Noto Sans CJK SC",sans-serif;}</style>
+<text x="55" y="45" font-size="19" font-weight="700" fill="#C75132" text-anchor="start">工程方法  /  03</text>
+<text x="55" y="99" font-size="40" font-weight="700" fill="#18232A" text-anchor="start">调度探查：找到“谁决定执行”的位置</text>
+<text x="55" y="137" font-size="24" font-weight="400" fill="#65777E" text-anchor="start">先盘点机制，再选择代表链路；每类机制都需要自己的证据</text>
+<line x1="55" y1="165" x2="1345" y2="165" stroke="#C9D0CE" stroke-width="1"/>
+<text x="55" y="770" font-size="19" font-weight="400" fill="#65777E" text-anchor="start">痛点攻坚型 AI  ·  产品研发与测试</text>
+<text x="1345" y="770" font-size="19" font-weight="400" fill="#65777E" text-anchor="end">03</text>
+<rect x="55" y="200" width="1290" height="76" rx="10" fill="#E1E9E9" stroke="none" stroke-width="1.5"/>
+<text x="88" y="249" font-size="28" font-weight="700" fill="#18232A" text-anchor="start">机制清单</text>
+<text x="280" y="249" font-size="30" font-weight="400" fill="#C75132" text-anchor="start">→</text>
+<text x="345" y="249" font-size="28" font-weight="700" fill="#18232A" text-anchor="start">代表链路</text>
+<text x="540" y="249" font-size="30" font-weight="400" fill="#C75132" text-anchor="start">→</text>
+<text x="606" y="249" font-size="28" font-weight="700" fill="#18232A" text-anchor="start">逐项核对：条件、配置、状态与执行记录</text>
+<path d="M187 355 H384" fill="none" stroke="#65777E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<circle cx="150" cy="355" r="35" fill="#18232A" stroke="none" stroke-width="2"/>
+<text x="150" y="367" font-size="27" font-weight="700" fill="#FFFEFB" text-anchor="middle">1</text>
+<text x="150" y="430" font-size="29" font-weight="700" fill="#18232A" text-anchor="middle">触发源</text>
+<text x="150" y="470" font-size="24" font-weight="400" fill="#65777E" text-anchor="middle">事件从哪里来</text>
+<path d="M462 355 H659" fill="none" stroke="#65777E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<circle cx="425" cy="355" r="35" fill="#18232A" stroke="none" stroke-width="2"/>
+<text x="425" y="367" font-size="27" font-weight="700" fill="#FFFEFB" text-anchor="middle">2</text>
+<text x="425" y="430" font-size="29" font-weight="700" fill="#18232A" text-anchor="middle">入口与交接</text>
+<text x="425" y="470" font-size="24" font-weight="400" fill="#65777E" text-anchor="middle">责任在哪里转交</text>
+<path d="M737 355 H934" fill="none" stroke="#C75132" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowO)"/>
+<circle cx="700" cy="355" r="35" fill="#C75132" stroke="none" stroke-width="2"/>
+<text x="700" y="367" font-size="27" font-weight="700" fill="#FFFEFB" text-anchor="middle">3</text>
+<text x="700" y="430" font-size="29" font-weight="700" fill="#18232A" text-anchor="middle">队列或回调</text>
+<text x="700" y="470" font-size="24" font-weight="400" fill="#65777E" text-anchor="middle">规则在哪里生效</text>
+<path d="M1012 355 H1209" fill="none" stroke="#65777E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<circle cx="975" cy="355" r="35" fill="#18232A" stroke="none" stroke-width="2"/>
+<text x="975" y="367" font-size="27" font-weight="700" fill="#FFFEFB" text-anchor="middle">4</text>
+<text x="975" y="430" font-size="29" font-weight="700" fill="#18232A" text-anchor="middle">执行者</text>
+<text x="975" y="470" font-size="24" font-weight="400" fill="#65777E" text-anchor="middle">谁实际运行</text>
+<circle cx="1250" cy="355" r="35" fill="#18232A" stroke="none" stroke-width="2"/>
+<text x="1250" y="367" font-size="27" font-weight="700" fill="#FFFEFB" text-anchor="middle">5</text>
+<text x="1250" y="430" font-size="29" font-weight="700" fill="#18232A" text-anchor="middle">运行证据</text>
+<text x="1250" y="470" font-size="24" font-weight="400" fill="#65777E" text-anchor="middle">过程能否还原</text>
+<line x1="75" y1="545" x2="445" y2="545" stroke="#C9D0CE" stroke-width="2"/>
+<text x="75" y="592" font-size="30" font-weight="700" fill="#18232A" text-anchor="start">何时开始</text>
+<text x="75" y="633" font-size="25" font-weight="400" fill="#65777E" text-anchor="start">触发条件 · 等待与唤醒</text>
+<line x1="515" y1="545" x2="885" y2="545" stroke="#C9D0CE" stroke-width="2"/>
+<text x="515" y="592" font-size="30" font-weight="700" fill="#18232A" text-anchor="start">执行顺序</text>
+<text x="515" y="633" font-size="25" font-weight="400" fill="#65777E" text-anchor="start">队列规则 · 优先关系</text>
+<line x1="955" y1="545" x2="1325" y2="545" stroke="#C9D0CE" stroke-width="2"/>
+<text x="955" y="592" font-size="30" font-weight="700" fill="#18232A" text-anchor="start">运行位置</text>
+<text x="955" y="633" font-size="25" font-weight="400" fill="#65777E" text-anchor="start">进程 · 线程 · 核</text>
+<text x="700" y="710" font-size="27" font-weight="700" fill="#C75132" text-anchor="middle">逐项追问：谁作出决定？依据什么配置与状态？</text>
+</svg>

@@ -1,0 +1,5106 @@
+{
+  "delivery_id": "2026-09-20_完整工作区",
+  "created_at_utc": "2026-09-20T07:50:40.779300+00:00",
+  "comparison_type": "previous_delivery_P_to_current_N",
+  "comparison_status": "complete_within_declared_scope",
+  "github_baseline_status": "not_available",
+  "github_commit": null,
+  "previous_snapshot": {
+    "file_name": "产品研发与测试_AI统一工作区_展开整理版_2026-09-19.zip",
+    "sha256": "3388c20266223de9ea541ba7a13cb429cf802f5023e393930be9fba14d110981",
+    "workspace_root": "产品研发与测试_AI统一工作区",
+    "file_count_in_comparison": 296
+  },
+  "current_snapshot": {
+    "zip_name": "产品研发与测试_AI统一工作区_展开整理版_2026-09-20.zip",
+    "workspace_root": "产品研发与测试_AI统一工作区",
+    "file_count_in_comparison": 333
+  },
+  "scope": {
+    "included": "全部正式文档、脚本、配图、必要证据和历史来源；双方采用相同排除规则",
+    "excluded_delivery_duplicates": [
+      "交付包/专项包/产品与EMAP事实探查/产品与EMAP_事实探查任务包_v1.0_2026-09-17.zip",
+      "交付包/专项包/网页人工路径/AI人工路径测试自动化_源码与安装包_v0.1.0.zip",
+      "交付包/历史版本/产品与EMAP事实探查/产品与EMAP_成熟工具增强事实探查任务包_v1.1_2026-09-18.zip",
+      "交付包/历史版本/统一工作区/产品研发与测试_AI统一工作区_Git起步包_2026-09-17.zip",
+      "交付包/历史版本/统一工作区/产品研发与测试_AI统一工作区_完整Git包_2026-09-17.zip",
+      "交付包/历史版本/统一工作区/产品研发与测试_AI统一工作区_完整文件夹_2026-09-18.zip",
+      "交付包/历史版本/统一工作区/产品研发与测试_AI统一工作区_展开整理版_2026-09-18.zip",
+      "交付包/历史版本/网页人工路径/AI人工路径测试自动化_完整包_2026-09-17.zip",
+      "交付包/当前版本/产品研发与测试_AI统一工作区_展开整理版_2026-09-19.zip",
+      "阶段成果汇报/图文完整稿_2026-09-19/痛点攻坚型AI_完整图文稿与配图.zip"
+    ],
+    "excluded_recursive_metadata": [
+      "总览与规则/工作区文件清单.json",
+      "总览与规则/核验结果.json",
+      "总览与规则/交付差异/2026-09-20_完整工作区/"
+    ],
+    "metadata_handling": "两份生成清单另列为元数据重新生成；不在本差异中循环嵌入其最终摘要。最终包内清单与外部打包核验覆盖它们。",
+    "binary_handling": "逐文件大小与 SHA-256，文本 diff 不伪造二进制内容",
+    "missing_handling": "缺失不表示确认删除；暂无基于 Git 的移动或删除意图证明",
+    "file_modes": "保留上一 ZIP 中同路径的 POSIX 权限，新文件采用 0644；不是 Git 可执行位变更证据，导入时核对实际仓库。所有纳入项均为普通文件，无符号链接。"
+  },
+  "generation": {
+    "tool": "git version 2.51.1",
+    "command": [
+      "git",
+      "-c",
+      "core.quotePath=false",
+      "diff",
+      "--no-index",
+      "--no-ext-diff",
+      "--no-textconv",
+      "--no-renames",
+      "--",
+      "P",
+      "N"
+    ],
+    "command_working_directory": "比较暂存目录，内有 P 与 N 两个文本快照",
+    "return_code": 1,
+    "stderr": "",
+    "diff_path_normalization": "a/P/→a/，b/N/→b/，只归一化比较目录前缀",
+    "diff_sha256": "a6f7f445a400ce510ac5f74fa01a66776338183e1452a6a10e984293bbf782c6",
+    "diff_bytes": 6133439
+  },
+  "changes": {
+    "修改": 39,
+    "新增": 37,
+    "元数据重新生成（不纳入递归文本比较）": 2
+  },
+  "previous_files": [
+    {
+      "path": ".gitattributes",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 47,
+      "sha256": "2ba7595a6ef7dbde7316b3b54f338544c1f39b5bead3b41426fdc780ab635eeb",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": ".gitignore",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 391,
+      "sha256": "b7eefc7cca0bcf4b4dc2c99b4eeb049fd874f6d56f86f42ecd277df06bb178c9",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "AI图元与代码开发/00_AI开发_模块入口与推进边界.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 2999,
+      "sha256": "787052ebaa0f2c0274c7e096139d9505400be1e4b7fbe46d0366c293b7c888fa",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "AI图元与代码开发/README.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 1690,
+      "sha256": "6a13e766bc7234ebdc1c12a93d6fa300dc8b7862cd3c4698932a10bcc2af02b2",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "AI图元与代码开发/参考规范/10_阶段4_AI开发图元与C_CPP代码候选MVP_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 1882,
+      "sha256": "4fb72f0c94deafbcac7f0ef191302b8dd72be1cd8000735ab31cdf33abafbf2d",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "AI图元与代码开发/参考规范/11_阶段5_原生应用_RoundTrip与安全提交_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 1534,
+      "sha256": "a57465ba7bf6bcdb5baa4e828319d220a5c9168a5101cc1bdf6fec60acbc5423",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "AI图元与代码开发/参考规范/16_ProposalGraphOperations与CodePatch数据契约_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 2022,
+      "sha256": "e5702d7da053295ce6c78bcc8eac4549dd55ac9231b948aa34dd58207e4c2199",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "AI图元与代码开发/参考规范/23_beh_compose_graph_and_code_Skill设计_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 2197,
+      "sha256": "20b9b1b532e8b6d5eb382a538fab7b52e0622f216faf8add920d8773a3029705",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "AI图元与代码开发/参考规范/BEH_MCP_Phase1_Implementation_Guide_v1.0_2026-09-05.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 62620,
+      "sha256": "b5bdbf7695ec5950ca83adc15e3b7390707deefae86e7a3588241850e25ae402",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "AI测试/00_AI测试_模块入口与复用规则.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 4549,
+      "sha256": "fbc3ecda1058ba581fc922050ac99b2f589f2063c6bbca00c602867ac4f1c23d",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "AI测试/README.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 3441,
+      "sha256": "7deebf19aef5c9e94d01ba7821b4bb1c9ccb621855cf8cc5239f61406180f41c",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "AI测试/产品端到端/BEH_产品端到端测试融合_主窗口与多工具协作探索指南_v1.0_2026-09-16.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 50843,
+      "sha256": "18f782caf919dcdca32f373112a6f082444680625479352cf53d12d0f892131c",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "AI测试/图元行为测试/参考规范/BEH_FB全库发现与批量适配实施手册_基于8个FB基线_v1.0_2026-09-07.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 47209,
+      "sha256": "80927a8939f515397c54cb2f59a21d010b498a31f640ff84926937a13d7242e5",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "AI测试/图元行为测试/参考规范/BEH_FB行为测试可信性验真补充规范_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 13917,
+      "sha256": "1f6810066fc5e342808cdc6e22dc4816ef37faa3c1dacc8c8b6cde059b9fff09",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "AI测试/图元行为测试/参考规范/BEH_FB行为测试最小MVP实施规范_独立于旧FB框架_v2.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 15251,
+      "sha256": "8c5acc459afbddffbc574613646b93d2ce259b611767eb0a8f72f8b427bccf21",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "AI测试/图元行为测试/参考规范/BEH_Headless图元行为测试_PoC工程约束与防取巧指南_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 11387,
+      "sha256": "6fc9bae913c3b1f6d2bed7048059f76031067c390be9a210a13d7a038b452d93",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "AI测试/测试与解释融合/02_AI测试与解释融合_双环境实施指导_v1.0_2026-09-16.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 38309,
+      "sha256": "d23de8f9d7a66faac4544d9d55cc203cff62846a81ddf01ad9c9d7bb702c2d77",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "AI测试/网页人工路径/00_总体架构设计_多模态探路与人工路径验证_v0.1_2026-09-13.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 32920,
+      "sha256": "f74d403766e973e256cbdd41d29837bd8221e045ec80de39d0b463603c540756",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "AI测试/网页人工路径/00_项目入口与交付清单_v0.1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 2740,
+      "sha256": "9ed4f6d7896ae2e6edf76fa46e0887128ec48754aa479c9cf48cb96a81b86107",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "AI测试/网页人工路径/01_使用与接入指南_v0.1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 9877,
+      "sha256": "387275d77b05622b4f729b6926a83572ffc9343198f659f935c1c07c09925264",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "AI测试/网页人工路径/02_实现说明与边界_v0.1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 7031,
+      "sha256": "024df98ab4c5afb2ae9aa71396e442e4d0be9b9f2e6b728a1c70fa9317cf449a",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "AI测试/网页人工路径/03_实际验证报告_v0.1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 7614,
+      "sha256": "0ccf3d020eeee4b89cfa0943e550aee92b9e3c4754bad189b4fdaf75f8685937",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "AI测试/网页人工路径/AI人工路径测试自动化_实测证据_v0.1.0.zip",
+      "type": "regular_file",
+      "content_type": "binary",
+      "size_bytes": 78463971,
+      "sha256": "0574e1f0e58df92226f544b119e3f7acd90b8fc925fb9c8854f2ae6d81f9b924",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "AI测试/网页人工路径/AI人工路径测试自动化_架构设计与MVP实施方案_v1.0_2026-09-13.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 68631,
+      "sha256": "22453bf9ef3f8371a7991f22689e3136d8d52394f6910cb06d2e9723a45426fa",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "AI测试/网页人工路径/README.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 1295,
+      "sha256": "ee73418310635732056e9f6a1194453276264a7ce9d76cf2461bd63e2f579664",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/README.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 7293,
+      "sha256": "bbd03489ce78fc54732a47a64013319c5cbb1bb0663b0077604b0676e62b8923",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/dist/.gitignore",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 1,
+      "sha256": "684888c0ebb17f374298b65ee2807526c066094c701bcc7ebbe1c1095f494fc1",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/dist/human_path_testing-0.1.0-py3-none-any.whl",
+      "type": "regular_file",
+      "content_type": "binary",
+      "size_bytes": 33438,
+      "sha256": "66c496a1c728f97cc5a98332a3d3db5fba8f264cee7707faea66f9041803bd3c",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/docs/00_总体架构设计_多模态探路与人工路径验证_v0.1_2026-09-13.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 32658,
+      "sha256": "6aef2b08ed69631e9973c696318cf386ba58d3c078ad8d3c309653a6cbae2b9f",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/docs/01_使用与接入指南.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 9615,
+      "sha256": "1b7aba2fd08302bc7dacf71ac6f05bc93d54c966e2290b55be0f84b699af3378",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/docs/02_实现说明与边界.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 6769,
+      "sha256": "8c1152e67d015725e7bce3faf4224fcbc8d004e0b7ff06fff889c16f97f022c6",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/docs/03_实际验证报告.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 7352,
+      "sha256": "880a410cf67e8e53b4b8bbe65fad554c7b0ff17f35ca8f637e38cb34a130c3da",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/docs/AI人工路径测试自动化_架构设计与MVP实施方案_v1.0_2026-09-13.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 68369,
+      "sha256": "820635c532bd44562ca5ce4ad2f6d341c7970fb46631f874db0925322cbbae1a",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/cancel/behavior.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 8386,
+      "sha256": "bd507f8a00a5c2149aad07c283ad0e1947a49ad5663b6e9cc856c8ab67d671c9",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/cancel/environment.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 314,
+      "sha256": "a75008717d58be199d2f7d20d36abaeb76eea8b2484475c8a1c553f20aa66c91",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/cancel/inputs.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 60,
+      "sha256": "05b09ac837e8563bc69145ed5b9aebfc4e586320fe6f3b7b841edc1cfb862c07",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/cancel/route.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 8496,
+      "sha256": "d6c8120f9d1fe213a45d55aaed30ddc69c7fabaa0fcec36c97999797cec62816",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/create/behavior.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 8709,
+      "sha256": "72b2c87b94e3d9727f5dadeacc27051936f24656b061a9c0140acba77c7ae016",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/create/environment.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 314,
+      "sha256": "a75008717d58be199d2f7d20d36abaeb76eea8b2484475c8a1c553f20aa66c91",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/create/inputs.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 60,
+      "sha256": "f852003cba94ada5e9a02b9cac59a9cb6c8314bd797294165750c47a7f9b5429",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/create/route.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 8819,
+      "sha256": "8bbb7caa4db21e65701d880d22148df03d6d0599171949d7550f98a89dee6dea",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/delete/behavior.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 6955,
+      "sha256": "446252b17f7bacc9455e8043f675a6700ef5f54ba9df695e1defbcffc6325efa",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/delete/environment.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 314,
+      "sha256": "a75008717d58be199d2f7d20d36abaeb76eea8b2484475c8a1c553f20aa66c91",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/delete/inputs.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 60,
+      "sha256": "55e102750f6b219a7a378d1c2b1d8f226b5e72edc5bcdfeb66661a8cb205e36a",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/delete/route.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 7065,
+      "sha256": "7397ef02b78192e98e84ee07da3151e76f61d5a5f1a7e0c0e635ee89efc5cbd2",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/duplicate/behavior.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 7806,
+      "sha256": "3192c3fc4c729735481f89b88753c55c15793a133cc4567881804e001ef7ff2c",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/duplicate/environment.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 314,
+      "sha256": "a75008717d58be199d2f7d20d36abaeb76eea8b2484475c8a1c553f20aa66c91",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/duplicate/inputs.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 60,
+      "sha256": "802e76c55bb98d4f3f1731fbe35548ee7cd3686cee6036a92dca7555a53b9fb6",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/duplicate/route.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 7916,
+      "sha256": "65e8d0ba9955afcc1d325056844435dd309199b5e2244d344bca4d0751c3a993",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/edit/behavior.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 8707,
+      "sha256": "8b7fc7565f2b34f4af0855ca0230d8ee01b81051c618e0e4f5b125c6c166beda",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/edit/environment.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 314,
+      "sha256": "a75008717d58be199d2f7d20d36abaeb76eea8b2484475c8a1c553f20aa66c91",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/edit/inputs.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 60,
+      "sha256": "2e1429d91001e29c47eb3220db6b50de66177f0c9eebd5424c5dec884c82a708",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/edit/route.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 8817,
+      "sha256": "d39ba30a138dd5013d2580e884086afb03ac3178e52ac6903f6d861a125fbf90",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/empty_search/behavior.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 6356,
+      "sha256": "6fc0ad3ad64d3ce4330f8a01bd4782de0b23c44eea33413f7af6f2a99afaed63",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/empty_search/environment.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 314,
+      "sha256": "a75008717d58be199d2f7d20d36abaeb76eea8b2484475c8a1c553f20aa66c91",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/empty_search/inputs.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 60,
+      "sha256": "253436c0392d59bfc3d9018ee19f287d2cf54f66bd2dd0359e8d120c47f89c50",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/empty_search/route.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 6466,
+      "sha256": "68a35220ea1076b692d2e54497e0b65792ed276724f449a63039fc1552b221dd",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/keyboard/behavior.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 8713,
+      "sha256": "17b8d72bcc57946b3d269cbf31f89df88c8122fd677898fba5f7d57008132bba",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/keyboard/environment.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 314,
+      "sha256": "a75008717d58be199d2f7d20d36abaeb76eea8b2484475c8a1c553f20aa66c91",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/keyboard/inputs.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 60,
+      "sha256": "b85fba606c28b5fc4e2182b4baae18e1872e0c209d3f479b5432ac46828b4002",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/keyboard/route.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 8823,
+      "sha256": "2e6bb52c457f5218f3e62037cf750dd0458852b8697e5d79d7b4cadf5726804e",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/pagination/behavior.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 6151,
+      "sha256": "43415444dcd01284c2004378cd9d242f02ee856994598bfdaeaacc55f7f18f30",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/pagination/environment.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 314,
+      "sha256": "a75008717d58be199d2f7d20d36abaeb76eea8b2484475c8a1c553f20aa66c91",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/pagination/inputs.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 53,
+      "sha256": "c3165115de04720695a89ac0cf7633fe10a5287e63f6b91b7b376b5356e5f8d3",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/pagination/route.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 6261,
+      "sha256": "2cf99d2bb027cae2492f8c36a0db716ab2e1e32739208d3d08768d180c434f90",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/required/behavior.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 7812,
+      "sha256": "e989933d36cd3f99048c50707c6ca561b36e284ab3f7778bdaf639c28b158eca",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/required/environment.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 314,
+      "sha256": "a75008717d58be199d2f7d20d36abaeb76eea8b2484475c8a1c553f20aa66c91",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/required/inputs.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 47,
+      "sha256": "a074d6b92c235414700a79cebec5e2621608c3ea818141048e4e94c7dd39ff9a",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/required/route.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 7922,
+      "sha256": "7e05d926b041fe18cd43edeb0c129bed85653e40c058415bb8686b1af499191c",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/search/behavior.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 6342,
+      "sha256": "1399ec87c4192d68563e73b49dce9455bce4d567a5b995aacb5b821dae3b3b63",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/search/environment.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 314,
+      "sha256": "a75008717d58be199d2f7d20d36abaeb76eea8b2484475c8a1c553f20aa66c91",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/search/inputs.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 60,
+      "sha256": "4b20eb273699468bee3a77f3606057e7fbb77cf26a3f17ac055bd8e121d01de6",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/search/route.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 6452,
+      "sha256": "5efa0615e90d70e466c7175af81abc8f8eb6cde3b257dc409cfb7cd187210130",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/explored/behavior.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 6718,
+      "sha256": "d501a5d786262a58d37368f5d1ef4435b05f03a7f1fa52b078183802fcfecec7",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/explored/environment.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 321,
+      "sha256": "b3bf82986ff25ac3ed874adbaf786988cf456299c5a1ead25aeb0ce972ab94f8",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/explored/inputs.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 57,
+      "sha256": "326f0d3594fcc787f8f8acce778e048b24f353f782177aa015feb360126d31ba",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/explored/intent.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 270,
+      "sha256": "ad14b729561ac3a857d40a529c0ca60d4b0c33dee5c8ab291fc83034e60f552f",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/explored/outcomes.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 2824,
+      "sha256": "ef248a3d8a55d818447b30ada6f13718d42a26919f92a61f9f911ed6dafc0962",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/explored/parameters.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 127,
+      "sha256": "e189d093aa27fb7bb7c93053ea29c26139b51a19f5aadcfc47bfe39a60706932",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/explored/provenance.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 240,
+      "sha256": "18cda9dcb313973d2a8870f453785d96513e61c0542790c712700939f0f39110",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/explored/route.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 6775,
+      "sha256": "4077626c9ed23315a605321236bae91077c4f504be1e0ed4d087d9bef4173fd3",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/text-model.example.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 249,
+      "sha256": "cc1b07bfc2cfdfcc9364c3c930a5893974327cf9f4791b01f711bbff15e43a13",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/vision-model.example.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 248,
+      "sha256": "ba2f047bcf1ae9ad421b0140d78d3489eadfd54dab0804e46d9fa63ca7b016cb",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/pyproject.toml",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 629,
+      "sha256": "6107b1c11832bf3ff79df6e367d1d9482312ff0347161f295fc319a145fbd746",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/requirements.lock",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 20088,
+      "sha256": "d9aba381685b47183cfba94f6dab428a47a8709288fbafc8b3f017cee24c6b30",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/schemas/behavior.schema.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 7171,
+      "sha256": "fce545d8eec49ce18c8c7d0caaff1ea91bfbbdaeed9c2c2f1d62e881f94af946",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/schemas/environment.schema.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 1472,
+      "sha256": "2c17cfda01691e90751952af6f82d424c52ae50ae65fcf2aa7658be515b0a262",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/schemas/exploration-decision.schema.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 3276,
+      "sha256": "8a3e81d8c80b9a044fd5833c2ff12f57aa38fcab2f3bf745ee6358594aa24915",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/schemas/model.schema.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 954,
+      "sha256": "e30e63737e9d66aa1e2542af041dd71fb2f77ebfd020aa6f8af22b7696a12ec7",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/schemas/outcomes.schema.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 4315,
+      "sha256": "47ab52c31c290edf6546c87c1317dfec271c95df7800707b4cd1d9f05030ee2e",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/schemas/route.schema.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 7809,
+      "sha256": "d8a51a3579c2ca560fb7cfb8e59c4e31867494e0fd8b97b0f30d39bbd498df8b",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/src/hpt/__init__.py",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 111,
+      "sha256": "5d626589c226a4ae1d00b6dd858243c36b16b653408d9c59c40dc2eb1043ffda",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/src/hpt/__main__.py",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 49,
+      "sha256": "76fa916e93e0ae1a6c1bb51dcc0bcf289c014e9f760a47165f8a84401ccf41d7",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/src/hpt/cli.py",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 11739,
+      "sha256": "67d534fb5f1f537f12660a3b71e28ecf89360fb9765d2ff1f96c6bba64bbafc6",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/src/hpt/contracts.py",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 9409,
+      "sha256": "df89c46bc7d92dcb2c05b7078d2b783ff6a88d4446dab8e19ed06479148de706",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/src/hpt/evidence.py",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 3574,
+      "sha256": "8c31bbed64357a4a9efb2b42f059dda49b1b610f2d0a1581cdd76d689a606980",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/src/hpt/examples.py",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 9045,
+      "sha256": "fc245746267e7229c535aa2c32af10465d7cceea88684cb060632a6aaea9fb18",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/src/hpt/explorer.py",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 8919,
+      "sha256": "362d990bdd8d0595cee536f17eb172553380b606ea6c286e488d4780a981e021",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/src/hpt/fixture.html",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 9979,
+      "sha256": "3b0453b551e2ece38e99ebfa0fd953c4606d86b6adcd6f063f6bb6c1b888275e",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/src/hpt/fixture.py",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 5723,
+      "sha256": "9729472df3b5287fea16f8a00ab9d16d965ff3db117c3015ff774820e14bc4bb",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/src/hpt/models.py",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 5502,
+      "sha256": "945fcd7aa9d1a88017e221be63b86b41ec568c5d726c73450e43982ebefb04e3",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/src/hpt/registry.py",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 3505,
+      "sha256": "6988ecfd98846fd41a2923c90c4f01fb2a79709dac1cceabec93d2daa0cfb13f",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/src/hpt/reporting.py",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 2007,
+      "sha256": "532bcec60fdaa1de87472230dee51d52b74faefc6b3f41dc2a12cf4101f75480",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/src/hpt/runner.py",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 17060,
+      "sha256": "f6864cc58b926140b54bf0f990d976bebe1f57cefd3b43770634b5e28a6d68a2",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/src/hpt/vision.py",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 4472,
+      "sha256": "11e452eb98cb90d8f96269a2794e821b546ac79a01358f7dec3edbd273e28f1b",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/tests/test_browser.py",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 8225,
+      "sha256": "c4c8cb247ffc618832f540bb4499703558ae2dc22cd3b8c63c0ac9109c165783",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/tests/test_cli.py",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 904,
+      "sha256": "237e5a08b066df60d0eceecf8d28c6aa89e12b37413170e964862560a73a2f9e",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/tests/test_exploration.py",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 2537,
+      "sha256": "5a5ba6bd2c92babf31b6bc5f25207617fc3a6a2d4a7b611a1115ae0506243601",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/tests/test_models.py",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 3770,
+      "sha256": "60d62cc57eb22df4f68e0e42b518469d3580c523f89101767bb0cc9ab8bc009e",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/tests/test_policy.py",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 4807,
+      "sha256": "ad1362a6d48507987582571e2e0ebae2feeca2592b441842bc9da9ac7bcb6b66",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI解释/00_AI解释_两档模式与测试增强规范.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 9153,
+      "sha256": "72dd897d71ea0ca0346ed63aa2404df799deffd170051325f5eab5d226c3db1b",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "AI解释/README.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 1440,
+      "sha256": "8ed8eac4aa9b4ea8a92902b84057a36bfb95b84226f1464cad9292800bc149fd",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "AI解释/参考规范/08_阶段2_AI解释MVP_外置Skill_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 2295,
+      "sha256": "2390acb8b304af69c5d9bf7f43caee7670460657c59aabe73dde7b5774838089",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "AI解释/参考规范/15_AnalysisTaskBundle与ResultBundle数据契约_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 2891,
+      "sha256": "e064182a8a65ba5236154d7a51478021c8c5da630cbdb220a64cb564a13bb0f6",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "AI解释/参考规范/22_beh_diagram_analysis_Skill设计_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 2829,
+      "sha256": "9dec5a184214e9ecb14641b14390592d7f6fd933d4930307f3a1dc652da4a414",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "README.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 3703,
+      "sha256": "7e01868db804ed7ae564284cc5ee7cd1cbd102cbd92efb8679200b50688c0fde",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "Windows与WSL开发环境/01_WSL与磁盘现状只读探查_AI任务书.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 17869,
+      "sha256": "f854b2a3951ebbe9add465bed683bfa3639b8ecaa9d86391fd1fe78db22dd5d3",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "Windows与WSL开发环境/02_多仓多镜像目标部署与迁移实施指南.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 18844,
+      "sha256": "586593ca1e603cb0f29733eff0a49f4621cd71323e1c42294a4f3a66e7b08118",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "Windows与WSL开发环境/03_Mutagen_Windows与WSL双向同步详细使用指南.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 39264,
+      "sha256": "77c4bb166e6373e16c6ae79fc0a6527251da0f4ec1fa46f4ea918ca4b6ac7886",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "Windows与WSL开发环境/04_WSL与Docker关系图解.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 9269,
+      "sha256": "a3b2070e6a57f0ac08409c35b624900729e98bad1be6ec6b0b4d966d7f20a0b7",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "Windows与WSL开发环境/README.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 1362,
+      "sha256": "dcfe336d3bafea3a271c51288b45f22e64f12f47119ea7a4f622b4f24b4cebe4",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "Windows与WSL开发环境/图解/01_WSL与Docker单组合关系_示意.png",
+      "type": "regular_file",
+      "content_type": "binary",
+      "size_bytes": 326824,
+      "sha256": "98b312c3638766f4c6bef0bd2159a085ff48aa90deecf1082cb693668548c09a",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "Windows与WSL开发环境/图解/01_WSL与Docker单组合关系_示意.svg",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 7719,
+      "sha256": "59244b8e6256d685cff32ebd738b91281b1509553e09ffe060521f87a72cfe65",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "Windows与WSL开发环境/图解/02_多仓多镜像与独立产物_示意.png",
+      "type": "regular_file",
+      "content_type": "binary",
+      "size_bytes": 407610,
+      "sha256": "f3443cc18867af444250f6863e3329efd389d7d7d118d9b7d8c5dc5ea5b37140",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "Windows与WSL开发环境/图解/02_多仓多镜像与独立产物_示意.svg",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 12830,
+      "sha256": "c3a33885d74b6042adebabe073120eaf700b98523f02d351e4a7fb20e9577405",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "tools/verify_workspace.py",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 4334,
+      "sha256": "47a7f82585e71510be93bc8f398ba79122b5e7e7bf42276fb0704d41b773d49d",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "交付包/README.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 3582,
+      "sha256": "ec493c37e67854572c74ca51bbc39e931c0ef646509ebe4092abeffdeecf940a",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/README.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 2110,
+      "sha256": "34e0465a3a090476b18214aa640cce4210f3c8f7ac170d587394f9093f6613ba",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/产品与EMAP_CodeQL全链路追踪与机制诊断_上板实施指南_v1.0_2026-09-17.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 50214,
+      "sha256": "ca5efb867a04e15ad443c007de49740ae642437d1c6bf5966bbc80aa07076add",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/产品多核与BEH架构背景记录_v1.0_2026-09-17.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 13920,
+      "sha256": "03f76b61844a941aa3b53bc1a5cc9798ac26d30a7e34bc6bd5880b66f1a75ddc",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/00_总入口与执行约定.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 16615,
+      "sha256": "2a7be343aaab8ad87230a6f43dc002fae8a158f461cdab8e2500f8aaf36a67f4",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/01_产品仓事实探查任务书.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 8501,
+      "sha256": "5fae5302cac789247fe553f49028f3bd7fafbe1dcbb14e23a3821f07829e55b3",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/02_EMAP仓事实探查任务书.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 6774,
+      "sha256": "9041a030eec2141dd9a4a01cfdfe28b5f21b70e71587b134ec3755d156a44582",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/03_双仓关联核对与事实验收.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 8967,
+      "sha256": "26696a401276b2dfe063d2020fa45e03ba4a68c95870081ae448fa0ca68783ff",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/04_证据与结果记录模板.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 12519,
+      "sha256": "dd55dc58d8549445c184d9c3fbed74bf62757992959c09effc1cbf7c4610485e",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/05_成熟工具执行手册.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 1222,
+      "sha256": "23c6d2f0d31f048ef49959fdcd9c2a66c57108f5be68ab6d6dd883bf1de92a3c",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/06_本地AI执行与续接.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 9116,
+      "sha256": "393babb6dfcb208c6b854ed85e531a301c1dcea1d53d220bd0b3207b1b063268",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/07_验证记录与适用边界.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 9892,
+      "sha256": "4b28be4a79f8e062436b8d1c790b408d70c9571827cdcc9575bf9b48810cedc0",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/08_工具盘点下载安装与存放指南.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 1238,
+      "sha256": "ed2d344d9178e00c4712f1dff5a289845bbfe746c41af8611847d383db3d4755",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/PACKAGE_MANIFEST.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 9338,
+      "sha256": "a85a74a47ec04d55592e231728179f3690869b9cd8ac9a1038911a901c13d008",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/config/execution.example.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 1570,
+      "sha256": "1cdbf1c0f56b3113a3cb4ad30a5605b6638e95e7c3d2733744ee99b9e5d113c2",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/config/project.example.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 1650,
+      "sha256": "e3080512b8b43f52b0e15e26c3591332a8947194d69d9fee544f77be769603af",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/config/workflow.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 5176,
+      "sha256": "92e35c0c5cbca6dbb96677663d0bf581d6da219de96fdf368530d54d3dbeb0af",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/queries/clang/definitions.matcher",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 95,
+      "sha256": "fb7377cc62b824544f275e291e1fe905f9383c2d3280f2e8bf6c1fcea75aafa5",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/queries/clang/named_calls.matcher",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 108,
+      "sha256": "f03431f9851d93521a166030a57087f531b43ec560e2a4f0db0b73ca30a7caa1",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/queries/codeql/Q00_Definitions.ql",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 353,
+      "sha256": "b20a79d308541addc8e73307298f6233676ffbf216aaf7f8a5a0116218d32c7e",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/queries/codeql/Q01_ExtractionErrors.ql",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 294,
+      "sha256": "c815b9301076158fa594a7f376c6cca46559d7977d8f9e485f08416ad4c4259c",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/queries/codeql/Q10_NamedCallBindings.ql",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 614,
+      "sha256": "ca3fea132bdb43b4a8671bf987984cd5fb7aec44a64c718c4938d60ec9091b18",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/queries/codeql/Q11_FunctionReferences.ql",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 481,
+      "sha256": "5f19faba403fcb470452215b64af948ac6c899048808c00a60ff353b31dad517",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/queries/codeql/Q12_OtherCalls.ql",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 334,
+      "sha256": "520a616f3c4623d7448e54a109cda75ccf382dcaf5b6aa0cb079e6095142207e",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/queries/codeql/Q20_DirectVariableWrites.ql",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 472,
+      "sha256": "c8c6121bee7c7546da6ffc609547c19844ee18245239872aa26253d036186a0b",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/queries/codeql/Q30_Conditions.ql",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 288,
+      "sha256": "340b353ce7663ff86bdfa9e94d6c73a50d5015495bf23667b363c8c7c07a38c6",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/queries/codeql/Scope.qll",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 319,
+      "sha256": "4c3816bb7ae50801fb22749d5a5cf248aa3809c65fd8fdcf3fdf91e7b34cb0d7",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/queries/codeql/qlpack.yml",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 87,
+      "sha256": "ce699280602173ab0dbe8e7d3da2b90dfca6dd9c4811015d87262c6f3cae9561",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/scripts/check_workflow.py",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 11208,
+      "sha256": "a3207eb46a4650ed9b9242d0f8dce71c3a4891a4b1030ba609eb63709cf8ce1a",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/scripts/probe.py",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 22331,
+      "sha256": "fd0070770279d399c566097348d33d3c2e32d053b5dfb517d255c9cbb74d616b",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/scripts/run_codeql.py",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 4839,
+      "sha256": "972270d9dccd4b9be581029288c516923fddf69eba063b031bb756d44c44e3ae",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/templates/acceptance.csv",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 74,
+      "sha256": "d895b44928920aeb1c960939502e6effe951ba4ee0b997a56536e7e2d3b66f77",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/templates/gaps.csv",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 128,
+      "sha256": "a6c3f3dfb188754f1e8d758fb6386d13415a97f8ef1f5d14bffb32670452a8af",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/templates/ledger.example.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 96,
+      "sha256": "a14b23176e11faa2a68e982d5c1aede613bb7df1c7596667f63ff4962e01226f",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/templates/mechanisms.csv",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 174,
+      "sha256": "82deb1ee2f49569e5202996ac45ebd5f2a0a9a105c2ebeced8526f02456aa0a1",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/templates/relations.csv",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 154,
+      "sha256": "598a8ed6c82fe2d4aa3d669ab1aa139c8ee09867d5165c6740e2260e337f00a6",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/templates/targets.csv",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 136,
+      "sha256": "13c66b3e2250c8524c5901315388ddd01e915219d9405a0959b03860eb1fe472",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/templates/tool-inventory.csv",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 239,
+      "sha256": "5b11f6c26206e13db0ce5188f8e0745797a4e3fa21c615a3f72e044aa7ffee14",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/tests/test_codeql_adapter.py",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 3998,
+      "sha256": "bbacfba6d3d595905bdf85974aa4b461905e34669bf6966e86137d2e80a1cee4",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/tests/test_probe.py",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 11223,
+      "sha256": "6b0925b53c644362dc831d2332949dece0df767c98768ddb7df35a47c0b61517",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/tests/test_workflow.py",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 9155,
+      "sha256": "59b7af328f0d337981e3cde6c8bb93fbd1d6aa228275f7da58cc12731e49194d",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/validation/direct-capture/stderr.txt",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 3381,
+      "sha256": "13af80029cdebb43998e63d7109fccbd50efa7f42c2ecfd67173c9d76dc01bfb",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/validation/direct-capture/stdout.txt",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/validation/environment.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 1408,
+      "sha256": "9d11ad36613b83094fc12174db0d0fd6d856f861ce86add039062d15fbd363e9",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/validation/recorder-output-check/run.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 1083,
+      "sha256": "658ffb9028239fe7fcb32e37e16fd8451cd871d7f01ceb818d019a39dbb36b7f",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/validation/recorder-output-check/stderr.txt",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 12010,
+      "sha256": "d24ae6b3a795372743fddefcfd0d92a16832cea6f86fe8d0bec771cf91c6db60",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/validation/recorder-output-check/stdout.txt",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 12010,
+      "sha256": "6fcb94944e140a7922075d89939b39c3e36edd81ad5d3c91bb79f97f2838d9aa",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/validation/selftest/run.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 2578,
+      "sha256": "60e450d74548a933b1311ef54e7536565430686d4ce8e3c8dce030d4f9ed4969",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/validation/selftest/stderr.txt",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 2062,
+      "sha256": "540d3f6b976e313f9660cf8600c56a39f986c264176bb6c782e4d2527537c142",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/validation/selftest/stdout.txt",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/validation/tool-unification.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 8178,
+      "sha256": "0ddaa0a0358c7d3072c888ee7e6eb6c90d8fec786ff3b2610b46552a34ebe4bf",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/validation/v1.1/package-check.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 146,
+      "sha256": "d2d59324a9a66bccf89690901a575a312e08de31acb3743c9dffb64069b75298",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/validation/v1.1/unittest-stderr.txt",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 5026,
+      "sha256": "ac316b721cd5c9267816638c2e3e8a273a8dd9295afdb7a1dd677a860c608de8",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/validation/v1.1/unittest-stdout.txt",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/validation/v1.1/verification.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 6735,
+      "sha256": "d0cc9dd7a1e7e4a11ca1c37befb512eecbc50c107dade68596e55877d98f26c1",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/validation/verification.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 1005,
+      "sha256": "6af41eca0343b6b388bdd276c5eed8953da2a05dd46f34133ebff21fdf26aa59",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/普通事实探查（未指定成熟工具）/00_总入口与执行约定.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 13117,
+      "sha256": "deb5f1a949f5907c42107322a2074c3ec490fef9b1b43c92f8ac2b7fd52aec16",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/普通事实探查（未指定成熟工具）/01_产品仓事实探查任务书.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 11412,
+      "sha256": "95b72425fb7abb1b89470a986e1582b90328988d4492eedd157fa57427f90c4c",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/普通事实探查（未指定成熟工具）/02_EMAP仓事实探查任务书.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 10497,
+      "sha256": "c7ad81891f3faa87592607b8258ff4ddb30f0cb04f88c2b3a6ea4a830f8bb43d",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/普通事实探查（未指定成熟工具）/03_双仓关联核对与事实验收.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 10342,
+      "sha256": "fbb6695b3544db974309b77abf57afa604c1869429b795c4c457c86692a5565c",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/普通事实探查（未指定成熟工具）/04_证据与结果记录模板.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 16830,
+      "sha256": "fa31e4b275cd84b700faf6c03086bb8e3c5b764e2f4a82d1b05ad7cdd883c003",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/调度相关产品与EMAP代码联合探查方案_v1.0_2026-09-18.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 39153,
+      "sha256": "123b184142b99f0845309da10841fc8335fe50a40e9676ead2897733de0cfdfb",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "任务记录/README.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 1011,
+      "sha256": "06360894eabaed34f8d1c024f88cccfafe4d17d24ed4af9b586a6cd48bac0367",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "任务记录/任务记录模板.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 1031,
+      "sha256": "1f49db99b2983d912b254697c6523b070f4c1cbeb4d8286b4e08f3b9974e88aa",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/BEH/00_Current/05_开发总路线图_先解释后开发_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 2684,
+      "sha256": "53785e4a9985d0e1eacffb7a25beef9a7f6d0556c9e0f757079fc1c086df29c2",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/BEH/00_START_HERE_项目入口与文档顺序_v1.0_2026-08-19.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 5110,
+      "sha256": "7dba8307bedfe8d3dc82475b0c0611fcd51eb7ece21ef63d15644ea25548a031",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/BEH/ADDON_MANIFEST_交互与测试补充规范_v1.0_2026-08-19.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 1312,
+      "sha256": "41517458dd50899ff2b75ffef615be34ddb3e225f6a1c218c02275a407c85b9b",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/BEH/ADDON_README_交互与测试补充规范_v1.0_2026-08-19.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 1561,
+      "sha256": "058d191050fa72d641287ead64084ea1f624b2cee96db53128a9635473fc58bb",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/BEH/BEH_交互与测试补充规范_新增文档包_v1.0_2026-08-19.zip",
+      "type": "regular_file",
+      "content_type": "binary",
+      "size_bytes": 13194,
+      "sha256": "32cee72fedfaf7e733b670d682da006f18606ab0d0caa5558bf28a4c23d2f3bb",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/BEH/BEH图源与代码分析工作台_新项目文档集_v1.0_2026-08-19.zip",
+      "type": "regular_file",
+      "content_type": "binary",
+      "size_bytes": 60122,
+      "sha256": "da7a691eb03b01f82b70742c998e5c54acca69f84372bd36725c6df2e681fb7d",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/BEH/DOCUMENT_MANIFEST.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 6187,
+      "sha256": "a276ad9e1ee2f1119498646e94d307008c05d62a1f73973b6d073168bd3875ac",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/BEH/PROJECT_INSTRUCTIONS_项目运行规则_v1.0_2026-08-19.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 4834,
+      "sha256": "8e0eafd82f46d03c479cacb31018146ce3414aeee00b747f882c208a70aabede",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/BEH/README.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 679,
+      "sha256": "d05d883a83ac6c984579232759efbe7c27e167a04b5676016f5a81d5edcfa748",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/README.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 7559,
+      "sha256": "78a0e86935161038327a76be66966c9361dfaed03d1587257016483eedf29efb",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/后置能力/27_精雕细琢与高级能力路线_后置_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 1607,
+      "sha256": "3a91a46c4068e0ee149ff839c0c12b14bdcc107e319d8bbaac45be57bc29a1a5",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/旧入口/00_从这里开始_BEH统一导航.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 7151,
+      "sha256": "58409dd079c773868f1fe6d768f6a6a8b2f07054f0e70ef8cd91b8564bff29db",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/旧入口/统一工作区_从这里开始_2026-09-17.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 136,
+      "sha256": "02ca48577792b99e979a9652821a4df307e1921d84790c4a1ee68c293fdf8d5e",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/旧文档包/BEH_AI图源_公司使用版.zip",
+      "type": "regular_file",
+      "content_type": "binary",
+      "size_bytes": 25038,
+      "sha256": "e5f004f697e5bfcbca9d97fd4420319475dbe2abe20f94cb4180f93bf1b6df4d",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/旧文档包/BEH_AI图源_最新重构版_DeepSeek弱模型适配.zip",
+      "type": "regular_file",
+      "content_type": "binary",
+      "size_bytes": 24271,
+      "sha256": "9bac90b22de3bc56f9b4f2f63517f5729bdae4e140ab56494f53f7ac8a54bf6c",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/旧文档包/BEH_NativeRenderer视觉保真专项排查_新增文档包_v1.0_2026-08-19.zip",
+      "type": "regular_file",
+      "content_type": "binary",
+      "size_bytes": 6552,
+      "sha256": "7698083b8ba00d790e61af8bc9d86c5c07354ef5f5209b9ab38c142478f04fde",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/旧文档包/BEH_交互与测试补充规范_无人工参与_v1.1_2026-08-19.zip",
+      "type": "regular_file",
+      "content_type": "binary",
+      "size_bytes": 13762,
+      "sha256": "87eaf9c710a201e47ac51febc44cb9c2e122e85c85a15a5fa5b6a37438679142",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/旧文档包/BEH_原生Renderer定位与Offscreen复用专项_新增文档包_v1.0_2026-08-19.zip",
+      "type": "regular_file",
+      "content_type": "binary",
+      "size_bytes": 7155,
+      "sha256": "cc60f57c432da21a917a9e9ea9b006acb40ec69f0635a66c568a181b3e272f7d",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/旧文档包/BEH_新项目文档集.zip",
+      "type": "regular_file",
+      "content_type": "binary",
+      "size_bytes": 60109,
+      "sha256": "6b3ce478f8c7beac33b13aa7d62e4ae16a8b5f0cbd05db0d3a3c0da06111f50d",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/早期方案/00_BEH_AI图源项目_分阶段总路线图.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 5047,
+      "sha256": "0e50f9008964bd7f464b8f9150ce3d279a9e47a66f91efa63dec93434e2628cc",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/早期方案/01_BEH_AI图源工作台_总体设计书.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 6992,
+      "sha256": "19f0bd2bc9961db4e5622ab7ae1610e6a7d85f3050a5321df83bb016e2163c5d",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/早期方案/01_BEH_AI图源工作台_最新总体设计书.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 8215,
+      "sha256": "3a2a8d6745c71dea8b640e212ee110d8b5a898660a518d0490fef15dc544ce41",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/早期方案/02_BEH_AI图源项目_DeepSeek弱模型适配开发路线图.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 4690,
+      "sha256": "3694342707fc3be3f024ef3db006dce8f5232ee283a434327248af976cdab31c",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/早期方案/02_BEH_AI图源项目_开发路线图.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 3681,
+      "sha256": "743b9c77b9660ef9f5471198e4368670bbbef39bbea323afd0b358fefbd6e662",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/早期方案/03_阶段3_BEH原生自动验图机器人.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 3977,
+      "sha256": "9bf01e60084c72e0d099c0487b7d47943c4229e3354b9301966bd0c97ffcd795",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/早期方案/04_阶段2_Relation结构化Review与原生BEH核验.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 4130,
+      "sha256": "4ba888ecdc0cdad14d10e834276159672c98903e25d4eeb508c9b344752fa54b",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/早期方案/04_阶段4_DeepSeekHarness_小视觉模型_多模型验图Agent.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 4016,
+      "sha256": "7e7a24b5a19cfd0a5e5b6381490d6dac773151ff22041982aca91eccd7339583",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/早期方案/05_阶段2_Relation结构化Review与原生BEH核验.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 2308,
+      "sha256": "20903314fb258eda80eb0feaa4cafa9baf5abf1087c9a050ca41fbfa6865ac84",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/早期方案/05_阶段5_验证反馈闭环与AI写图源准备.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 3620,
+      "sha256": "515936dbb56c47f43c2e2d1932b2114fcddf3fb03f4f4b681e666265956523d6",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/早期方案/06_阶段4_Compose人机共创与AI写图源.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 3576,
+      "sha256": "cc96fc9f38943c1fab0a71b4474f43c97254a790c51805a55f0aad0d5550a00c",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/早期方案/07_阶段4_Compose人机共创与AI写图源.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 2314,
+      "sha256": "9ed2f73b31acb74854b6f767d1c698cb35f710df254a7e7a8c813a9ccba6ee86",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/早期方案/09_BEH图源项目_不可违背的证据与工程原则.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 8380,
+      "sha256": "43c51d21f6d9bab1aab736d1da7c48e4c5ea1a5ea46cf2ebd60c12faaa7ec65e",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/早期方案/BEH_JRE_OpenJDK工具包只读分析指导.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 14468,
+      "sha256": "58d9916261d07847efc4b27cc82e9fa034e6e6795efb18864e9dd34142dcca52",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/早期方案/BEH_Native_Headless_Full_Scene_可行性验证文档.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 13763,
+      "sha256": "b95082236704e7a0ff33ff1d43915e5e8cf9367f83ed07de98b22647d224cee6",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/早期方案/BEH_XML_01_02_03三文件差分分析提示词.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 9863,
+      "sha256": "c01a01cee14da0ade031c26cc8c2098010fe777478bd3dbb59de4801bbfd4ae7",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/早期方案/BEH人机统一图源工作台_圈选解释_区域生成_草图协同_AI共创设计书.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 22380,
+      "sha256": "2702ed1b3aa003052adf9f4f7134cfbecb4094fbafe4debb28dbe485d0e699ba",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/早期方案/BEH图元簇_结构化GraphIR与可审计Review设计.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 15501,
+      "sha256": "f8c629cfc8ffed605ed4079eb1482c54b1ddd1699c3dcff65fece218eab3131b",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/早期方案/Codex_BEH_AI接入能力检测器开发指南.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 23957,
+      "sha256": "3a55e29cf1155a9227aecbaa88bfcfc49eda3d3cc90f7bd9c47bfbee64e63815",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/早期方案/Codex_工业PLC自动化XML标准指纹检测器_BEH成分分析_开发行动指南.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 32357,
+      "sha256": "a925584316113ab20dab4a47b9bb0b1d5b941e81017212867110f527f2aff7c1",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/早期方案/PLC_BEH_XML连接关系与视觉连通簇识别说明.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 10671,
+      "sha256": "5b0fe5941af2cc65093f3627bc3226427bfe41c597f5da6b1eecc1dcfe8586cc",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/早期方案/PLCopen_IEC61131-10_XML可见连线与箭头方向判定指南_BEH映射.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 30317,
+      "sha256": "26febcb96edd140cc5c691d6536f13982dc87d0b8c607a0504b66bdd1defc53b",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/测试旧版本/BEH_FB行为测试最小MVP实施指南_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 11535,
+      "sha256": "25f9ed57050b7c78e6273ecfff40496d81d3c39bb725cde4578f73a27f0147bb",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/迁移记录/2026-09-17/GitHub接入状态.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 1040,
+      "sha256": "8e546164a3ecc4bf2b2e31332154431894c48713495fcc3ad901b0d3f2ce1898",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "历史资料/迁移记录/2026-09-17/整理验收记录.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 2810,
+      "sha256": "0317a3702b6773b9a5c6f2119b487fcc34c57a977088cb42bf5d18125c9ada7f",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "历史资料/迁移记录/2026-09-17/本地工作区整理完成说明_2026-09-17.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 2886,
+      "sha256": "699203aa928e7a72c2180ccbe0eff6245b4600e4d253f53baeec8e8202cbe2ac",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "历史资料/迁移记录/2026-09-17/资料迁移清单.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 88867,
+      "sha256": "7e7a81662231c5a325238316cdd5042d7b1a78e3f815a67e0b333e79f9535d04",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/迁移记录/BEH_2026-09-14/00_维护规则与当前决策.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 3363,
+      "sha256": "9aa164f55d414f37a81c91ae89e7851822b419d5fd0eeba2936b1f7645668de7",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/迁移记录/BEH_2026-09-14/01_全量文件索引与迁移对照.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 20277,
+      "sha256": "216ed73e3e270fcff9ef54d4eea70350e18d6879d149e5372e4d2332e1610f89",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/迁移记录/统一整理方案/统一工作区整理方案_重审版_v1.0_2026-09-17.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 36466,
+      "sha256": "b5e6c241f14a4d779c14d3b0a502e65181aab7eda7f204b9dea6a84ac61bdd10",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "工具接入与共享能力/00_共享能力_图元代码与信号观测.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 3584,
+      "sha256": "e10c357bd07131277324869109eb928ea99ee304e8c0fd85f68fe4131d9def88",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "工具接入与共享能力/BEH原生能力/场景与对象/06_阶段0_原生Headless场景底座固化_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 2208,
+      "sha256": "c8186f5282ae8a9f0f43817efcd8695752cebd745a87ba90d82f50f58d7ecf18",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "工具接入与共享能力/BEH原生能力/场景与对象/13_NativeSceneBundle与HitMap数据契约_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 4058,
+      "sha256": "71979651bd0db83ad3ebb25db0a2155315f92bbc89c418056057627c00482396",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "工具接入与共享能力/README.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 2856,
+      "sha256": "d1a7e03c6adc3b117e29505a3619bf56acd428d68f7bd5144a8d463ce0c0632a",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "工具接入与共享能力/代码关联与宿主接入/09_阶段3_代码仓关联与解释准确性增强_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 2038,
+      "sha256": "3fddc2b2388134e7b9f3da22fe828ecbef4aac22753097a0bd3cabebce9dbfb5",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "工具接入与共享能力/代码关联与宿主接入/12_阶段6_Workbench与DeepSeekHarness一体化_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 1663,
+      "sha256": "a8d13f5f89708b8e7c3a538f80a2efe21d45a14be4079f2ec9985bf21eaac480",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "工具接入与共享能力/信号追踪与运行观测/上板信号全链路采集建设与操作指南_跨核与BEH图元_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 62211,
+      "sha256": "df50acd8fb4b8c3006b020b042e360b46b049a182f86b9f5baff6f6ee2cc388a",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "工具接入与共享能力/信号追踪与运行观测/不上板信号全链路建设与验收指南_跨核与BEH图元_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 59134,
+      "sha256": "1c67735e4470fb4845df078e77b196324a59f96ca7c42f6549ea66c5b18cd754",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "工具接入与共享能力/工具状态与验收报告.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 10026,
+      "sha256": "221123f362ec55c69246c85a32ce30f044769f6237df1d6a0e43dc8041e2c5ac",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "工具接入与共享能力/工具统一管理与使用指南.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 69093,
+      "sha256": "8f89f32ab0740594d6adef1e934b3f9e02d048eaf21de8a214a8b9cab213b953",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "工具接入与共享能力/工具选型与接入调查/BEH_控制工具调研与源码调查任务单_v1.0_2026-09-17.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 24504,
+      "sha256": "da0b4f79fd046f08a16ccc31e875ce8388594478be1c663629c4a9bfa0389af9",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "工具接入与共享能力/能力索引.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 2069,
+      "sha256": "5f53589971eb43218c1ca1f62d8940dc640715d58e16a4b5ec9f8900ae14aabc",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "总览与规则/GitHub接入状态.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 1910,
+      "sha256": "db5ddb377c428b70ec9fcb8bb7eaa87d3777f8922fc4a28c1e4e3cf70ba79e9b",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "总览与规则/README.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 1059,
+      "sha256": "268d7fb4da0dcb0cb0a9b3cd9d4ff7573a07c5ce12f6d22dbd15c8ff3afcaddf",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "总览与规则/参考规范/01_项目章程_目标范围与非目标_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 3338,
+      "sha256": "920c7929b02a4aab1fa13e29cd1e94eeb716c0bcbb5c87f321ae3fd0919f5d77",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "总览与规则/参考规范/02A_按事实域划分的证据可信度矩阵_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 12550,
+      "sha256": "f29d3f035666231131558be8663ef657d96cc68f4fff1dd07556676af4ef02a8",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "总览与规则/参考规范/02_术语_事实源与信任边界_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 6416,
+      "sha256": "0f4f6502900cbb69ba0b69bb8898c62ec9e69c1a67b4c0d2432f0910c961e3d2",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "总览与规则/参考规范/03_总体软件架构与关键决策_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 4606,
+      "sha256": "0e457ecd412df7800720bf251d5821c4b781a56cad5d99eb92bbdb73bfb9017e",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "总览与规则/参考规范/04_代码仓与目录架构_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 3153,
+      "sha256": "f59d5ece56d5c32fb86dd117f04293bb88c135acdf0f8efacab124d2af32da67",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "总览与规则/参考规范/17_测试总策略与阶段质量门禁_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 3545,
+      "sha256": "0acbae342d732e359632d313cc5619af4ddecc61dd50cd34f28a9569ab7db63e",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "总览与规则/参考规范/20_大项目性能_稳定性与安全测试_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 2593,
+      "sha256": "5bc3830f1bae56f10f036fd35a7b9f9c332fa646e913a37f3da5fab08ae67f3c",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "总览与规则/参考规范/21_DeepSeekV4Flash_GLM5_2_Harness工程规范_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 3382,
+      "sha256": "4fe70084f33eaeff8eda943da2e2baec90cfcc38d680a8b861e1a1f59d816adc",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "总览与规则/参考规范/24_证据优先_禁止硬凑与防补丁原则_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 2399,
+      "sha256": "36b5ee146321737dd789b8b911a9e817fd172c1be27dd8b2e9a0b0cdf69c7168",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "总览与规则/参考规范/25_模型任务SOP与输出Schema执行规范_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 1547,
+      "sha256": "5821c9dbebe7997967b00c1dfafa75ea78f2d21d0d5d2366701ba3e75998f5eb",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "总览与规则/后续推进.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 3601,
+      "sha256": "b2827a4a75763fa1d063b980a5d650502663f5ae9f4d766fef5631cf0c793795",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "总览与规则/归档与同步规则.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 5425,
+      "sha256": "971bc29983f7059cefadd9502e6ee4ffe205454b1f7cabc00f8b2c31e0e0d25c",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "总览与规则/数据契约索引.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 1283,
+      "sha256": "3453c1ce379f9574d6be39851aa0e63ffd29775fba34e8acc9fc67970ab3db79",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "总览与规则/整理验收记录.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 6665,
+      "sha256": "bce1cf7371565d9decbc857b43ee5dcbec0de7b45f52b8461afe4371bfd2c086",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "总览与规则/新旧版本与整理说明.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 5913,
+      "sha256": "6c75ed54619793e592f646bbc3802e9669753c4ce796d8ca19c0adc06fa28987",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "总览与规则/来源对应表.csv",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 110214,
+      "sha256": "429058e7144b7b592ed14d7b4db08398910f1aecfc1253a16eda43566ca4beb6",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "总览与规则/资料索引.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 38364,
+      "sha256": "26945abb035e6c2e1a8d7f6bab3fef2d3a6e80504302e8f9b1fae982067ccfd7",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "总览与规则/资料迁移清单.csv",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 53610,
+      "sha256": "fadb291dfc0ac7155f9f5825cb83c45506c9fcc82047ddeb7af554a391c1ab97",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "网页工作台/00_网页工作台_模块入口.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 2536,
+      "sha256": "fb8c5730b47069b80d20b5666f6c8344774224c6a03fa8410554261ebcc75073",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "网页工作台/README.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 3132,
+      "sha256": "fedecd6ede880d129e045582e41af1a79f75eb6850ad6dfbb6fec6b5077666e3",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "网页工作台/历史参考图/BEH AI 工坊：车辆控制数据流联动.png",
+      "type": "regular_file",
+      "content_type": "binary",
+      "size_bytes": 1725450,
+      "sha256": "0dedc02d04e870880f6003b1fa8c8202ed4bade89c4133245a68fa4c04f2cccf",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "网页工作台/历史参考图/BEH人机协同平台架构总览.png",
+      "type": "regular_file",
+      "content_type": "binary",
+      "size_bytes": 1841107,
+      "sha256": "d8c8503def2f221a089855207068c770001ec474aafa9a2e235a3d6bb2a4d0a4",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "网页工作台/历史参考图/BEH分析器动态数据流仪表盘.png",
+      "type": "regular_file",
+      "content_type": "binary",
+      "size_bytes": 1706966,
+      "sha256": "817abce7542ec367ae8cc8f372946c4bb93c73dae64e588781b2e0c1a5757559",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "网页工作台/参考规范/07_阶段1_Web查看圈选与任务导出MVP_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 2543,
+      "sha256": "e94db2d420516229aef749703a90eac2b01cd80409a5bb127b2bcf88775b1fe4",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "网页工作台/参考规范/14_Selection_Annotation_Intent数据契约_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 2546,
+      "sha256": "a30880e5023c43b38f4fff45d02dc82dc82e835ffd8fc1178fb31f9863a0e06a",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "网页工作台/参考规范/18_Playwright端到端测试设计_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 3191,
+      "sha256": "472a27393ea2a610d63e82cc0efce2252740a2864ef002fcaf83e8431e30639f",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "网页工作台/参考规范/19_Golden样本_回归数据集与原生BEH对照_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 2357,
+      "sha256": "a5d4fdcf2a9be3d894c404b49836c6296418492db819b5ac4075182b58d9f27c",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "网页工作台/参考规范/26_Web信息架构与画布优先交互设计_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 3414,
+      "sha256": "115025fd64f845f6ccef4482ba042563176cbad466a77f1bdec3d020005ac3ba",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "网页工作台/参考规范/28_Web画布交互行为契约_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 7122,
+      "sha256": "20f7720d884896f19c1686b71aba66ea533f4b44e5bdb060d00ac4e2ee54194e",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "网页工作台/参考规范/29_HumanAcceptanceGolden与TestOracle规范_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 3589,
+      "sha256": "275f9e38e741afefd1fb41e99e31e5d35c868718969dde2e1aa6767198f84b3c",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "网页工作台/参考规范/30_Playwright连续交互_状态机与Viewport测试规范_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 4001,
+      "sha256": "e112b66156ccc3d504cecf23c036aad4d45bdbf8abf1e75312605226cfdc0a46",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "网页工作台/参考规范/31_NativeScene视觉保真与Arrow_Port_Relation验收规范_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 3454,
+      "sha256": "ddb5bf14ff5737d56a2e9513ea2dda688924d4ba36df9f80292c7d55909e9c20",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "网页工作台/参考规范/32_当前交互缺陷_HumanGolden验收案例_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 3200,
+      "sha256": "31d90d02686dcdf4133a6e9f7632260d21f3d079cb9f0681384a1baae0e50228",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "网页工作台/参考规范/自动化验收补充_v1.1/20_Testing/29_确定性AcceptanceGolden与TestOracle规范_v1.1.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 3782,
+      "sha256": "33d03103015419396804bfc768bd8f7bff7adefe4cb779f012d4e7f34a835eb9",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "网页工作台/参考规范/自动化验收补充_v1.1/20_Testing/30_Playwright连续交互_状态机与Viewport测试规范_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 3739,
+      "sha256": "9944f6859040ace12d57089696542c5157fc4a74eb961681ed2630edd0589f81",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "网页工作台/参考规范/自动化验收补充_v1.1/20_Testing/31_NativeScene视觉保真与Arrow_Port_Relation验收规范_v1.1.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 3253,
+      "sha256": "a7910e8f42d39c5618708c1d2f03451606be4b401e60fd1ae0af9252f1319f85",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "网页工作台/参考规范/自动化验收补充_v1.1/20_Testing/32_当前交互缺陷_自动化Golden回归案例_v1.1.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 3238,
+      "sha256": "85a553ec759ecd9efb6e4695684aba085e8a5604b291831de4a2ec343a172106",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "网页工作台/参考规范/自动化验收补充_v1.1/40_UI/28_Web画布交互行为契约_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 6860,
+      "sha256": "956b5f2e79d19940684579ce83a485a09c77c78ed9c65cabcb326ea7d68682fb",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "网页工作台/参考规范/自动化验收补充_v1.1/ADDON_MANIFEST.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 1346,
+      "sha256": "ed0e7838ea8d831687578cd16745dd92f7185af145feafd4e28c2576d3085e75",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "网页工作台/参考规范/自动化验收补充_v1.1/ADDON_README.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 1819,
+      "sha256": "a6b5361016c987998e292873a72ef9a76438ecbdab88d2420d794c6c9bdabcd5",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "问题定位与修复/README.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 2759,
+      "sha256": "0458a60dbf90a940b66d376abfa2f96ee83da1cdd70926701ad1e67a5fefee31",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "问题定位与修复/定位材料模板.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 1108,
+      "sha256": "af789ecbb18db44e8818d32267303182a801a1a9d881c291093ff4809911534b",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "问题定位与修复/跨核崩溃复位与内存破坏_根因定位实施指南.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 24848,
+      "sha256": "706453aa89f66a8c2d58e7bc328b832c802693eab250bd8204133444c791e92c",
+      "zip_posix_mode": "0o644"
+    }
+  ],
+  "current_files": [
+    {
+      "path": ".gitattributes",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 47,
+      "sha256": "2ba7595a6ef7dbde7316b3b54f338544c1f39b5bead3b41426fdc780ab635eeb",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": ".gitignore",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 391,
+      "sha256": "b7eefc7cca0bcf4b4dc2c99b4eeb049fd874f6d56f86f42ecd277df06bb178c9",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "AI图元与代码开发/00_AI开发_模块入口与推进边界.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 2999,
+      "sha256": "787052ebaa0f2c0274c7e096139d9505400be1e4b7fbe46d0366c293b7c888fa",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "AI图元与代码开发/README.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 1690,
+      "sha256": "6a13e766bc7234ebdc1c12a93d6fa300dc8b7862cd3c4698932a10bcc2af02b2",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "AI图元与代码开发/参考规范/10_阶段4_AI开发图元与C_CPP代码候选MVP_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 1882,
+      "sha256": "4fb72f0c94deafbcac7f0ef191302b8dd72be1cd8000735ab31cdf33abafbf2d",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "AI图元与代码开发/参考规范/11_阶段5_原生应用_RoundTrip与安全提交_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 1534,
+      "sha256": "a57465ba7bf6bcdb5baa4e828319d220a5c9168a5101cc1bdf6fec60acbc5423",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "AI图元与代码开发/参考规范/16_ProposalGraphOperations与CodePatch数据契约_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 2022,
+      "sha256": "e5702d7da053295ce6c78bcc8eac4549dd55ac9231b948aa34dd58207e4c2199",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "AI图元与代码开发/参考规范/23_beh_compose_graph_and_code_Skill设计_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 2197,
+      "sha256": "20b9b1b532e8b6d5eb382a538fab7b52e0622f216faf8add920d8773a3029705",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "AI图元与代码开发/参考规范/BEH_MCP_Phase1_Implementation_Guide_v1.0_2026-09-05.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 62620,
+      "sha256": "b5bdbf7695ec5950ca83adc15e3b7390707deefae86e7a3588241850e25ae402",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "AI测试/00_AI测试_模块入口与复用规则.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 5022,
+      "sha256": "3a3de4df2c1f2ef084bf24f92095d6962701c70dfbba48a15b4b0fad80a3180e",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "AI测试/README.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 3798,
+      "sha256": "afba4d0c2d32ad792a30e55a729b73f56831d975ee596d21fe4d4daa646bf76c",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "AI测试/产品端到端/BEH_产品端到端测试融合_主窗口与多工具协作探索指南_v1.0_2026-09-16.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 51350,
+      "sha256": "19344056ff7e893445092e03b3c09f050f272708cacc4533fc200833ee0c5906",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "AI测试/图元行为测试/参考规范/BEH_FB全库发现与批量适配实施手册_基于8个FB基线_v1.0_2026-09-07.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 47209,
+      "sha256": "80927a8939f515397c54cb2f59a21d010b498a31f640ff84926937a13d7242e5",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "AI测试/图元行为测试/参考规范/BEH_FB行为测试可信性验真补充规范_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 13917,
+      "sha256": "1f6810066fc5e342808cdc6e22dc4816ef37faa3c1dacc8c8b6cde059b9fff09",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "AI测试/图元行为测试/参考规范/BEH_FB行为测试最小MVP实施规范_独立于旧FB框架_v2.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 15251,
+      "sha256": "8c5acc459afbddffbc574613646b93d2ce259b611767eb0a8f72f8b427bccf21",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "AI测试/图元行为测试/参考规范/BEH_Headless图元行为测试_PoC工程约束与防取巧指南_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 11387,
+      "sha256": "6fc9bae913c3b1f6d2bed7048059f76031067c390be9a210a13d7a038b452d93",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "AI测试/测试与解释融合/02_AI测试与解释融合_双环境实施指导_v1.0_2026-09-16.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 38817,
+      "sha256": "6ee4494dd5a1364da5f08b44dd238c9ca86023eed17184ca61faa8c5ddf9d2b6",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "AI测试/网页人工路径/00_总体架构设计_多模态探路与人工路径验证_v0.1_2026-09-13.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 32920,
+      "sha256": "f74d403766e973e256cbdd41d29837bd8221e045ec80de39d0b463603c540756",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "AI测试/网页人工路径/00_项目入口与交付清单_v0.1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 2740,
+      "sha256": "9ed4f6d7896ae2e6edf76fa46e0887128ec48754aa479c9cf48cb96a81b86107",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "AI测试/网页人工路径/01_使用与接入指南_v0.1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 9877,
+      "sha256": "387275d77b05622b4f729b6926a83572ffc9343198f659f935c1c07c09925264",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "AI测试/网页人工路径/02_实现说明与边界_v0.1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 7031,
+      "sha256": "024df98ab4c5afb2ae9aa71396e442e4d0be9b9f2e6b728a1c70fa9317cf449a",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "AI测试/网页人工路径/03_实际验证报告_v0.1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 7614,
+      "sha256": "0ccf3d020eeee4b89cfa0943e550aee92b9e3c4754bad189b4fdaf75f8685937",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "AI测试/网页人工路径/AI人工路径测试自动化_实测证据_v0.1.0.zip",
+      "type": "regular_file",
+      "content_type": "binary",
+      "size_bytes": 78463971,
+      "sha256": "0574e1f0e58df92226f544b119e3f7acd90b8fc925fb9c8854f2ae6d81f9b924",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "AI测试/网页人工路径/AI人工路径测试自动化_架构设计与MVP实施方案_v1.0_2026-09-13.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 68631,
+      "sha256": "22453bf9ef3f8371a7991f22689e3136d8d52394f6910cb06d2e9723a45426fa",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "AI测试/网页人工路径/README.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 1295,
+      "sha256": "ee73418310635732056e9f6a1194453276264a7ce9d76cf2461bd63e2f579664",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/README.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 7293,
+      "sha256": "bbd03489ce78fc54732a47a64013319c5cbb1bb0663b0077604b0676e62b8923",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/dist/.gitignore",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 1,
+      "sha256": "684888c0ebb17f374298b65ee2807526c066094c701bcc7ebbe1c1095f494fc1",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/dist/human_path_testing-0.1.0-py3-none-any.whl",
+      "type": "regular_file",
+      "content_type": "binary",
+      "size_bytes": 33438,
+      "sha256": "66c496a1c728f97cc5a98332a3d3db5fba8f264cee7707faea66f9041803bd3c",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/docs/00_总体架构设计_多模态探路与人工路径验证_v0.1_2026-09-13.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 32658,
+      "sha256": "6aef2b08ed69631e9973c696318cf386ba58d3c078ad8d3c309653a6cbae2b9f",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/docs/01_使用与接入指南.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 9615,
+      "sha256": "1b7aba2fd08302bc7dacf71ac6f05bc93d54c966e2290b55be0f84b699af3378",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/docs/02_实现说明与边界.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 6769,
+      "sha256": "8c1152e67d015725e7bce3faf4224fcbc8d004e0b7ff06fff889c16f97f022c6",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/docs/03_实际验证报告.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 7352,
+      "sha256": "880a410cf67e8e53b4b8bbe65fad554c7b0ff17f35ca8f637e38cb34a130c3da",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/docs/AI人工路径测试自动化_架构设计与MVP实施方案_v1.0_2026-09-13.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 68369,
+      "sha256": "820635c532bd44562ca5ce4ad2f6d341c7970fb46631f874db0925322cbbae1a",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/cancel/behavior.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 8386,
+      "sha256": "bd507f8a00a5c2149aad07c283ad0e1947a49ad5663b6e9cc856c8ab67d671c9",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/cancel/environment.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 314,
+      "sha256": "a75008717d58be199d2f7d20d36abaeb76eea8b2484475c8a1c553f20aa66c91",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/cancel/inputs.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 60,
+      "sha256": "05b09ac837e8563bc69145ed5b9aebfc4e586320fe6f3b7b841edc1cfb862c07",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/cancel/route.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 8496,
+      "sha256": "d6c8120f9d1fe213a45d55aaed30ddc69c7fabaa0fcec36c97999797cec62816",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/create/behavior.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 8709,
+      "sha256": "72b2c87b94e3d9727f5dadeacc27051936f24656b061a9c0140acba77c7ae016",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/create/environment.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 314,
+      "sha256": "a75008717d58be199d2f7d20d36abaeb76eea8b2484475c8a1c553f20aa66c91",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/create/inputs.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 60,
+      "sha256": "f852003cba94ada5e9a02b9cac59a9cb6c8314bd797294165750c47a7f9b5429",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/create/route.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 8819,
+      "sha256": "8bbb7caa4db21e65701d880d22148df03d6d0599171949d7550f98a89dee6dea",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/delete/behavior.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 6955,
+      "sha256": "446252b17f7bacc9455e8043f675a6700ef5f54ba9df695e1defbcffc6325efa",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/delete/environment.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 314,
+      "sha256": "a75008717d58be199d2f7d20d36abaeb76eea8b2484475c8a1c553f20aa66c91",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/delete/inputs.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 60,
+      "sha256": "55e102750f6b219a7a378d1c2b1d8f226b5e72edc5bcdfeb66661a8cb205e36a",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/delete/route.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 7065,
+      "sha256": "7397ef02b78192e98e84ee07da3151e76f61d5a5f1a7e0c0e635ee89efc5cbd2",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/duplicate/behavior.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 7806,
+      "sha256": "3192c3fc4c729735481f89b88753c55c15793a133cc4567881804e001ef7ff2c",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/duplicate/environment.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 314,
+      "sha256": "a75008717d58be199d2f7d20d36abaeb76eea8b2484475c8a1c553f20aa66c91",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/duplicate/inputs.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 60,
+      "sha256": "802e76c55bb98d4f3f1731fbe35548ee7cd3686cee6036a92dca7555a53b9fb6",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/duplicate/route.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 7916,
+      "sha256": "65e8d0ba9955afcc1d325056844435dd309199b5e2244d344bca4d0751c3a993",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/edit/behavior.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 8707,
+      "sha256": "8b7fc7565f2b34f4af0855ca0230d8ee01b81051c618e0e4f5b125c6c166beda",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/edit/environment.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 314,
+      "sha256": "a75008717d58be199d2f7d20d36abaeb76eea8b2484475c8a1c553f20aa66c91",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/edit/inputs.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 60,
+      "sha256": "2e1429d91001e29c47eb3220db6b50de66177f0c9eebd5424c5dec884c82a708",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/edit/route.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 8817,
+      "sha256": "d39ba30a138dd5013d2580e884086afb03ac3178e52ac6903f6d861a125fbf90",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/empty_search/behavior.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 6356,
+      "sha256": "6fc0ad3ad64d3ce4330f8a01bd4782de0b23c44eea33413f7af6f2a99afaed63",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/empty_search/environment.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 314,
+      "sha256": "a75008717d58be199d2f7d20d36abaeb76eea8b2484475c8a1c553f20aa66c91",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/empty_search/inputs.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 60,
+      "sha256": "253436c0392d59bfc3d9018ee19f287d2cf54f66bd2dd0359e8d120c47f89c50",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/empty_search/route.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 6466,
+      "sha256": "68a35220ea1076b692d2e54497e0b65792ed276724f449a63039fc1552b221dd",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/keyboard/behavior.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 8713,
+      "sha256": "17b8d72bcc57946b3d269cbf31f89df88c8122fd677898fba5f7d57008132bba",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/keyboard/environment.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 314,
+      "sha256": "a75008717d58be199d2f7d20d36abaeb76eea8b2484475c8a1c553f20aa66c91",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/keyboard/inputs.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 60,
+      "sha256": "b85fba606c28b5fc4e2182b4baae18e1872e0c209d3f479b5432ac46828b4002",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/keyboard/route.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 8823,
+      "sha256": "2e6bb52c457f5218f3e62037cf750dd0458852b8697e5d79d7b4cadf5726804e",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/pagination/behavior.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 6151,
+      "sha256": "43415444dcd01284c2004378cd9d242f02ee856994598bfdaeaacc55f7f18f30",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/pagination/environment.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 314,
+      "sha256": "a75008717d58be199d2f7d20d36abaeb76eea8b2484475c8a1c553f20aa66c91",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/pagination/inputs.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 53,
+      "sha256": "c3165115de04720695a89ac0cf7633fe10a5287e63f6b91b7b376b5356e5f8d3",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/pagination/route.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 6261,
+      "sha256": "2cf99d2bb027cae2492f8c36a0db716ab2e1e32739208d3d08768d180c434f90",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/required/behavior.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 7812,
+      "sha256": "e989933d36cd3f99048c50707c6ca561b36e284ab3f7778bdaf639c28b158eca",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/required/environment.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 314,
+      "sha256": "a75008717d58be199d2f7d20d36abaeb76eea8b2484475c8a1c553f20aa66c91",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/required/inputs.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 47,
+      "sha256": "a074d6b92c235414700a79cebec5e2621608c3ea818141048e4e94c7dd39ff9a",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/required/route.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 7922,
+      "sha256": "7e05d926b041fe18cd43edeb0c129bed85653e40c058415bb8686b1af499191c",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/search/behavior.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 6342,
+      "sha256": "1399ec87c4192d68563e73b49dce9455bce4d567a5b995aacb5b821dae3b3b63",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/search/environment.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 314,
+      "sha256": "a75008717d58be199d2f7d20d36abaeb76eea8b2484475c8a1c553f20aa66c91",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/search/inputs.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 60,
+      "sha256": "4b20eb273699468bee3a77f3606057e7fbb77cf26a3f17ac055bd8e121d01de6",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/authored/search/route.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 6452,
+      "sha256": "5efa0615e90d70e466c7175af81abc8f8eb6cde3b257dc409cfb7cd187210130",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/explored/behavior.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 6718,
+      "sha256": "d501a5d786262a58d37368f5d1ef4435b05f03a7f1fa52b078183802fcfecec7",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/explored/environment.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 321,
+      "sha256": "b3bf82986ff25ac3ed874adbaf786988cf456299c5a1ead25aeb0ce972ab94f8",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/explored/inputs.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 57,
+      "sha256": "326f0d3594fcc787f8f8acce778e048b24f353f782177aa015feb360126d31ba",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/explored/intent.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 270,
+      "sha256": "ad14b729561ac3a857d40a529c0ca60d4b0c33dee5c8ab291fc83034e60f552f",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/explored/outcomes.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 2824,
+      "sha256": "ef248a3d8a55d818447b30ada6f13718d42a26919f92a61f9f911ed6dafc0962",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/explored/parameters.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 127,
+      "sha256": "e189d093aa27fb7bb7c93053ea29c26139b51a19f5aadcfc47bfe39a60706932",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/explored/provenance.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 240,
+      "sha256": "18cda9dcb313973d2a8870f453785d96513e61c0542790c712700939f0f39110",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/explored/route.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 6775,
+      "sha256": "4077626c9ed23315a605321236bae91077c4f504be1e0ed4d087d9bef4173fd3",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/text-model.example.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 249,
+      "sha256": "cc1b07bfc2cfdfcc9364c3c930a5893974327cf9f4791b01f711bbff15e43a13",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/examples/vision-model.example.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 248,
+      "sha256": "ba2f047bcf1ae9ad421b0140d78d3489eadfd54dab0804e46d9fa63ca7b016cb",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/pyproject.toml",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 629,
+      "sha256": "6107b1c11832bf3ff79df6e367d1d9482312ff0347161f295fc319a145fbd746",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/requirements.lock",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 20088,
+      "sha256": "d9aba381685b47183cfba94f6dab428a47a8709288fbafc8b3f017cee24c6b30",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/schemas/behavior.schema.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 7171,
+      "sha256": "fce545d8eec49ce18c8c7d0caaff1ea91bfbbdaeed9c2c2f1d62e881f94af946",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/schemas/environment.schema.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 1472,
+      "sha256": "2c17cfda01691e90751952af6f82d424c52ae50ae65fcf2aa7658be515b0a262",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/schemas/exploration-decision.schema.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 3276,
+      "sha256": "8a3e81d8c80b9a044fd5833c2ff12f57aa38fcab2f3bf745ee6358594aa24915",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/schemas/model.schema.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 954,
+      "sha256": "e30e63737e9d66aa1e2542af041dd71fb2f77ebfd020aa6f8af22b7696a12ec7",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/schemas/outcomes.schema.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 4315,
+      "sha256": "47ab52c31c290edf6546c87c1317dfec271c95df7800707b4cd1d9f05030ee2e",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/schemas/route.schema.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 7809,
+      "sha256": "d8a51a3579c2ca560fb7cfb8e59c4e31867494e0fd8b97b0f30d39bbd498df8b",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/src/hpt/__init__.py",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 111,
+      "sha256": "5d626589c226a4ae1d00b6dd858243c36b16b653408d9c59c40dc2eb1043ffda",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/src/hpt/__main__.py",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 49,
+      "sha256": "76fa916e93e0ae1a6c1bb51dcc0bcf289c014e9f760a47165f8a84401ccf41d7",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/src/hpt/cli.py",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 11739,
+      "sha256": "67d534fb5f1f537f12660a3b71e28ecf89360fb9765d2ff1f96c6bba64bbafc6",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/src/hpt/contracts.py",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 9409,
+      "sha256": "df89c46bc7d92dcb2c05b7078d2b783ff6a88d4446dab8e19ed06479148de706",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/src/hpt/evidence.py",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 3574,
+      "sha256": "8c31bbed64357a4a9efb2b42f059dda49b1b610f2d0a1581cdd76d689a606980",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/src/hpt/examples.py",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 9045,
+      "sha256": "fc245746267e7229c535aa2c32af10465d7cceea88684cb060632a6aaea9fb18",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/src/hpt/explorer.py",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 8919,
+      "sha256": "362d990bdd8d0595cee536f17eb172553380b606ea6c286e488d4780a981e021",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/src/hpt/fixture.html",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 9979,
+      "sha256": "3b0453b551e2ece38e99ebfa0fd953c4606d86b6adcd6f063f6bb6c1b888275e",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/src/hpt/fixture.py",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 5723,
+      "sha256": "9729472df3b5287fea16f8a00ab9d16d965ff3db117c3015ff774820e14bc4bb",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/src/hpt/models.py",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 5502,
+      "sha256": "945fcd7aa9d1a88017e221be63b86b41ec568c5d726c73450e43982ebefb04e3",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/src/hpt/registry.py",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 3505,
+      "sha256": "6988ecfd98846fd41a2923c90c4f01fb2a79709dac1cceabec93d2daa0cfb13f",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/src/hpt/reporting.py",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 2007,
+      "sha256": "532bcec60fdaa1de87472230dee51d52b74faefc6b3f41dc2a12cf4101f75480",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/src/hpt/runner.py",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 17060,
+      "sha256": "f6864cc58b926140b54bf0f990d976bebe1f57cefd3b43770634b5e28a6d68a2",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/src/hpt/vision.py",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 4472,
+      "sha256": "11e452eb98cb90d8f96269a2794e821b546ac79a01358f7dec3edbd273e28f1b",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/tests/test_browser.py",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 8225,
+      "sha256": "c4c8cb247ffc618832f540bb4499703558ae2dc22cd3b8c63c0ac9109c165783",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/tests/test_cli.py",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 904,
+      "sha256": "237e5a08b066df60d0eceecf8d28c6aa89e12b37413170e964862560a73a2f9e",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/tests/test_exploration.py",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 2537,
+      "sha256": "5a5ba6bd2c92babf31b6bc5f25207617fc3a6a2d4a7b611a1115ae0506243601",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/tests/test_models.py",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 3770,
+      "sha256": "60d62cc57eb22df4f68e0e42b518469d3580c523f89101767bb0cc9ab8bc009e",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI测试/网页人工路径/human-path-testing/tests/test_policy.py",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 4807,
+      "sha256": "ad1362a6d48507987582571e2e0ebae2feeca2592b441842bc9da9ac7bcb6b66",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "AI解释/00_AI解释_两档模式与测试增强规范.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 9515,
+      "sha256": "b1f06650f67499e55465e91f206221e887352ab2d80905730473d09e5d6ee153",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "AI解释/README.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 1440,
+      "sha256": "8ed8eac4aa9b4ea8a92902b84057a36bfb95b84226f1464cad9292800bc149fd",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "AI解释/参考规范/08_阶段2_AI解释MVP_外置Skill_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 2631,
+      "sha256": "44b287919c14a0f2d7be872fb0b7b1c14609ffb7a1e54558b6e0f87a0607745c",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "AI解释/参考规范/15_AnalysisTaskBundle与ResultBundle数据契约_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 2891,
+      "sha256": "e064182a8a65ba5236154d7a51478021c8c5da630cbdb220a64cb564a13bb0f6",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "AI解释/参考规范/22_beh_diagram_analysis_Skill设计_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 2829,
+      "sha256": "9dec5a184214e9ecb14641b14390592d7f6fd933d4930307f3a1dc652da4a414",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "README.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 4429,
+      "sha256": "966f8bd63f731c97ff210b04a7b7457e70ec1f1be6d6db09abb2c041e5ccb113",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "Windows与WSL开发环境/01_WSL与磁盘现状只读探查_AI任务书.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 17869,
+      "sha256": "f854b2a3951ebbe9add465bed683bfa3639b8ecaa9d86391fd1fe78db22dd5d3",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "Windows与WSL开发环境/02_多仓多镜像目标部署与迁移实施指南.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 18844,
+      "sha256": "586593ca1e603cb0f29733eff0a49f4621cd71323e1c42294a4f3a66e7b08118",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "Windows与WSL开发环境/03_Mutagen_Windows与WSL双向同步详细使用指南.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 39264,
+      "sha256": "77c4bb166e6373e16c6ae79fc0a6527251da0f4ec1fa46f4ea918ca4b6ac7886",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "Windows与WSL开发环境/04_WSL与Docker关系图解.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 9269,
+      "sha256": "a3b2070e6a57f0ac08409c35b624900729e98bad1be6ec6b0b4d966d7f20a0b7",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "Windows与WSL开发环境/README.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 1362,
+      "sha256": "dcfe336d3bafea3a271c51288b45f22e64f12f47119ea7a4f622b4f24b4cebe4",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "Windows与WSL开发环境/图解/01_WSL与Docker单组合关系_示意.png",
+      "type": "regular_file",
+      "content_type": "binary",
+      "size_bytes": 326824,
+      "sha256": "98b312c3638766f4c6bef0bd2159a085ff48aa90deecf1082cb693668548c09a",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "Windows与WSL开发环境/图解/01_WSL与Docker单组合关系_示意.svg",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 7719,
+      "sha256": "59244b8e6256d685cff32ebd738b91281b1509553e09ffe060521f87a72cfe65",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "Windows与WSL开发环境/图解/02_多仓多镜像与独立产物_示意.png",
+      "type": "regular_file",
+      "content_type": "binary",
+      "size_bytes": 407610,
+      "sha256": "f3443cc18867af444250f6863e3329efd389d7d7d118d9b7d8c5dc5ea5b37140",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "Windows与WSL开发环境/图解/02_多仓多镜像与独立产物_示意.svg",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 12830,
+      "sha256": "c3a33885d74b6042adebabe073120eaf700b98523f02d351e4a7fb20e9577405",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "tools/verify_workspace.py",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 4334,
+      "sha256": "47a7f82585e71510be93bc8f398ba79122b5e7e7bf42276fb0704d41b773d49d",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "交付包/README.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 4622,
+      "sha256": "23387e073ce3a1c278a2457b1da99db5d34eca75189b8bb12c1a355110ff3b81",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/README.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 2542,
+      "sha256": "350d0e874f0ee8b9702b9134f6b3adf83f2b5f198e1600b0df243244c42d9513",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/产品与EMAP_CodeQL全链路追踪与机制诊断_上板实施指南_v1.0_2026-09-17.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 50866,
+      "sha256": "48d603cc761272d044da16cea87eda21cc4624ff08f340a243ba0ea8d48a179d",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/产品多核与BEH架构背景记录_v1.0_2026-09-17.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 15159,
+      "sha256": "13a302a903b23da4ae685934684e4c5de544e205bdbdb647e8ffffb39f8ee44b",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/00_总入口与执行约定.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 16829,
+      "sha256": "b497420c2b4fd40696cb332895ee8ac590ae8c43bbe8a35464e2b18ef1a92cee",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/01_产品仓事实探查任务书.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 8514,
+      "sha256": "f5c27bdb1a26f5295c16ab3ad9b03463c798c0dc8e0a5785c555578587531e93",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/02_EMAP仓事实探查任务书.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 6964,
+      "sha256": "75a18e110e8e039a06b36cf52e9e9fbdc94405ddda38cc6984c7f2af5e00b5a2",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/03_双仓关联核对与事实验收.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 8967,
+      "sha256": "26696a401276b2dfe063d2020fa45e03ba4a68c95870081ae448fa0ca68783ff",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/04_证据与结果记录模板.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 13018,
+      "sha256": "4b7e182b1d85fd7c6356ba1365c5ca3f5fb63d990d2a27c6897ad6cb2ea2425f",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/05_成熟工具执行手册.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 1222,
+      "sha256": "23c6d2f0d31f048ef49959fdcd9c2a66c57108f5be68ab6d6dd883bf1de92a3c",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/06_本地AI执行与续接.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 9166,
+      "sha256": "e1bd3dc698831bac605e4a9686adacc70655177ff3f2a28ed3a35296c059ef4b",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/07_验证记录与适用边界.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 10311,
+      "sha256": "dc5f31ab33a4389cc6042807f572df007e9ac4aff863f2b766d6b057e10c8960",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/08_工具盘点下载安装与存放指南.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 1238,
+      "sha256": "ed2d344d9178e00c4712f1dff5a289845bbfe746c41af8611847d383db3d4755",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/PACKAGE_MANIFEST.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 9425,
+      "sha256": "4a39d451d2e194cc4c6845a70d1626240e8a2f1981bf363b7a0257ef35fd473e",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/config/execution.example.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 1570,
+      "sha256": "1cdbf1c0f56b3113a3cb4ad30a5605b6638e95e7c3d2733744ee99b9e5d113c2",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/config/project.example.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 1650,
+      "sha256": "e3080512b8b43f52b0e15e26c3591332a8947194d69d9fee544f77be769603af",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/config/workflow.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 5176,
+      "sha256": "92e35c0c5cbca6dbb96677663d0bf581d6da219de96fdf368530d54d3dbeb0af",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/queries/clang/definitions.matcher",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 95,
+      "sha256": "fb7377cc62b824544f275e291e1fe905f9383c2d3280f2e8bf6c1fcea75aafa5",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/queries/clang/named_calls.matcher",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 108,
+      "sha256": "f03431f9851d93521a166030a57087f531b43ec560e2a4f0db0b73ca30a7caa1",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/queries/codeql/Q00_Definitions.ql",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 353,
+      "sha256": "b20a79d308541addc8e73307298f6233676ffbf216aaf7f8a5a0116218d32c7e",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/queries/codeql/Q01_ExtractionErrors.ql",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 294,
+      "sha256": "c815b9301076158fa594a7f376c6cca46559d7977d8f9e485f08416ad4c4259c",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/queries/codeql/Q10_NamedCallBindings.ql",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 614,
+      "sha256": "ca3fea132bdb43b4a8671bf987984cd5fb7aec44a64c718c4938d60ec9091b18",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/queries/codeql/Q11_FunctionReferences.ql",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 481,
+      "sha256": "5f19faba403fcb470452215b64af948ac6c899048808c00a60ff353b31dad517",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/queries/codeql/Q12_OtherCalls.ql",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 334,
+      "sha256": "520a616f3c4623d7448e54a109cda75ccf382dcaf5b6aa0cb079e6095142207e",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/queries/codeql/Q20_DirectVariableWrites.ql",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 472,
+      "sha256": "c8c6121bee7c7546da6ffc609547c19844ee18245239872aa26253d036186a0b",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/queries/codeql/Q30_Conditions.ql",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 288,
+      "sha256": "340b353ce7663ff86bdfa9e94d6c73a50d5015495bf23667b363c8c7c07a38c6",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/queries/codeql/Scope.qll",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 319,
+      "sha256": "4c3816bb7ae50801fb22749d5a5cf248aa3809c65fd8fdcf3fdf91e7b34cb0d7",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/queries/codeql/qlpack.yml",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 87,
+      "sha256": "ce699280602173ab0dbe8e7d3da2b90dfca6dd9c4811015d87262c6f3cae9561",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/scripts/check_workflow.py",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 11208,
+      "sha256": "a3207eb46a4650ed9b9242d0f8dce71c3a4891a4b1030ba609eb63709cf8ce1a",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/scripts/probe.py",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 22331,
+      "sha256": "fd0070770279d399c566097348d33d3c2e32d053b5dfb517d255c9cbb74d616b",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/scripts/run_codeql.py",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 4839,
+      "sha256": "972270d9dccd4b9be581029288c516923fddf69eba063b031bb756d44c44e3ae",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/templates/acceptance.csv",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 74,
+      "sha256": "d895b44928920aeb1c960939502e6effe951ba4ee0b997a56536e7e2d3b66f77",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/templates/gaps.csv",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 128,
+      "sha256": "a6c3f3dfb188754f1e8d758fb6386d13415a97f8ef1f5d14bffb32670452a8af",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/templates/ledger.example.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 96,
+      "sha256": "a14b23176e11faa2a68e982d5c1aede613bb7df1c7596667f63ff4962e01226f",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/templates/mechanisms.csv",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 174,
+      "sha256": "82deb1ee2f49569e5202996ac45ebd5f2a0a9a105c2ebeced8526f02456aa0a1",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/templates/relations.csv",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 154,
+      "sha256": "598a8ed6c82fe2d4aa3d669ab1aa139c8ee09867d5165c6740e2260e337f00a6",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/templates/targets.csv",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 136,
+      "sha256": "13c66b3e2250c8524c5901315388ddd01e915219d9405a0959b03860eb1fe472",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/templates/tool-inventory.csv",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 239,
+      "sha256": "5b11f6c26206e13db0ce5188f8e0745797a4e3fa21c615a3f72e044aa7ffee14",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/tests/test_codeql_adapter.py",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 3998,
+      "sha256": "bbacfba6d3d595905bdf85974aa4b461905e34669bf6966e86137d2e80a1cee4",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/tests/test_probe.py",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 11223,
+      "sha256": "6b0925b53c644362dc831d2332949dece0df767c98768ddb7df35a47c0b61517",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/tests/test_workflow.py",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 9155,
+      "sha256": "59b7af328f0d337981e3cde6c8bb93fbd1d6aa228275f7da58cc12731e49194d",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/validation/direct-capture/stderr.txt",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 3381,
+      "sha256": "13af80029cdebb43998e63d7109fccbd50efa7f42c2ecfd67173c9d76dc01bfb",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/validation/direct-capture/stdout.txt",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/validation/environment.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 1408,
+      "sha256": "9d11ad36613b83094fc12174db0d0fd6d856f861ce86add039062d15fbd363e9",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/validation/recorder-output-check/run.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 1083,
+      "sha256": "658ffb9028239fe7fcb32e37e16fd8451cd871d7f01ceb818d019a39dbb36b7f",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/validation/recorder-output-check/stderr.txt",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 12010,
+      "sha256": "d24ae6b3a795372743fddefcfd0d92a16832cea6f86fe8d0bec771cf91c6db60",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/validation/recorder-output-check/stdout.txt",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 12010,
+      "sha256": "6fcb94944e140a7922075d89939b39c3e36edd81ad5d3c91bb79f97f2838d9aa",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/validation/selftest/run.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 2578,
+      "sha256": "60e450d74548a933b1311ef54e7536565430686d4ce8e3c8dce030d4f9ed4969",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/validation/selftest/stderr.txt",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 2062,
+      "sha256": "540d3f6b976e313f9660cf8600c56a39f986c264176bb6c782e4d2527537c142",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/validation/selftest/stdout.txt",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/validation/tool-unification.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 8178,
+      "sha256": "0ddaa0a0358c7d3072c888ee7e6eb6c90d8fec786ff3b2610b46552a34ebe4bf",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/validation/v1.1/package-check.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 146,
+      "sha256": "d2d59324a9a66bccf89690901a575a312e08de31acb3743c9dffb64069b75298",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/validation/v1.1/unittest-stderr.txt",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 5026,
+      "sha256": "ac316b721cd5c9267816638c2e3e8a273a8dd9295afdb7a1dd677a860c608de8",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/validation/v1.1/unittest-stdout.txt",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/validation/v1.1/verification.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 6735,
+      "sha256": "d0cc9dd7a1e7e4a11ca1c37befb512eecbc50c107dade68596e55877d98f26c1",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/成熟工具增强事实探查/validation/verification.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 1005,
+      "sha256": "6af41eca0343b6b388bdd276c5eed8953da2a05dd46f34133ebff21fdf26aa59",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/普通事实探查（未指定成熟工具）/00_总入口与执行约定.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 13117,
+      "sha256": "deb5f1a949f5907c42107322a2074c3ec490fef9b1b43c92f8ac2b7fd52aec16",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/普通事实探查（未指定成熟工具）/01_产品仓事实探查任务书.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 11412,
+      "sha256": "95b72425fb7abb1b89470a986e1582b90328988d4492eedd157fa57427f90c4c",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/普通事实探查（未指定成熟工具）/02_EMAP仓事实探查任务书.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 10497,
+      "sha256": "c7ad81891f3faa87592607b8258ff4ddb30f0cb04f88c2b3a6ea4a830f8bb43d",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/普通事实探查（未指定成熟工具）/03_双仓关联核对与事实验收.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 10342,
+      "sha256": "fbb6695b3544db974309b77abf57afa604c1869429b795c4c457c86692a5565c",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/普通事实探查（未指定成熟工具）/04_证据与结果记录模板.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 16830,
+      "sha256": "fa31e4b275cd84b700faf6c03086bb8e3c5b764e2f4a82d1b05ad7cdd883c003",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "产品与EMAP事实探查/调度相关产品与EMAP代码联合探查方案_v1.0_2026-09-18.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 39269,
+      "sha256": "47915f7d433114ba58ac51dfa0bb39a080f60a18f8f0743144103fea21b68395",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "任务记录/README.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 1289,
+      "sha256": "b4b66f2b79611ac0372408be06b187e00ff232c956a711c8083e36dafcb26cfa",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "任务记录/任务记录模板.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 2189,
+      "sha256": "d5125491c2b854e2fb1eb53db39e1cbc341d7f6ea66741e7aa19b97738c1ec12",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/BEH/00_Current/05_开发总路线图_先解释后开发_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 2684,
+      "sha256": "53785e4a9985d0e1eacffb7a25beef9a7f6d0556c9e0f757079fc1c086df29c2",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/BEH/00_START_HERE_项目入口与文档顺序_v1.0_2026-08-19.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 5110,
+      "sha256": "7dba8307bedfe8d3dc82475b0c0611fcd51eb7ece21ef63d15644ea25548a031",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/BEH/ADDON_MANIFEST_交互与测试补充规范_v1.0_2026-08-19.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 1312,
+      "sha256": "41517458dd50899ff2b75ffef615be34ddb3e225f6a1c218c02275a407c85b9b",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/BEH/ADDON_README_交互与测试补充规范_v1.0_2026-08-19.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 1561,
+      "sha256": "058d191050fa72d641287ead64084ea1f624b2cee96db53128a9635473fc58bb",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/BEH/BEH_交互与测试补充规范_新增文档包_v1.0_2026-08-19.zip",
+      "type": "regular_file",
+      "content_type": "binary",
+      "size_bytes": 13194,
+      "sha256": "32cee72fedfaf7e733b670d682da006f18606ab0d0caa5558bf28a4c23d2f3bb",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/BEH/BEH图源与代码分析工作台_新项目文档集_v1.0_2026-08-19.zip",
+      "type": "regular_file",
+      "content_type": "binary",
+      "size_bytes": 60122,
+      "sha256": "da7a691eb03b01f82b70742c998e5c54acca69f84372bd36725c6df2e681fb7d",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/BEH/DOCUMENT_MANIFEST.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 6187,
+      "sha256": "a276ad9e1ee2f1119498646e94d307008c05d62a1f73973b6d073168bd3875ac",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/BEH/PROJECT_INSTRUCTIONS_项目运行规则_v1.0_2026-08-19.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 4834,
+      "sha256": "8e0eafd82f46d03c479cacb31018146ce3414aeee00b747f882c208a70aabede",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/BEH/README.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 679,
+      "sha256": "d05d883a83ac6c984579232759efbe7c27e167a04b5676016f5a81d5edcfa748",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/README.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 7559,
+      "sha256": "78a0e86935161038327a76be66966c9361dfaed03d1587257016483eedf29efb",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/后置能力/27_精雕细琢与高级能力路线_后置_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 1607,
+      "sha256": "3a91a46c4068e0ee149ff839c0c12b14bdcc107e319d8bbaac45be57bc29a1a5",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/旧入口/00_从这里开始_BEH统一导航.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 7151,
+      "sha256": "58409dd079c773868f1fe6d768f6a6a8b2f07054f0e70ef8cd91b8564bff29db",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/旧入口/统一工作区_从这里开始_2026-09-17.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 136,
+      "sha256": "02ca48577792b99e979a9652821a4df307e1921d84790c4a1ee68c293fdf8d5e",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/旧文档包/BEH_AI图源_公司使用版.zip",
+      "type": "regular_file",
+      "content_type": "binary",
+      "size_bytes": 25038,
+      "sha256": "e5f004f697e5bfcbca9d97fd4420319475dbe2abe20f94cb4180f93bf1b6df4d",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/旧文档包/BEH_AI图源_最新重构版_DeepSeek弱模型适配.zip",
+      "type": "regular_file",
+      "content_type": "binary",
+      "size_bytes": 24271,
+      "sha256": "9bac90b22de3bc56f9b4f2f63517f5729bdae4e140ab56494f53f7ac8a54bf6c",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/旧文档包/BEH_NativeRenderer视觉保真专项排查_新增文档包_v1.0_2026-08-19.zip",
+      "type": "regular_file",
+      "content_type": "binary",
+      "size_bytes": 6552,
+      "sha256": "7698083b8ba00d790e61af8bc9d86c5c07354ef5f5209b9ab38c142478f04fde",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/旧文档包/BEH_交互与测试补充规范_无人工参与_v1.1_2026-08-19.zip",
+      "type": "regular_file",
+      "content_type": "binary",
+      "size_bytes": 13762,
+      "sha256": "87eaf9c710a201e47ac51febc44cb9c2e122e85c85a15a5fa5b6a37438679142",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/旧文档包/BEH_原生Renderer定位与Offscreen复用专项_新增文档包_v1.0_2026-08-19.zip",
+      "type": "regular_file",
+      "content_type": "binary",
+      "size_bytes": 7155,
+      "sha256": "cc60f57c432da21a917a9e9ea9b006acb40ec69f0635a66c568a181b3e272f7d",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/旧文档包/BEH_新项目文档集.zip",
+      "type": "regular_file",
+      "content_type": "binary",
+      "size_bytes": 60109,
+      "sha256": "6b3ce478f8c7beac33b13aa7d62e4ae16a8b5f0cbd05db0d3a3c0da06111f50d",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/早期方案/00_BEH_AI图源项目_分阶段总路线图.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 5047,
+      "sha256": "0e50f9008964bd7f464b8f9150ce3d279a9e47a66f91efa63dec93434e2628cc",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/早期方案/01_BEH_AI图源工作台_总体设计书.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 6992,
+      "sha256": "19f0bd2bc9961db4e5622ab7ae1610e6a7d85f3050a5321df83bb016e2163c5d",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/早期方案/01_BEH_AI图源工作台_最新总体设计书.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 8215,
+      "sha256": "3a2a8d6745c71dea8b640e212ee110d8b5a898660a518d0490fef15dc544ce41",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/早期方案/02_BEH_AI图源项目_DeepSeek弱模型适配开发路线图.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 4690,
+      "sha256": "3694342707fc3be3f024ef3db006dce8f5232ee283a434327248af976cdab31c",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/早期方案/02_BEH_AI图源项目_开发路线图.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 3681,
+      "sha256": "743b9c77b9660ef9f5471198e4368670bbbef39bbea323afd0b358fefbd6e662",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/早期方案/03_阶段3_BEH原生自动验图机器人.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 3977,
+      "sha256": "9bf01e60084c72e0d099c0487b7d47943c4229e3354b9301966bd0c97ffcd795",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/早期方案/04_阶段2_Relation结构化Review与原生BEH核验.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 4130,
+      "sha256": "4ba888ecdc0cdad14d10e834276159672c98903e25d4eeb508c9b344752fa54b",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/早期方案/04_阶段4_DeepSeekHarness_小视觉模型_多模型验图Agent.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 4016,
+      "sha256": "7e7a24b5a19cfd0a5e5b6381490d6dac773151ff22041982aca91eccd7339583",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/早期方案/05_阶段2_Relation结构化Review与原生BEH核验.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 2308,
+      "sha256": "20903314fb258eda80eb0feaa4cafa9baf5abf1087c9a050ca41fbfa6865ac84",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/早期方案/05_阶段5_验证反馈闭环与AI写图源准备.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 3620,
+      "sha256": "515936dbb56c47f43c2e2d1932b2114fcddf3fb03f4f4b681e666265956523d6",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/早期方案/06_阶段4_Compose人机共创与AI写图源.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 3576,
+      "sha256": "cc96fc9f38943c1fab0a71b4474f43c97254a790c51805a55f0aad0d5550a00c",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/早期方案/07_阶段4_Compose人机共创与AI写图源.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 2314,
+      "sha256": "9ed2f73b31acb74854b6f767d1c698cb35f710df254a7e7a8c813a9ccba6ee86",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/早期方案/09_BEH图源项目_不可违背的证据与工程原则.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 8380,
+      "sha256": "43c51d21f6d9bab1aab736d1da7c48e4c5ea1a5ea46cf2ebd60c12faaa7ec65e",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/早期方案/BEH_JRE_OpenJDK工具包只读分析指导.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 14468,
+      "sha256": "58d9916261d07847efc4b27cc82e9fa034e6e6795efb18864e9dd34142dcca52",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/早期方案/BEH_Native_Headless_Full_Scene_可行性验证文档.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 13763,
+      "sha256": "b95082236704e7a0ff33ff1d43915e5e8cf9367f83ed07de98b22647d224cee6",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/早期方案/BEH_XML_01_02_03三文件差分分析提示词.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 9863,
+      "sha256": "c01a01cee14da0ade031c26cc8c2098010fe777478bd3dbb59de4801bbfd4ae7",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/早期方案/BEH人机统一图源工作台_圈选解释_区域生成_草图协同_AI共创设计书.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 22380,
+      "sha256": "2702ed1b3aa003052adf9f4f7134cfbecb4094fbafe4debb28dbe485d0e699ba",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/早期方案/BEH图元簇_结构化GraphIR与可审计Review设计.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 15501,
+      "sha256": "f8c629cfc8ffed605ed4079eb1482c54b1ddd1699c3dcff65fece218eab3131b",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/早期方案/Codex_BEH_AI接入能力检测器开发指南.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 23957,
+      "sha256": "3a55e29cf1155a9227aecbaa88bfcfc49eda3d3cc90f7bd9c47bfbee64e63815",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/早期方案/Codex_工业PLC自动化XML标准指纹检测器_BEH成分分析_开发行动指南.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 32357,
+      "sha256": "a925584316113ab20dab4a47b9bb0b1d5b941e81017212867110f527f2aff7c1",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/早期方案/PLC_BEH_XML连接关系与视觉连通簇识别说明.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 10671,
+      "sha256": "5b0fe5941af2cc65093f3627bc3226427bfe41c597f5da6b1eecc1dcfe8586cc",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/早期方案/PLCopen_IEC61131-10_XML可见连线与箭头方向判定指南_BEH映射.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 30317,
+      "sha256": "26febcb96edd140cc5c691d6536f13982dc87d0b8c607a0504b66bdd1defc53b",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/测试旧版本/BEH_FB行为测试最小MVP实施指南_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 11535,
+      "sha256": "25f9ed57050b7c78e6273ecfff40496d81d3c39bb725cde4578f73a27f0147bb",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/迁移记录/2026-09-17/GitHub接入状态.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 1040,
+      "sha256": "8e546164a3ecc4bf2b2e31332154431894c48713495fcc3ad901b0d3f2ce1898",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "历史资料/迁移记录/2026-09-17/整理验收记录.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 2810,
+      "sha256": "0317a3702b6773b9a5c6f2119b487fcc34c57a977088cb42bf5d18125c9ada7f",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "历史资料/迁移记录/2026-09-17/本地工作区整理完成说明_2026-09-17.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 2886,
+      "sha256": "699203aa928e7a72c2180ccbe0eff6245b4600e4d253f53baeec8e8202cbe2ac",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "历史资料/迁移记录/2026-09-17/资料迁移清单.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 88867,
+      "sha256": "7e7a81662231c5a325238316cdd5042d7b1a78e3f815a67e0b333e79f9535d04",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/迁移记录/BEH_2026-09-14/00_维护规则与当前决策.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 3363,
+      "sha256": "9aa164f55d414f37a81c91ae89e7851822b419d5fd0eeba2936b1f7645668de7",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/迁移记录/BEH_2026-09-14/01_全量文件索引与迁移对照.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 20277,
+      "sha256": "216ed73e3e270fcff9ef54d4eea70350e18d6879d149e5372e4d2332e1610f89",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "历史资料/迁移记录/统一整理方案/统一工作区整理方案_重审版_v1.0_2026-09-17.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 36466,
+      "sha256": "b5e6c241f14a4d779c14d3b0a502e65181aab7eda7f204b9dea6a84ac61bdd10",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "工具接入与共享能力/00_共享能力_图元代码与信号观测.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 4096,
+      "sha256": "cd72e417f2ccaf1cb168764196ba75d322ec305e56e6cbc7db81c7e585984f5c",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "工具接入与共享能力/BEH原生能力/BEH已知问题与观测适用边界.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 5992,
+      "sha256": "65ea54aa6617fa8d34d29fcdfdb50b5878257ad7042bfb04f80bbb6b58430480",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "工具接入与共享能力/BEH原生能力/场景与对象/06_阶段0_原生Headless场景底座固化_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 2208,
+      "sha256": "c8186f5282ae8a9f0f43817efcd8695752cebd745a87ba90d82f50f58d7ecf18",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "工具接入与共享能力/BEH原生能力/场景与对象/13_NativeSceneBundle与HitMap数据契约_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 4058,
+      "sha256": "71979651bd0db83ad3ebb25db0a2155315f92bbc89c418056057627c00482396",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "工具接入与共享能力/README.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 3350,
+      "sha256": "bd86ebc9d01703a3aa5ec4eea5ac8d09a0c168ad671be3c96b19b152da8c2b85",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "工具接入与共享能力/代码关联与宿主接入/09_阶段3_代码仓关联与解释准确性增强_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 2038,
+      "sha256": "3fddc2b2388134e7b9f3da22fe828ecbef4aac22753097a0bd3cabebce9dbfb5",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "工具接入与共享能力/代码关联与宿主接入/12_阶段6_Workbench与DeepSeekHarness一体化_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 1663,
+      "sha256": "a8d13f5f89708b8e7c3a538f80a2efe21d45a14be4079f2ec9985bf21eaac480",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "工具接入与共享能力/信号追踪与运行观测/上板信号全链路采集建设与操作指南_跨核与BEH图元_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 69158,
+      "sha256": "abab7ce1f8f1db1d44cf0d8fffad596e1716bd0b6e7738458ad6254187a5ca60",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "工具接入与共享能力/信号追踪与运行观测/不上板信号全链路建设与验收指南_跨核与BEH图元_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 60203,
+      "sha256": "8e4076ecb0ec8f3b8f446482ffc83d34577ed3f4bd583d3a72ad22f973ed31ba",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "工具接入与共享能力/工具状态与验收报告.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 10840,
+      "sha256": "1ffb5fbadaa051c1d3293ce85f459593f783f0f16b4f46f350abc356bd86419b",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "工具接入与共享能力/工具统一管理与使用指南.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 70594,
+      "sha256": "17b2aef55862720110de6160a08a0fce41b64a5912607a96d601ed2cbd0e89d6",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "工具接入与共享能力/工具选型与接入调查/BEH_控制工具调研与源码调查任务单_v1.0_2026-09-17.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 24840,
+      "sha256": "80864f680f422f7294c35c30414c486ce0678609a9144ada4ea2f8e8fdb5fc4e",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "工具接入与共享能力/能力索引.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 2458,
+      "sha256": "3005b46128c3e1fe5c03a9c2cc7f04b4f714b8bfd8b0886b91c4e68abbe9f20b",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "总览与规则/2026-09-20_场景集成与证据规则修订记录.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 8366,
+      "sha256": "eb02eecc23fbfa329873576494dd50e653d5038029e255f987a9411dc4849e94",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "总览与规则/GitHub接入状态.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 2328,
+      "sha256": "38e0fb3613515c69582dda00ccb8e66df29d25eebaa56c28e82c8032f61297a5",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "总览与规则/README.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 1410,
+      "sha256": "11b5a46fbacb90104f2ba91719d99eb5a00a49b3dfcca272df66e9b5196bcab5",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "总览与规则/参考规范/01_项目章程_目标范围与非目标_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 3338,
+      "sha256": "920c7929b02a4aab1fa13e29cd1e94eeb716c0bcbb5c87f321ae3fd0919f5d77",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "总览与规则/参考规范/02A_按事实域划分的证据可信度矩阵_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 15300,
+      "sha256": "93fc8fa1d9642b2c19bcd9ea66c37c0f84a9b25434a35b5fb9eadc9dedc7a324",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "总览与规则/参考规范/02_术语_事实源与信任边界_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 6822,
+      "sha256": "111470869f1d772f0d18554e050e90b91873badecbf1a0c998391d1c7df941d4",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "总览与规则/参考规范/03_总体软件架构与关键决策_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 4606,
+      "sha256": "0e457ecd412df7800720bf251d5821c4b781a56cad5d99eb92bbdb73bfb9017e",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "总览与规则/参考规范/04_代码仓与目录架构_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 3153,
+      "sha256": "f59d5ece56d5c32fb86dd117f04293bb88c135acdf0f8efacab124d2af32da67",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "总览与规则/参考规范/17_测试总策略与阶段质量门禁_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 3545,
+      "sha256": "0acbae342d732e359632d313cc5619af4ddecc61dd50cd34f28a9569ab7db63e",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "总览与规则/参考规范/20_大项目性能_稳定性与安全测试_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 2593,
+      "sha256": "5bc3830f1bae56f10f036fd35a7b9f9c332fa646e913a37f3da5fab08ae67f3c",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "总览与规则/参考规范/21_DeepSeekV4Flash_GLM5_2_Harness工程规范_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 3382,
+      "sha256": "4fe70084f33eaeff8eda943da2e2baec90cfcc38d680a8b861e1a1f59d816adc",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "总览与规则/参考规范/24_证据优先_禁止硬凑与防补丁原则_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 2399,
+      "sha256": "36b5ee146321737dd789b8b911a9e817fd172c1be27dd8b2e9a0b0cdf69c7168",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "总览与规则/参考规范/25_模型任务SOP与输出Schema执行规范_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 1547,
+      "sha256": "5821c9dbebe7997967b00c1dfafa75ea78f2d21d0d5d2366701ba3e75998f5eb",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "总览与规则/后续推进.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 3944,
+      "sha256": "47e04a73d0278726f2455a0c276525468a73d5f3d700d5448c079bd73d58aa8c",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "总览与规则/归档与同步规则.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 12323,
+      "sha256": "0f141c223e63a8ca1b74f797839c546e95f61ccec856d88671837088aa57fee7",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "总览与规则/数据契约索引.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 1283,
+      "sha256": "3453c1ce379f9574d6be39851aa0e63ffd29775fba34e8acc9fc67970ab3db79",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "总览与规则/整理验收记录.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 6665,
+      "sha256": "bce1cf7371565d9decbc857b43ee5dcbec0de7b45f52b8461afe4371bfd2c086",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "总览与规则/新旧版本与整理说明.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 5913,
+      "sha256": "6c75ed54619793e592f646bbc3802e9669753c4ce796d8ca19c0adc06fa28987",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "总览与规则/来源对应表.csv",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 110214,
+      "sha256": "429058e7144b7b592ed14d7b4db08398910f1aecfc1253a16eda43566ca4beb6",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "总览与规则/资料索引.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 39037,
+      "sha256": "0b7b39f1719e95679748059ba2ad4a7501cbf02758ec4e96ae268e7fae9d809e",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "总览与规则/资料迁移清单.csv",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 53610,
+      "sha256": "fadb291dfc0ac7155f9f5825cb83c45506c9fcc82047ddeb7af554a391c1ab97",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "真实场景集成验证/00_总入口与执行约定.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 7045,
+      "sha256": "be004bce79be05fc476462c31e17c8bc293957a2da2d4043530dd75719986d41",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "真实场景集成验证/场景清单.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 832,
+      "sha256": "378aed612a5f8efae64570752392ef3430c1067734c7222e6803c8be19aef793",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "真实场景集成验证/端到端用例与POU验证/01_场景实施方案.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 11313,
+      "sha256": "7163dd923e0576ddbcdcaec0d80fc2f84ae26561c971933ae4d67b4d14d8f324",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "真实场景集成验证/端到端用例与POU验证/02_用例映射与执行记录模板.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 5619,
+      "sha256": "10490a3a8b6923288f2d166f74e18bbe59192c3dac05c38ff92e75c7bd005f90",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "网页工作台/00_网页工作台_模块入口.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 2869,
+      "sha256": "366c7ea5848980575cad13ec67973df4a4324b00b92c7aa9dbd347c16ad43893",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "网页工作台/README.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 3132,
+      "sha256": "fedecd6ede880d129e045582e41af1a79f75eb6850ad6dfbb6fec6b5077666e3",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "网页工作台/历史参考图/BEH AI 工坊：车辆控制数据流联动.png",
+      "type": "regular_file",
+      "content_type": "binary",
+      "size_bytes": 1725450,
+      "sha256": "0dedc02d04e870880f6003b1fa8c8202ed4bade89c4133245a68fa4c04f2cccf",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "网页工作台/历史参考图/BEH人机协同平台架构总览.png",
+      "type": "regular_file",
+      "content_type": "binary",
+      "size_bytes": 1841107,
+      "sha256": "d8c8503def2f221a089855207068c770001ec474aafa9a2e235a3d6bb2a4d0a4",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "网页工作台/历史参考图/BEH分析器动态数据流仪表盘.png",
+      "type": "regular_file",
+      "content_type": "binary",
+      "size_bytes": 1706966,
+      "sha256": "817abce7542ec367ae8cc8f372946c4bb93c73dae64e588781b2e0c1a5757559",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "网页工作台/参考规范/07_阶段1_Web查看圈选与任务导出MVP_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 2543,
+      "sha256": "e94db2d420516229aef749703a90eac2b01cd80409a5bb127b2bcf88775b1fe4",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "网页工作台/参考规范/14_Selection_Annotation_Intent数据契约_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 2546,
+      "sha256": "a30880e5023c43b38f4fff45d02dc82dc82e835ffd8fc1178fb31f9863a0e06a",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "网页工作台/参考规范/18_Playwright端到端测试设计_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 3191,
+      "sha256": "472a27393ea2a610d63e82cc0efce2252740a2864ef002fcaf83e8431e30639f",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "网页工作台/参考规范/19_Golden样本_回归数据集与原生BEH对照_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 3000,
+      "sha256": "6c46c5aab2bf91ac3fc42b9379fbc64fd7d0ea3840908faab160014c4a3e69be",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "网页工作台/参考规范/26_Web信息架构与画布优先交互设计_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 3414,
+      "sha256": "115025fd64f845f6ccef4482ba042563176cbad466a77f1bdec3d020005ac3ba",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "网页工作台/参考规范/28_Web画布交互行为契约_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 7122,
+      "sha256": "20f7720d884896f19c1686b71aba66ea533f4b44e5bdb060d00ac4e2ee54194e",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "网页工作台/参考规范/29_HumanAcceptanceGolden与TestOracle规范_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 3589,
+      "sha256": "275f9e38e741afefd1fb41e99e31e5d35c868718969dde2e1aa6767198f84b3c",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "网页工作台/参考规范/30_Playwright连续交互_状态机与Viewport测试规范_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 4001,
+      "sha256": "e112b66156ccc3d504cecf23c036aad4d45bdbf8abf1e75312605226cfdc0a46",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "网页工作台/参考规范/31_NativeScene视觉保真与Arrow_Port_Relation验收规范_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 3454,
+      "sha256": "ddb5bf14ff5737d56a2e9513ea2dda688924d4ba36df9f80292c7d55909e9c20",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "网页工作台/参考规范/32_当前交互缺陷_HumanGolden验收案例_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 3200,
+      "sha256": "31d90d02686dcdf4133a6e9f7632260d21f3d079cb9f0681384a1baae0e50228",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "网页工作台/参考规范/自动化验收补充_v1.1/20_Testing/29_确定性AcceptanceGolden与TestOracle规范_v1.1.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 3782,
+      "sha256": "33d03103015419396804bfc768bd8f7bff7adefe4cb779f012d4e7f34a835eb9",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "网页工作台/参考规范/自动化验收补充_v1.1/20_Testing/30_Playwright连续交互_状态机与Viewport测试规范_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 3739,
+      "sha256": "9944f6859040ace12d57089696542c5157fc4a74eb961681ed2630edd0589f81",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "网页工作台/参考规范/自动化验收补充_v1.1/20_Testing/31_NativeScene视觉保真与Arrow_Port_Relation验收规范_v1.1.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 3253,
+      "sha256": "a7910e8f42d39c5618708c1d2f03451606be4b401e60fd1ae0af9252f1319f85",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "网页工作台/参考规范/自动化验收补充_v1.1/20_Testing/32_当前交互缺陷_自动化Golden回归案例_v1.1.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 3238,
+      "sha256": "85a553ec759ecd9efb6e4695684aba085e8a5604b291831de4a2ec343a172106",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "网页工作台/参考规范/自动化验收补充_v1.1/40_UI/28_Web画布交互行为契约_v1.0.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 6860,
+      "sha256": "956b5f2e79d19940684579ce83a485a09c77c78ed9c65cabcb326ea7d68682fb",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "网页工作台/参考规范/自动化验收补充_v1.1/ADDON_MANIFEST.json",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 1346,
+      "sha256": "ed0e7838ea8d831687578cd16745dd92f7185af145feafd4e28c2576d3085e75",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "网页工作台/参考规范/自动化验收补充_v1.1/ADDON_README.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 1819,
+      "sha256": "a6b5361016c987998e292873a72ef9a76438ecbdab88d2420d794c6c9bdabcd5",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "问题定位与修复/README.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 3092,
+      "sha256": "4b96d0982e1326bf8534af929d39b0662380e70e87a07fefea44b9d2b840b365",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "问题定位与修复/定位材料模板.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 1108,
+      "sha256": "af789ecbb18db44e8818d32267303182a801a1a9d881c291093ff4809911534b",
+      "zip_posix_mode": "0o664"
+    },
+    {
+      "path": "问题定位与修复/跨核崩溃复位与内存破坏_根因定位实施指南.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 24848,
+      "sha256": "706453aa89f66a8c2d58e7bc328b832c802693eab250bd8204133444c791e92c",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "阶段成果汇报/图文完整稿_2026-09-19/assets/00_hero.png",
+      "type": "regular_file",
+      "content_type": "binary",
+      "size_bytes": 1556650,
+      "sha256": "58964e18f4e627a60b7a7a05cf3c7f4b8a74eed3e38302980c9fac0c357193aa",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "阶段成果汇报/图文完整稿_2026-09-19/assets/01_体系全景.png",
+      "type": "regular_file",
+      "content_type": "binary",
+      "size_bytes": 285372,
+      "sha256": "6d1dce567f909aa80b5dee45df60d162c33c0c9a6567c698a5ab61bf2f55cfe0",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "阶段成果汇报/图文完整稿_2026-09-19/assets/02_双仓证据.png",
+      "type": "regular_file",
+      "content_type": "binary",
+      "size_bytes": 291985,
+      "sha256": "09972c441acb9afb0f6bc7f602256bc5697971b00838ce36be386142bfcefc29",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "阶段成果汇报/图文完整稿_2026-09-19/assets/03_调度判断.png",
+      "type": "regular_file",
+      "content_type": "binary",
+      "size_bytes": 287566,
+      "sha256": "e83ef4b9eb750d684d06b2825df9b0f94d787138d12ad9a40e7298f86de66e03",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "阶段成果汇报/图文完整稿_2026-09-19/assets/04_解释测试.png",
+      "type": "regular_file",
+      "content_type": "binary",
+      "size_bytes": 282178,
+      "sha256": "fb09b7bb099a4eb71d57d137413d0994e3567d78b405e1c2783a55221983953f",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "阶段成果汇报/图文完整稿_2026-09-19/assets/05_开发保存重载.png",
+      "type": "regular_file",
+      "content_type": "binary",
+      "size_bytes": 288516,
+      "sha256": "bf7d9e6dc89592f2a910fb0beaa73ff98aea3568bdd28180f62a5dd233095f59",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "阶段成果汇报/图文完整稿_2026-09-19/assets/06_故障五层.png",
+      "type": "regular_file",
+      "content_type": "binary",
+      "size_bytes": 281122,
+      "sha256": "3c46729bfd54658a81f025c222bb153fcf0ed49133f58eff6cb7a53dd1c2ce9e",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "阶段成果汇报/图文完整稿_2026-09-19/assets/07_多工具业务验证.png",
+      "type": "regular_file",
+      "content_type": "binary",
+      "size_bytes": 333302,
+      "sha256": "d22bb8adba9bd7fe602528ebd82a49b959824775c58a0bc05313e18b457051f6",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "阶段成果汇报/图文完整稿_2026-09-19/assets/08_环境与构建组合.png",
+      "type": "regular_file",
+      "content_type": "binary",
+      "size_bytes": 304847,
+      "sha256": "4fbd56c4b64edab92b3b2292a17405ca93ffb0d3c369e06e39e4c0c537176ca3",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "阶段成果汇报/图文完整稿_2026-09-19/assets/09_HPT_填写.png",
+      "type": "regular_file",
+      "content_type": "binary",
+      "size_bytes": 70455,
+      "sha256": "608f4dc6847ca08b57f578a481c25143c1773a523610b1c6df1640db83bc3060",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "阶段成果汇报/图文完整稿_2026-09-19/assets/10_HPT_持久化.png",
+      "type": "regular_file",
+      "content_type": "binary",
+      "size_bytes": 48509,
+      "sha256": "d99f129c9abd4c8a1ed1fa84348f2c23f1c8e65b405014416224e70ca51c99a9",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "阶段成果汇报/图文完整稿_2026-09-19/diagrams/01_体系全景.mmd",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 578,
+      "sha256": "e689d9e86915a10b4aac35ccb6c13de5bb0a28e2a4c055cfff1d336d101b9fc8",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "阶段成果汇报/图文完整稿_2026-09-19/diagrams/01_体系全景.svg",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 5136,
+      "sha256": "9f90e9778857e5c14a022d9699b389ce43a230a0b5a755f2467301d3f109f3ce",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "阶段成果汇报/图文完整稿_2026-09-19/diagrams/02_双仓证据.mmd",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 664,
+      "sha256": "52ccf689821d9b7a30695938c6173023c40b33584dc7d034d497dcb88387c79c",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "阶段成果汇报/图文完整稿_2026-09-19/diagrams/02_双仓证据.svg",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 5388,
+      "sha256": "99051340fc9ac79448cc4c2942bff8dfc8ad09fdb7f81c03bc0ca1b0410df028",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "阶段成果汇报/图文完整稿_2026-09-19/diagrams/03_调度判断.mmd",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 679,
+      "sha256": "dff7a396fdb0e1a5489b0b41507a3e5386c547b72b819a188bd5d549e44837fc",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "阶段成果汇报/图文完整稿_2026-09-19/diagrams/03_调度判断.svg",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 5789,
+      "sha256": "9e114d787ab73b12e98d7f80678d9368aaacc4ae3f7daf1e4f8ee6d82bd3102f",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "阶段成果汇报/图文完整稿_2026-09-19/diagrams/04_解释测试.mmd",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 509,
+      "sha256": "514ae82f1ef2a2ec9ee33d780b2dee7749223d63c23a14e7f949130d1871da6e",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "阶段成果汇报/图文完整稿_2026-09-19/diagrams/04_解释测试.svg",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 4373,
+      "sha256": "def0af84b01e182fa934f3c4f1ac97fac4d32dada1e4e9e5da2dc69919228549",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "阶段成果汇报/图文完整稿_2026-09-19/diagrams/05_开发保存重载.mmd",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 575,
+      "sha256": "8eb2a10ee3c2c400969a3c6cb2deb3bb0c98019043523097cd44a7b6a0079bc0",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "阶段成果汇报/图文完整稿_2026-09-19/diagrams/05_开发保存重载.svg",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 5127,
+      "sha256": "690dc29320def1f3295677471fbafcf8e4688bcc449b26b024eb563ec5668a9d",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "阶段成果汇报/图文完整稿_2026-09-19/diagrams/06_故障五层.mmd",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 673,
+      "sha256": "bdba974032168b676a811e6366c30f9e0c2cbf3c0ec3c8abaf7f41b3a2bae486",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "阶段成果汇报/图文完整稿_2026-09-19/diagrams/06_故障五层.svg",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 5559,
+      "sha256": "fedde4e649bd1230d778767bcf578e6488b44f03065c484d781df38a128d3d02",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "阶段成果汇报/图文完整稿_2026-09-19/diagrams/07_多工具业务验证.mmd",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 607,
+      "sha256": "07555cb49646f871d86d9e889b994a93073859d046c9de06039c50571ca7f719",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "阶段成果汇报/图文完整稿_2026-09-19/diagrams/07_多工具业务验证.svg",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 5498,
+      "sha256": "8a1b4e0f3a85caf9d7f360704ade70f717d396246a480b82d063000ee8f9c13f",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "阶段成果汇报/图文完整稿_2026-09-19/diagrams/08_环境与构建组合.mmd",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 648,
+      "sha256": "faf9b296def7abcaac94517559ee3e28e18f7a400536f4d6b017864e7552965d",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "阶段成果汇报/图文完整稿_2026-09-19/diagrams/08_环境与构建组合.svg",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 6244,
+      "sha256": "5e456ae6feab006dd3192f92ac36bfbe828779b0aca247ddb72e024e7a4e6d1b",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "阶段成果汇报/图文完整稿_2026-09-19/痛点攻坚型AI_阶段成果全景_图文完整稿.html",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 5826109,
+      "sha256": "3ce43a94d8d36f0e2bc5a08536ed9c70ae976be7fdef22e89cf3392b89eb0add",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "阶段成果汇报/图文完整稿_2026-09-19/痛点攻坚型AI_阶段成果全景_图文完整稿.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 80652,
+      "sha256": "fa92ac62d67b0a6b52b0ffe3a15e9638aaa50ef1d87d313b01e01dabc84d615f",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "阶段成果汇报/图文完整稿_2026-09-19/阅读说明.md",
+      "type": "regular_file",
+      "content_type": "text_utf8",
+      "size_bytes": 1583,
+      "sha256": "d6dd75378cf2b2d0f3a741e0f30c302df3a09ebd1d0520629f611a1ddbf31165",
+      "zip_posix_mode": "0o644"
+    },
+    {
+      "path": "阶段成果汇报/痛点攻坚型AI_技术创新成果展示_重构稿_v0.2.pptx",
+      "type": "regular_file",
+      "content_type": "binary",
+      "size_bytes": 1656360,
+      "sha256": "156c4ab0f9785d0eb9965e27524133f06d37d931fced8841f13bd2a566206547",
+      "zip_posix_mode": "0o644"
+    }
+  ]
+}

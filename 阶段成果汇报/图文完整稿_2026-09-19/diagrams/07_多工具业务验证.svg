@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="800" viewBox="0 0 1400 800">
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#65777E" stroke-width="2"/></marker><marker id="arrowO" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#C75132" stroke-width="2"/></marker></defs>
+<rect width="1400" height="800" fill="#F4F1EA"/>
+<style>text {font-family:"Noto Sans CJK SC",sans-serif;}</style>
+<text x="55" y="45" font-size="19" font-weight="700" fill="#C75132" text-anchor="start">工程方法  /  07</text>
+<text x="55" y="99" font-size="40" font-weight="700" fill="#18232A" text-anchor="start">多工具业务验证：围绕场景组合输入与证据</text>
+<text x="55" y="137" font-size="24" font-weight="400" fill="#65777E" text-anchor="start">接入设计示意 · 按真实业务选择所需工具，各类工具分别提供相应证据</text>
+<line x1="55" y1="165" x2="1345" y2="165" stroke="#C9D0CE" stroke-width="1"/>
+<text x="55" y="770" font-size="19" font-weight="400" fill="#65777E" text-anchor="start">痛点攻坚型 AI  ·  产品研发与测试</text>
+<text x="1345" y="770" font-size="19" font-weight="400" fill="#65777E" text-anchor="end">07</text>
+<text x="55" y="207" font-size="24" font-weight="700" fill="#65777E" text-anchor="start">场景输入</text>
+<text x="535" y="207" font-size="24" font-weight="700" fill="#65777E" text-anchor="start">产品交互与业务过程</text>
+<text x="990" y="207" font-size="24" font-weight="700" fill="#65777E" text-anchor="start">观测与解释</text>
+<path d="M415 315 H465 V470" fill="none" stroke="#65777E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M415 470 H465 V470" fill="none" stroke="#65777E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M415 625 H465 V470" fill="none" stroke="#65777E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M465 470 H530" fill="none" stroke="#C75132" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowO)"/>
+<path d="M735 360 V410" fill="none" stroke="#C75132" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowO)"/>
+<path d="M935 470 H960 V370 H985" fill="none" stroke="#65777E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M935 470 H960 V590 H985" fill="none" stroke="#65777E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="55" y="260" width="360" height="110" rx="14" fill="#E1E9E9" stroke="#C9D0CE" stroke-width="1.5"/>
+<text x="235.0" y="302" font-size="30" font-weight="700" fill="#18232A" text-anchor="middle">北向寄存器专用工具</text>
+<text x="235.0" y="339" font-size="24" font-weight="400" fill="#65777E" text-anchor="middle">驱动北向交互</text>
+<rect x="55" y="415" width="360" height="110" rx="14" fill="#E1E9E9" stroke="#C9D0CE" stroke-width="1.5"/>
+<text x="235.0" y="457" font-size="30" font-weight="700" fill="#18232A" text-anchor="middle">南向 Python 脚本</text>
+<text x="235.0" y="494" font-size="24" font-weight="400" fill="#65777E" text-anchor="middle">构造脚本化场景</text>
+<rect x="55" y="570" width="360" height="110" rx="14" fill="#E1E9E9" stroke="#C9D0CE" stroke-width="1.5"/>
+<text x="235.0" y="612" font-size="30" font-weight="700" fill="#18232A" text-anchor="middle">南向 RS-485 独立工具</text>
+<text x="235.0" y="649" font-size="24" font-weight="400" fill="#65777E" text-anchor="middle">提供独立模拟能力</text>
+<rect x="535" y="250" width="400" height="110" rx="14" fill="#FFFEFB" stroke="#C9D0CE" stroke-width="1.5"/>
+<text x="735.0" y="292" font-size="30" font-weight="700" fill="#18232A" text-anchor="middle">产品网页 · Playwright</text>
+<text x="735.0" y="329" font-size="24" font-weight="400" fill="#65777E" text-anchor="middle">交互操作 · 页面状态</text>
+<rect x="535" y="415" width="400" height="110" rx="14" fill="#F1DDD3" stroke="#C75132" stroke-width="1.5"/>
+<text x="735.0" y="457" font-size="30" font-weight="700" fill="#18232A" text-anchor="middle">业务场景 / 产品过程</text>
+<text x="735.0" y="494" font-size="24" font-weight="400" fill="#65777E" text-anchor="middle">围绕目标行为组织验证</text>
+<rect x="990" y="315" width="355" height="110" rx="14" fill="#FFFEFB" stroke="#C9D0CE" stroke-width="1.5"/>
+<text x="1167.5" y="357" font-size="30" font-weight="700" fill="#18232A" text-anchor="middle">BEH 图元观测</text>
+<text x="1167.5" y="394" font-size="24" font-weight="400" fill="#65777E" text-anchor="middle">调试 · 断点 · 状态</text>
+<rect x="990" y="535" width="355" height="110" rx="14" fill="#FFFEFB" stroke="#C9D0CE" stroke-width="1.5"/>
+<text x="1167.5" y="577" font-size="30" font-weight="700" fill="#18232A" text-anchor="middle">日志 / 报文解析</text>
+<text x="1167.5" y="614" font-size="24" font-weight="400" fill="#65777E" text-anchor="middle">还原交接、状态与结果</text>
+<text x="740" y="629" font-size="25" font-weight="700" fill="#18232A" text-anchor="middle">输入、操作、观测与解析</text>
+<text x="740" y="669" font-size="25" font-weight="400" fill="#65777E" text-anchor="middle">在同一业务场景下对齐</text>
+</svg>

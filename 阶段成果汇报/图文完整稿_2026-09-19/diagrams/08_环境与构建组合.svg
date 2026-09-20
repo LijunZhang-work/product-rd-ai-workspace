@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="800" viewBox="0 0 1400 800">
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#65777E" stroke-width="2"/></marker><marker id="arrowO" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#C75132" stroke-width="2"/></marker></defs>
+<rect width="1400" height="800" fill="#F4F1EA"/>
+<style>text {font-family:"Noto Sans CJK SC",sans-serif;}</style>
+<text x="55" y="45" font-size="19" font-weight="700" fill="#C75132" text-anchor="start">工程方法  /  08</text>
+<text x="55" y="99" font-size="40" font-weight="700" fill="#18232A" text-anchor="start">仓库与镜像灵活组合，每次构建独立产出</text>
+<text x="55" y="137" font-size="24" font-weight="400" fill="#65777E" text-anchor="start">组合关系示意 · 同一仓可切换镜像，同一镜像可服务多个仓</text>
+<line x1="55" y1="165" x2="1345" y2="165" stroke="#C9D0CE" stroke-width="1"/>
+<text x="55" y="770" font-size="19" font-weight="400" fill="#65777E" text-anchor="start">痛点攻坚型 AI  ·  产品研发与测试</text>
+<text x="1345" y="770" font-size="19" font-weight="400" fill="#65777E" text-anchor="end">08</text>
+<text x="55" y="220" font-size="25" font-weight="700" fill="#65777E" text-anchor="start">源码仓库</text>
+<text x="365" y="220" font-size="25" font-weight="700" fill="#65777E" text-anchor="start">构建镜像</text>
+<text x="705" y="220" font-size="25" font-weight="700" fill="#65777E" text-anchor="start">独立构建运行</text>
+<text x="1075" y="220" font-size="25" font-weight="700" fill="#65777E" text-anchor="start">独立输出</text>
+<rect x="55" y="265" width="230" height="104" rx="14" fill="#FFFEFB" stroke="#C9D0CE" stroke-width="1.5"/>
+<text x="170.0" y="328.0" font-size="30" font-weight="700" fill="#18232A" text-anchor="middle">仓 1</text>
+<text x="325" y="328" font-size="30" font-weight="400" fill="#65777E" text-anchor="middle">+</text>
+<rect x="365" y="265" width="250" height="104" rx="14" fill="#E1E9E9" stroke="#C9D0CE" stroke-width="1.5"/>
+<text x="490.0" y="328.0" font-size="30" font-weight="700" fill="#18232A" text-anchor="middle">镜像 A</text>
+<path d="M625 317 H694" fill="none" stroke="#65777E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="705" y="265" width="285" height="104" rx="14" fill="#F1DDD3" stroke="#C75132" stroke-width="1.5"/>
+<text x="847.5" y="328.0" font-size="30" font-weight="700" fill="#18232A" text-anchor="middle">运行 1 · 目标 a</text>
+<path d="M1000 317 H1064" fill="none" stroke="#65777E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="1075" y="265" width="270" height="104" rx="14" fill="#FFFEFB" stroke="#C9D0CE" stroke-width="1.5"/>
+<text x="1210.0" y="307" font-size="30" font-weight="700" fill="#18232A" text-anchor="middle">产物 a</text>
+<text x="1210.0" y="344" font-size="24" font-weight="400" fill="#65777E" text-anchor="middle">该次运行的日志与结果</text>
+<rect x="55" y="415" width="230" height="104" rx="14" fill="#FFFEFB" stroke="#C9D0CE" stroke-width="1.5"/>
+<text x="170.0" y="478.0" font-size="30" font-weight="700" fill="#18232A" text-anchor="middle">仓 1</text>
+<text x="325" y="478" font-size="30" font-weight="400" fill="#65777E" text-anchor="middle">+</text>
+<rect x="365" y="415" width="250" height="104" rx="14" fill="#FFFEFB" stroke="#C9D0CE" stroke-width="1.5"/>
+<text x="490.0" y="478.0" font-size="30" font-weight="700" fill="#18232A" text-anchor="middle">镜像 B</text>
+<path d="M625 467 H694" fill="none" stroke="#65777E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="705" y="415" width="285" height="104" rx="14" fill="#F1DDD3" stroke="#C75132" stroke-width="1.5"/>
+<text x="847.5" y="478.0" font-size="30" font-weight="700" fill="#18232A" text-anchor="middle">运行 2 · 目标 b</text>
+<path d="M1000 467 H1064" fill="none" stroke="#65777E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="1075" y="415" width="270" height="104" rx="14" fill="#FFFEFB" stroke="#C9D0CE" stroke-width="1.5"/>
+<text x="1210.0" y="457" font-size="30" font-weight="700" fill="#18232A" text-anchor="middle">产物 b</text>
+<text x="1210.0" y="494" font-size="24" font-weight="400" fill="#65777E" text-anchor="middle">该次运行的日志与结果</text>
+<rect x="55" y="565" width="230" height="104" rx="14" fill="#FFFEFB" stroke="#C9D0CE" stroke-width="1.5"/>
+<text x="170.0" y="628.0" font-size="30" font-weight="700" fill="#18232A" text-anchor="middle">仓 2</text>
+<text x="325" y="628" font-size="30" font-weight="400" fill="#65777E" text-anchor="middle">+</text>
+<rect x="365" y="565" width="250" height="104" rx="14" fill="#E1E9E9" stroke="#C9D0CE" stroke-width="1.5"/>
+<text x="490.0" y="628.0" font-size="30" font-weight="700" fill="#18232A" text-anchor="middle">镜像 A</text>
+<path d="M625 617 H694" fill="none" stroke="#65777E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="705" y="565" width="285" height="104" rx="14" fill="#F1DDD3" stroke="#C75132" stroke-width="1.5"/>
+<text x="847.5" y="628.0" font-size="30" font-weight="700" fill="#18232A" text-anchor="middle">运行 3 · 目标 c</text>
+<path d="M1000 617 H1064" fill="none" stroke="#65777E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="1075" y="565" width="270" height="104" rx="14" fill="#FFFEFB" stroke="#C9D0CE" stroke-width="1.5"/>
+<text x="1210.0" y="607" font-size="30" font-weight="700" fill="#18232A" text-anchor="middle">产物 c</text>
+<text x="1210.0" y="644" font-size="24" font-weight="400" fill="#65777E" text-anchor="middle">该次运行的日志与结果</text>
+<text x="55" y="716" font-size="25" font-weight="400" fill="#65777E" text-anchor="start">Windows / WSL：访问或同步方式单独确定，仓库组合与构建输出分别管理。</text>
+</svg>

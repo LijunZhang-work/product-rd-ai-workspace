@@ -1,0 +1,17 @@
+flowchart TB
+ B["独立预期依据：需求、规则、语义"]:::base
+ P["解释与预测：条件、状态、预期"]:::work
+ E["执行与过程取证"]:::work
+ C["对照结果与过程"]:::focus
+ U["修订解释"]:::work
+ B --> P
+ B --> C
+ P --> E
+ E --> C
+ C --> U
+ U --> P
+
+classDef fact fill:#E1E9E9,stroke:#65777E,color:#18232A;
+classDef work fill:#FFFEFB,stroke:#AEBBBE,color:#18232A;
+classDef focus fill:#F1DDD3,stroke:#C75132,color:#18232A;
+classDef base fill:#18232A,stroke:#18232A,color:#FFFFFF;

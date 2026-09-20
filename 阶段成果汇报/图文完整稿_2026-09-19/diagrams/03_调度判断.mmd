@@ -1,0 +1,15 @@
+flowchart TB
+ S["机制清单 → 代表链路 → 逐项核对"]:::fact
+ subgraph C["代表链路的取证视角"]
+ direction LR
+ T["触发源"]:::work --> I["入口与交接"]:::work --> Q["队列或回调"]:::focus --> E["执行者"]:::work --> R["运行证据"]:::work
+ end
+ S --> C
+ Q -.-> W["何时：触发、等待、唤醒"]:::work
+ Q -.-> O["顺序：队列规则、优先关系"]:::work
+ E -.-> L["位置：进程、线程、核"]:::work
+
+classDef fact fill:#E1E9E9,stroke:#65777E,color:#18232A;
+classDef work fill:#FFFEFB,stroke:#AEBBBE,color:#18232A;
+classDef focus fill:#F1DDD3,stroke:#C75132,color:#18232A;
+classDef base fill:#18232A,stroke:#18232A,color:#FFFFFF;

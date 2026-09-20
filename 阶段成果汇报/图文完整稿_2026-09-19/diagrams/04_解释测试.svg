@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="800" viewBox="0 0 1400 800">
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#65777E" stroke-width="2"/></marker><marker id="arrowO" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#C75132" stroke-width="2"/></marker></defs>
+<rect width="1400" height="800" fill="#F4F1EA"/>
+<style>text {font-family:"Noto Sans CJK SC",sans-serif;}</style>
+<text x="55" y="45" font-size="19" font-weight="700" fill="#C75132" text-anchor="start">工程方法  /  04</text>
+<text x="55" y="99" font-size="40" font-weight="700" fill="#18232A" text-anchor="start">让解释提出可验证的预期，让测试带回证据</text>
+<text x="55" y="137" font-size="24" font-weight="400" fill="#65777E" text-anchor="start">方法设计 · 预期依据与实际结果分别取证，形成可复核的解释</text>
+<line x1="55" y1="165" x2="1345" y2="165" stroke="#C9D0CE" stroke-width="1"/>
+<text x="55" y="770" font-size="19" font-weight="400" fill="#65777E" text-anchor="start">痛点攻坚型 AI  ·  产品研发与测试</text>
+<text x="1345" y="770" font-size="19" font-weight="400" fill="#65777E" text-anchor="end">04</text>
+<path d="M335 380 H380 V270 H530" fill="none" stroke="#C75132" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowO)"/>
+<path d="M195 500 V630 H615" fill="none" stroke="#C75132" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowO)"/>
+<path d="M935 270 H1195 V380" fill="none" stroke="#65777E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M1195 501 V630 H1050" fill="none" stroke="#65777E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M735 575 V535 H595 V506" fill="none" stroke="#65777E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M595 385 V330" fill="none" stroke="#65777E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="535" y="215" width="400" height="110" rx="14" fill="#FFFEFB" stroke="#C9D0CE" stroke-width="1.5"/>
+<text x="735.0" y="257" font-size="30" font-weight="700" fill="#18232A" text-anchor="middle">解释与预测</text>
+<text x="735.0" y="294" font-size="24" font-weight="400" fill="#65777E" text-anchor="middle">先说清条件、状态与预期</text>
+<rect x="1040" y="385" width="310" height="116" rx="14" fill="#FFFEFB" stroke="#C9D0CE" stroke-width="1.5"/>
+<text x="1195.0" y="427" font-size="30" font-weight="700" fill="#18232A" text-anchor="middle">执行与过程取证</text>
+<text x="1195.0" y="464" font-size="24" font-weight="400" fill="#65777E" text-anchor="middle">记录输入、状态与输出</text>
+<rect x="620" y="575" width="425" height="110" rx="14" fill="#F1DDD3" stroke="#C75132" stroke-width="1.5"/>
+<text x="832.5" y="617" font-size="30" font-weight="700" fill="#18232A" text-anchor="middle">对照结果与过程</text>
+<text x="832.5" y="654" font-size="24" font-weight="400" fill="#65777E" text-anchor="middle">解释为何发生、为何未发生</text>
+<rect x="420" y="385" width="350" height="116" rx="14" fill="#FFFEFB" stroke="#C9D0CE" stroke-width="1.5"/>
+<text x="595.0" y="427" font-size="30" font-weight="700" fill="#18232A" text-anchor="middle">修订解释</text>
+<text x="595.0" y="464" font-size="24" font-weight="400" fill="#65777E" text-anchor="middle">定位差异 · 更新认识</text>
+<rect x="55" y="340" width="280" height="160" rx="14" fill="#18232A" stroke="none" stroke-width="1.5"/>
+<text x="195" y="388" font-size="29" font-weight="700" fill="#FFFEFB" text-anchor="middle">独立的预期依据</text>
+<text x="195" y="433" font-size="25" font-weight="400" fill="#D4DEDD" text-anchor="middle">需求、规则与语义</text>
+<text x="195" y="472" font-size="25" font-weight="400" fill="#D4DEDD" text-anchor="middle">先于本次执行结果</text>
+<text x="700" y="725" font-size="27" font-weight="700" fill="#C75132" text-anchor="middle">可解释，不止说明结果；还要能说明过程与差异。</text>
+</svg>

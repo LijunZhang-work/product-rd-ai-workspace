@@ -1,0 +1,13 @@
+flowchart TB
+ subgraph C["开发与核验"]
+ direction LR
+ S["选定对象"]:::work --> P["提出变更"]:::work --> N["原生语义操作"]:::work --> V["保存"]:::work --> R["独立重载核验"]:::focus
+ end
+ S --> W["工作副本"]:::fact
+ N --> T["操作留痕：动作、状态、结果"]:::fact
+ R -. "发现偏差，返回修正" .-> P
+
+classDef fact fill:#E1E9E9,stroke:#65777E,color:#18232A;
+classDef work fill:#FFFEFB,stroke:#AEBBBE,color:#18232A;
+classDef focus fill:#F1DDD3,stroke:#C75132,color:#18232A;
+classDef base fill:#18232A,stroke:#18232A,color:#FFFFFF;

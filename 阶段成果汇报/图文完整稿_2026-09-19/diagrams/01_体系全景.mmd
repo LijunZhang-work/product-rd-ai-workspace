@@ -1,0 +1,21 @@
+flowchart TB
+ F["产品仓 × EMAP 仓：事实底座"]:::fact
+ A["代码行为与调度"]:::work
+ B["解释与测试"]:::work
+ C["问题定位与修复"]:::work
+ D["图元与代码开发"]:::work
+ S["共享工具、环境与证据记录"]:::base
+ F --> A
+ F --> B
+ A <--> B
+ A --> C
+ B --> D
+ C <--> D
+ C --> S
+ D --> S
+ S -. "方法复用" .-> F
+
+classDef fact fill:#E1E9E9,stroke:#65777E,color:#18232A;
+classDef work fill:#FFFEFB,stroke:#AEBBBE,color:#18232A;
+classDef focus fill:#F1DDD3,stroke:#C75132,color:#18232A;
+classDef base fill:#18232A,stroke:#18232A,color:#FFFFFF;

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="800" viewBox="0 0 1400 800">
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#65777E" stroke-width="2"/></marker><marker id="arrowO" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#C75132" stroke-width="2"/></marker></defs>
+<rect width="1400" height="800" fill="#F4F1EA"/>
+<style>text {font-family:"Noto Sans CJK SC",sans-serif;}</style>
+<text x="55" y="45" font-size="19" font-weight="700" fill="#C75132" text-anchor="start">工程方法  /  06</text>
+<text x="55" y="99" font-size="40" font-weight="700" fill="#18232A" text-anchor="start">沿着因果链回溯：从最终故障查向源头</text>
+<text x="55" y="137" font-size="24" font-weight="400" fill="#65777E" text-anchor="start">故障分析设计 · 五层区分因果角色，跨核关联对齐对象、地址与时序</text>
+<line x1="55" y1="165" x2="1345" y2="165" stroke="#C9D0CE" stroke-width="1"/>
+<text x="55" y="770" font-size="19" font-weight="400" fill="#65777E" text-anchor="start">痛点攻坚型 AI  ·  产品研发与测试</text>
+<text x="1345" y="770" font-size="19" font-weight="400" fill="#65777E" text-anchor="end">06</text>
+<path d="M185 294 H385" fill="none" stroke="#65777E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<circle cx="150" cy="294" r="33" fill="#C75132" stroke="none" stroke-width="2"/>
+<text x="150" y="306" font-size="27" font-weight="700" fill="#FFFEFB" text-anchor="middle">1</text>
+<text x="150" y="366" font-size="30" font-weight="700" fill="#18232A" text-anchor="middle">源头违约</text>
+<text x="150" y="407" font-size="24" font-weight="400" fill="#65777E" text-anchor="middle">谁先破坏约束</text>
+<path d="M460 294 H660" fill="none" stroke="#65777E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<circle cx="425" cy="294" r="33" fill="#18232A" stroke="none" stroke-width="2"/>
+<text x="425" y="306" font-size="27" font-weight="700" fill="#FFFEFB" text-anchor="middle">2</text>
+<text x="425" y="366" font-size="30" font-weight="700" fill="#18232A" text-anchor="middle">传播过程</text>
+<text x="425" y="407" font-size="24" font-weight="400" fill="#65777E" text-anchor="middle">影响怎样传递</text>
+<path d="M735 294 H935" fill="none" stroke="#65777E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<circle cx="700" cy="294" r="33" fill="#18232A" stroke="none" stroke-width="2"/>
+<text x="700" y="306" font-size="27" font-weight="700" fill="#FFFEFB" text-anchor="middle">3</text>
+<text x="700" y="366" font-size="30" font-weight="700" fill="#18232A" text-anchor="middle">首次观测</text>
+<text x="700" y="407" font-size="24" font-weight="400" fill="#65777E" text-anchor="middle">最早在哪里可见</text>
+<path d="M1010 294 H1210" fill="none" stroke="#65777E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<circle cx="975" cy="294" r="33" fill="#18232A" stroke="none" stroke-width="2"/>
+<text x="975" y="306" font-size="27" font-weight="700" fill="#FFFEFB" text-anchor="middle">4</text>
+<text x="975" y="366" font-size="30" font-weight="700" fill="#18232A" text-anchor="middle">最终崩溃</text>
+<text x="975" y="407" font-size="24" font-weight="400" fill="#65777E" text-anchor="middle">最后在哪里失效</text>
+<circle cx="1250" cy="294" r="33" fill="#18232A" stroke="none" stroke-width="2"/>
+<text x="1250" y="306" font-size="27" font-weight="700" fill="#FFFEFB" text-anchor="middle">5</text>
+<text x="1250" y="366" font-size="30" font-weight="700" fill="#18232A" text-anchor="middle">复位机制</text>
+<text x="1250" y="407" font-size="24" font-weight="400" fill="#65777E" text-anchor="middle">谁触发、影响谁</text>
+<path d="M975 442 V482 H150 V442" fill="none" stroke="#C75132" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowO)" stroke-dasharray="7 7"/>
+<text x="565" y="473" font-size="25" font-weight="700" fill="#C75132" text-anchor="middle">从观测点向前回溯</text>
+<line x1="65" y1="530" x2="455" y2="530" stroke="#C9D0CE" stroke-width="2"/>
+<text x="65" y="577" font-size="29" font-weight="700" fill="#18232A" text-anchor="start">源头证据</text>
+<text x="65" y="620" font-size="25" font-weight="400" fill="#65777E" text-anchor="start">地址 · 对象 · 调用上下文</text>
+<line x1="505" y1="530" x2="895" y2="530" stroke="#C9D0CE" stroke-width="2"/>
+<text x="505" y="577" font-size="29" font-weight="700" fill="#18232A" text-anchor="start">传播证据</text>
+<text x="505" y="620" font-size="25" font-weight="400" fill="#65777E" text-anchor="start">共享状态 · 消息 · 时序</text>
+<line x1="945" y1="530" x2="1335" y2="530" stroke="#C9D0CE" stroke-width="2"/>
+<text x="945" y="577" font-size="29" font-weight="700" fill="#18232A" text-anchor="start">复位证据</text>
+<text x="945" y="620" font-size="25" font-weight="400" fill="#65777E" text-anchor="start">触发者 · 条件 · 影响范围</text>
+<rect x="55" y="667" width="1290" height="63" rx="8" fill="#18232A" stroke="none" stroke-width="1.5"/>
+<text x="700" y="708" font-size="27" font-weight="700" fill="#FFFEFB" text-anchor="middle">跨核 / 跨线程关联：把分散记录放回同一条因果链</text>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="800" viewBox="0 0 1400 800">
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#65777E" stroke-width="2"/></marker><marker id="arrowO" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#C75132" stroke-width="2"/></marker></defs>
+<rect width="1400" height="800" fill="#F4F1EA"/>
+<style>text {font-family:"Noto Sans CJK SC",sans-serif;}</style>
+<text x="55" y="45" font-size="19" font-weight="700" fill="#C75132" text-anchor="start">工程方法  /  05</text>
+<text x="55" y="99" font-size="40" font-weight="700" fill="#18232A" text-anchor="start">把一次开发操作，做到保存后仍能被验证</text>
+<text x="55" y="137" font-size="24" font-weight="400" fill="#65777E" text-anchor="start">开发闭环设计 · 原生对象语义、工作副本与操作留痕共同支撑核验</text>
+<line x1="55" y1="165" x2="1345" y2="165" stroke="#C9D0CE" stroke-width="1"/>
+<text x="55" y="770" font-size="19" font-weight="400" fill="#65777E" text-anchor="start">痛点攻坚型 AI  ·  产品研发与测试</text>
+<text x="1345" y="770" font-size="19" font-weight="400" fill="#65777E" text-anchor="end">05</text>
+<path d="M289 320 H312" fill="none" stroke="#65777E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="55" y="260" width="234" height="116" rx="14" fill="#FFFEFB" stroke="#C9D0CE" stroke-width="1.5"/>
+<text x="172.0" y="302" font-size="30" font-weight="700" fill="#18232A" text-anchor="middle">选定对象</text>
+<text x="172.0" y="339" font-size="24" font-weight="400" fill="#65777E" text-anchor="middle">身份与上下文</text>
+<path d="M553 320 H576" fill="none" stroke="#65777E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="319" y="260" width="234" height="116" rx="14" fill="#FFFEFB" stroke="#C9D0CE" stroke-width="1.5"/>
+<text x="436.0" y="302" font-size="30" font-weight="700" fill="#18232A" text-anchor="middle">提出变更</text>
+<text x="436.0" y="339" font-size="24" font-weight="400" fill="#65777E" text-anchor="middle">参数 · 连线 · 代码</text>
+<path d="M817 320 H840" fill="none" stroke="#65777E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="583" y="260" width="234" height="116" rx="14" fill="#FFFEFB" stroke="#C9D0CE" stroke-width="1.5"/>
+<text x="700.0" y="302" font-size="30" font-weight="700" fill="#18232A" text-anchor="middle">原生语义操作</text>
+<text x="700.0" y="339" font-size="24" font-weight="400" fill="#65777E" text-anchor="middle">使用完整生命周期</text>
+<path d="M1081 320 H1104" fill="none" stroke="#65777E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="847" y="260" width="234" height="116" rx="14" fill="#FFFEFB" stroke="#C9D0CE" stroke-width="1.5"/>
+<text x="964.0" y="302" font-size="30" font-weight="700" fill="#18232A" text-anchor="middle">保存</text>
+<text x="964.0" y="339" font-size="24" font-weight="400" fill="#65777E" text-anchor="middle">记录实际结果</text>
+<rect x="1111" y="260" width="234" height="116" rx="14" fill="#F1DDD3" stroke="#C75132" stroke-width="1.5"/>
+<text x="1228.0" y="302" font-size="30" font-weight="700" fill="#18232A" text-anchor="middle">独立重载核验</text>
+<text x="1228.0" y="339" font-size="24" font-weight="400" fill="#65777E" text-anchor="middle">读取新的对象状态</text>
+<path d="M172 376 V453" fill="none" stroke="#65777E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M700 376 V453" fill="none" stroke="#65777E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<rect x="55" y="457" width="330" height="110" rx="14" fill="#E1E9E9" stroke="#C9D0CE" stroke-width="1.5"/>
+<text x="220.0" y="499" font-size="30" font-weight="700" fill="#18232A" text-anchor="middle">工作副本</text>
+<text x="220.0" y="536" font-size="24" font-weight="400" fill="#65777E" text-anchor="middle">隔离候选变更</text>
+<rect x="535" y="457" width="330" height="110" rx="14" fill="#E1E9E9" stroke="#C9D0CE" stroke-width="1.5"/>
+<text x="700.0" y="499" font-size="30" font-weight="700" fill="#18232A" text-anchor="middle">操作留痕</text>
+<text x="700.0" y="536" font-size="24" font-weight="400" fill="#65777E" text-anchor="middle">动作 · 状态 · 结果</text>
+<path d="M1228 376 V645 H436 V385" fill="none" stroke="#C75132" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowO)"/>
+<text x="860" y="628" font-size="26" font-weight="700" fill="#C75132" text-anchor="middle">发现偏差 → 返回修正</text>
+<text x="700" y="711" font-size="27" font-weight="700" fill="#18232A" text-anchor="middle">重载核验：对象身份 × 参数 × 连线 × 可见状态</text>
+</svg>

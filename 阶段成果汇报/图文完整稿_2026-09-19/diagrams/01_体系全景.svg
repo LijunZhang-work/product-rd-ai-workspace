@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="800" viewBox="0 0 1400 800">
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#65777E" stroke-width="2"/></marker><marker id="arrowO" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#C75132" stroke-width="2"/></marker></defs>
+<rect width="1400" height="800" fill="#F4F1EA"/>
+<style>text {font-family:"Noto Sans CJK SC",sans-serif;}</style>
+<text x="55" y="45" font-size="19" font-weight="700" fill="#C75132" text-anchor="start">工程方法  /  01</text>
+<text x="55" y="99" font-size="40" font-weight="700" fill="#18232A" text-anchor="start">从真实问题出发，组织多条工程工作线</text>
+<text x="55" y="137" font-size="24" font-weight="400" fill="#65777E" text-anchor="start">工作线关联示意 · 各模块进展与已验证范围见正文</text>
+<line x1="55" y1="165" x2="1345" y2="165" stroke="#C9D0CE" stroke-width="1"/>
+<text x="55" y="770" font-size="19" font-weight="400" fill="#65777E" text-anchor="start">痛点攻坚型 AI  ·  产品研发与测试</text>
+<text x="1345" y="770" font-size="19" font-weight="400" fill="#65777E" text-anchor="end">01</text>
+<path d="M700 295 V322 H355 V345" fill="none" stroke="#65777E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M700 295 V322 H1045 V345" fill="none" stroke="#65777E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M580 399 H812" fill="none" stroke="#65777E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M820 418 H588" fill="none" stroke="#65777E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M355 455 V497" fill="none" stroke="#65777E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M1045 455 V497" fill="none" stroke="#65777E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M580 550 H812" fill="none" stroke="#65777E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M820 569 H588" fill="none" stroke="#65777E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M355 605 V648 H700 V669" fill="none" stroke="#65777E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow)"/>
+<path d="M1045 605 V648 H700" fill="none" stroke="#65777E" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M240 707 H68 V248 H291" fill="none" stroke="#C75132" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrowO)" stroke-dasharray="6 8"/>
+<rect x="300" y="195" width="800" height="100" rx="14" fill="#E1E9E9" stroke="#C9D0CE" stroke-width="1.5"/>
+<text x="700.0" y="237" font-size="30" font-weight="700" fill="#18232A" text-anchor="middle">产品仓 × EMAP 仓：事实底座</text>
+<text x="700.0" y="274" font-size="24" font-weight="400" fill="#65777E" text-anchor="middle">源码、配置、依赖、产物与运行线索</text>
+<rect x="130" y="345" width="450" height="110" rx="14" fill="#FFFEFB" stroke="#C9D0CE" stroke-width="1.5"/>
+<text x="355.0" y="387" font-size="30" font-weight="700" fill="#18232A" text-anchor="middle">代码行为与调度</text>
+<text x="355.0" y="424" font-size="24" font-weight="400" fill="#65777E" text-anchor="middle">还原行为 · 找到执行决定点</text>
+<rect x="820" y="345" width="450" height="110" rx="14" fill="#FFFEFB" stroke="#C9D0CE" stroke-width="1.5"/>
+<text x="1045.0" y="387" font-size="30" font-weight="700" fill="#18232A" text-anchor="middle">解释与测试</text>
+<text x="1045.0" y="424" font-size="24" font-weight="400" fill="#65777E" text-anchor="middle">建立预期 · 对照过程与结果</text>
+<rect x="130" y="495" width="450" height="110" rx="14" fill="#FFFEFB" stroke="#C9D0CE" stroke-width="1.5"/>
+<text x="355.0" y="537" font-size="30" font-weight="700" fill="#18232A" text-anchor="middle">问题定位与修复</text>
+<text x="355.0" y="574" font-size="24" font-weight="400" fill="#65777E" text-anchor="middle">追溯源头 · 定点补足证据</text>
+<rect x="820" y="495" width="450" height="110" rx="14" fill="#FFFEFB" stroke="#C9D0CE" stroke-width="1.5"/>
+<text x="1045.0" y="537" font-size="30" font-weight="700" fill="#18232A" text-anchor="middle">图元与代码开发</text>
+<text x="1045.0" y="574" font-size="24" font-weight="400" fill="#65777E" text-anchor="middle">原生语义 · 保存重载核验</text>
+<rect x="240" y="670" width="920" height="70" rx="9" fill="#18232A" stroke="none" stroke-width="1.5"/>
+<text x="700" y="715" font-size="27" font-weight="700" fill="#FFFEFB" text-anchor="middle">共享工具、环境与证据记录 → 沉淀可复用方法</text>
+</svg>

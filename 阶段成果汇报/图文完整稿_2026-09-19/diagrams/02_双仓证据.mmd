@@ -1,0 +1,21 @@
+flowchart TB
+ P["产品业务：入口、配置、对象"]:::fact
+ E["EMAP 机制：接口、封装、能力"]:::fact
+ B["构建上下文：宏、参数、目标"]:::work
+ A["依赖与产物：来源、版本、链接"]:::work
+ J["联合调用与对象证据"]:::focus
+ M["业务消息路径"]:::work
+ O["对象与内存路径"]:::work
+ R["异常与复位路径"]:::work
+ P --> J
+ E --> J
+ B --> J
+ A --> J
+ J --> M
+ J --> O
+ J --> R
+
+classDef fact fill:#E1E9E9,stroke:#65777E,color:#18232A;
+classDef work fill:#FFFEFB,stroke:#AEBBBE,color:#18232A;
+classDef focus fill:#F1DDD3,stroke:#C75132,color:#18232A;
+classDef base fill:#18232A,stroke:#18232A,color:#FFFFFF;
